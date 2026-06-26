@@ -284,14 +284,20 @@ export function getDashboardMetrics() {
   };
 }
 
+// In Astro/Vite build context, BASE_URL is available via import.meta.env
+// During static build, this returns the configured base path
 export function articleHref(articlePath?: string) {
   if (!articlePath) return "#";
   const normalized = articlePath.replace(/\\/g, "/");
   const slug = path.posix.basename(normalized, ".md");
-  if (normalized.includes("/predictions/")) return `/predictions/${slug}/`;
-  if (normalized.includes("/deductions/")) return `/deductions/${slug}/`;
-  if (normalized.includes("/mystic/")) return `/mystic/${slug}/`;
-  if (normalized.includes("/topics/")) return `/topics/${slug}/`;
+  // Use BASE_URL from Astro config; fallback to empty string for portability
+  const base = typeof import.meta !== "undefined" && import.meta.env?.BASE_URL
+    ? (import.meta.env.BASE_URL).replace(/\/$/, "")
+    : "";
+  if (normalized.includes("/predictions/")) return `${base}/predictions/${slug}/`;
+  if (normalized.includes("/deductions/")) return `${base}/deductions/${slug}/`;
+  if (normalized.includes("/mystic/")) return `${base}/mystic/${slug}/`;
+  if (normalized.includes("/topics/")) return `${base}/topics/${slug}/`;
   return "#";
 }
 

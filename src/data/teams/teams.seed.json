@@ -1,0 +1,1092 @@
+[
+  {
+    "schema_version": "1.0",
+    "team_id": "algeria",
+    "name_en": "Algeria",
+    "name_zh": "阿尔及利亚",
+    "short_name_zh": "阿尔及利亚",
+    "flag_code": "dz",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "argentina",
+    "name_en": "Argentina",
+    "name_zh": "阿根廷",
+    "short_name_zh": "阿根廷",
+    "flag_code": "ar",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "australia",
+    "name_en": "Australia",
+    "name_zh": "澳大利亚",
+    "short_name_zh": "澳大利亚",
+    "flag_code": "au",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "austria",
+    "name_en": "Austria",
+    "name_zh": "奥地利",
+    "short_name_zh": "奥地利",
+    "flag_code": "at",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "belgium",
+    "name_en": "Belgium",
+    "name_zh": "比利时",
+    "short_name_zh": "比利时",
+    "flag_code": "be",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "bosnia_and_herzegovina",
+    "name_en": "Bosnia and Herzegovina",
+    "name_zh": "波黑",
+    "short_name_zh": "波黑",
+    "flag_code": "ba",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "brazil",
+    "name_en": "Brazil",
+    "name_zh": "巴西",
+    "short_name_zh": "巴西",
+    "flag_code": "br",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "canada",
+    "name_en": "Canada",
+    "name_zh": "加拿大",
+    "short_name_zh": "加拿大",
+    "flag_code": "ca",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "cape_verde",
+    "name_en": "Cape Verde",
+    "name_zh": "佛得角",
+    "short_name_zh": "佛得角",
+    "flag_code": "cv",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "colombia",
+    "name_en": "Colombia",
+    "name_zh": "哥伦比亚",
+    "short_name_zh": "哥伦比亚",
+    "flag_code": "co",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "croatia",
+    "name_en": "Croatia",
+    "name_zh": "克罗地亚",
+    "short_name_zh": "克罗地亚",
+    "flag_code": "hr",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "curacao",
+    "name_en": "Curacao",
+    "name_zh": "库拉索",
+    "short_name_zh": "库拉索",
+    "flag_code": "cw",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "czechia",
+    "name_en": "Czechia",
+    "name_zh": "捷克",
+    "short_name_zh": "捷克",
+    "flag_code": "cz",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "dr_congo",
+    "name_en": "DR Congo",
+    "name_zh": "刚果（金）",
+    "short_name_zh": "刚果（金）",
+    "flag_code": "cd",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "ecuador",
+    "name_en": "Ecuador",
+    "name_zh": "厄瓜多尔",
+    "short_name_zh": "厄瓜多尔",
+    "flag_code": "ec",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "egypt",
+    "name_en": "Egypt",
+    "name_zh": "埃及",
+    "short_name_zh": "埃及",
+    "flag_code": "eg",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "england",
+    "name_en": "England",
+    "name_zh": "英格兰",
+    "short_name_zh": "英格兰",
+    "flag_code": "gb-eng",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "france",
+    "name_en": "France",
+    "name_zh": "法国",
+    "short_name_zh": "法国",
+    "flag_code": "fr",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "germany",
+    "name_en": "Germany",
+    "name_zh": "德国",
+    "short_name_zh": "德国",
+    "flag_code": "de",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "ghana",
+    "name_en": "Ghana",
+    "name_zh": "加纳",
+    "short_name_zh": "加纳",
+    "flag_code": "gh",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "haiti",
+    "name_en": "Haiti",
+    "name_zh": "海地",
+    "short_name_zh": "海地",
+    "flag_code": "ht",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "iran",
+    "name_en": "Iran",
+    "name_zh": "伊朗",
+    "short_name_zh": "伊朗",
+    "flag_code": "ir",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "iraq",
+    "name_en": "Iraq",
+    "name_zh": "伊拉克",
+    "short_name_zh": "伊拉克",
+    "flag_code": "iq",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "ivory_coast",
+    "name_en": "Ivory Coast",
+    "name_zh": "科特迪瓦",
+    "short_name_zh": "科特迪瓦",
+    "flag_code": "ci",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "japan",
+    "name_en": "Japan",
+    "name_zh": "日本",
+    "short_name_zh": "日本",
+    "flag_code": "jp",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "jordan",
+    "name_en": "Jordan",
+    "name_zh": "约旦",
+    "short_name_zh": "约旦",
+    "flag_code": "jo",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "mexico",
+    "name_en": "Mexico",
+    "name_zh": "墨西哥",
+    "short_name_zh": "墨西哥",
+    "flag_code": "mx",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "morocco",
+    "name_en": "Morocco",
+    "name_zh": "摩洛哥",
+    "short_name_zh": "摩洛哥",
+    "flag_code": "ma",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "netherlands",
+    "name_en": "Netherlands",
+    "name_zh": "荷兰",
+    "short_name_zh": "荷兰",
+    "flag_code": "nl",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "new_zealand",
+    "name_en": "New Zealand",
+    "name_zh": "新西兰",
+    "short_name_zh": "新西兰",
+    "flag_code": "nz",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "norway",
+    "name_en": "Norway",
+    "name_zh": "挪威",
+    "short_name_zh": "挪威",
+    "flag_code": "no",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "panama",
+    "name_en": "Panama",
+    "name_zh": "巴拿马",
+    "short_name_zh": "巴拿马",
+    "flag_code": "pa",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "paraguay",
+    "name_en": "Paraguay",
+    "name_zh": "巴拉圭",
+    "short_name_zh": "巴拉圭",
+    "flag_code": "py",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "portugal",
+    "name_en": "Portugal",
+    "name_zh": "葡萄牙",
+    "short_name_zh": "葡萄牙",
+    "flag_code": "pt",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "qatar",
+    "name_en": "Qatar",
+    "name_zh": "卡塔尔",
+    "short_name_zh": "卡塔尔",
+    "flag_code": "qa",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "saudi_arabia",
+    "name_en": "Saudi Arabia",
+    "name_zh": "沙特阿拉伯",
+    "short_name_zh": "沙特",
+    "flag_code": "sa",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "scotland",
+    "name_en": "Scotland",
+    "name_zh": "苏格兰",
+    "short_name_zh": "苏格兰",
+    "flag_code": "gb-sct",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "senegal",
+    "name_en": "Senegal",
+    "name_zh": "塞内加尔",
+    "short_name_zh": "塞内加尔",
+    "flag_code": "sn",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "south_africa",
+    "name_en": "South Africa",
+    "name_zh": "南非",
+    "short_name_zh": "南非",
+    "flag_code": "za",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "south_korea",
+    "name_en": "South Korea",
+    "name_zh": "韩国",
+    "short_name_zh": "韩国",
+    "flag_code": "kr",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "spain",
+    "name_en": "Spain",
+    "name_zh": "西班牙",
+    "short_name_zh": "西班牙",
+    "flag_code": "es",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "sweden",
+    "name_en": "Sweden",
+    "name_zh": "瑞典",
+    "short_name_zh": "瑞典",
+    "flag_code": "se",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "switzerland",
+    "name_en": "Switzerland",
+    "name_zh": "瑞士",
+    "short_name_zh": "瑞士",
+    "flag_code": "ch",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "tunisia",
+    "name_en": "Tunisia",
+    "name_zh": "突尼斯",
+    "short_name_zh": "突尼斯",
+    "flag_code": "tn",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "turkey",
+    "name_en": "Turkey",
+    "name_zh": "土耳其",
+    "short_name_zh": "土耳其",
+    "flag_code": "tr",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "united_states",
+    "name_en": "United States",
+    "name_zh": "美国",
+    "short_name_zh": "美国",
+    "flag_code": "us",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "uruguay",
+    "name_en": "Uruguay",
+    "name_zh": "乌拉圭",
+    "short_name_zh": "乌拉圭",
+    "flag_code": "uy",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "uzbekistan",
+    "name_en": "Uzbekistan",
+    "name_zh": "乌兹别克斯坦",
+    "short_name_zh": "乌兹别克斯坦",
+    "flag_code": "uz",
+    "aliases_en": [],
+    "status": "active"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1a",
+    "name_en": "1A",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1b",
+    "name_en": "1B",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1c",
+    "name_en": "1C",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1d",
+    "name_en": "1D",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1e",
+    "name_en": "1E",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1g",
+    "name_en": "1G",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1h",
+    "name_en": "1H",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1i",
+    "name_en": "1I",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1j",
+    "name_en": "1J",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1k",
+    "name_en": "1K",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_1l",
+    "name_en": "1L",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2a",
+    "name_en": "2A",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2b",
+    "name_en": "2B",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2e",
+    "name_en": "2E",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2f",
+    "name_en": "2F",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2h",
+    "name_en": "2H",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2i",
+    "name_en": "2I",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2j",
+    "name_en": "2J",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2k",
+    "name_en": "2K",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_2l",
+    "name_en": "2L",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3ab_cdf",
+    "name_en": "3AB CDF",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3aeh_ij",
+    "name_en": "3AEH IJ",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3bcd_efi",
+    "name_en": "3BCD EFI",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3bef_ij",
+    "name_en": "3BEF IJ",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3cdf_ghh",
+    "name_en": "3CDF GHH",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3cef_hi",
+    "name_en": "3CEF HI",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3dei_jl",
+    "name_en": "3DEI JL",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3efg_ij",
+    "name_en": "3EFG IJ",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_3ehi_jk",
+    "name_en": "3EHI JK",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_l101",
+    "name_en": "L101",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_l102",
+    "name_en": "L102",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w100",
+    "name_en": "W100",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w101",
+    "name_en": "W101",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w102",
+    "name_en": "W102",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w73",
+    "name_en": "W73",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w74",
+    "name_en": "W74",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w75",
+    "name_en": "W75",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w76",
+    "name_en": "W76",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w77",
+    "name_en": "W77",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w78",
+    "name_en": "W78",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w79",
+    "name_en": "W79",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w80",
+    "name_en": "W80",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w81",
+    "name_en": "W81",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w82",
+    "name_en": "W82",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w83",
+    "name_en": "W83",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w84",
+    "name_en": "W84",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w85",
+    "name_en": "W85",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w86",
+    "name_en": "W86",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w87",
+    "name_en": "W87",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w88",
+    "name_en": "W88",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w89",
+    "name_en": "W89",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w90",
+    "name_en": "W90",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w91",
+    "name_en": "W91",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w92",
+    "name_en": "W92",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w93",
+    "name_en": "W93",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w94",
+    "name_en": "W94",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w95",
+    "name_en": "W95",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w96",
+    "name_en": "W96",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w97",
+    "name_en": "W97",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w98",
+    "name_en": "W98",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  },
+  {
+    "schema_version": "1.0",
+    "team_id": "placeholder_w99",
+    "name_en": "W99",
+    "name_zh": "待定",
+    "short_name_zh": "待定",
+    "flag_code": "zz",
+    "aliases_en": [],
+    "status": "placeholder"
+  }
+]

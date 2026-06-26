@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-06-25",
+  "title": "小组赛MD3预测报告 · 6月25日",
+  "article_path": "content/deductions/draft/deduction-2026-06-25.md",
+  "match_count": 6,
+  "summary": null,
+  "matches": [
+    {
+      "match_id": "2026-06-25-group-b-switzerland-canada",
+      "deduction_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.532,
+      "notes": "常规赛果概率50.6%；最可能1-1(8.4%)/2-1(8.4%)/1-2(7.9%)"
+    },
+    {
+      "match_id": "2026-06-25-group-b-bosnia-and-herzegovina-qatar",
+      "deduction_scores": [
+        "2-1",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.507,
+      "notes": "最可能2-1(11.7%)/1-0(10.7%)/1-1(10.0%)"
+    },
+    {
+      "match_id": "2026-06-25-group-c-morocco-haiti",
+      "deduction_scores": [
+        "3-0",
+        "2-0"
+      ],
+      "over_2_5_probability": 0.515,
+      "notes": "最可能3-0(11.8%)/2-0(9.5%)/4-0(8.2%)"
+    },
+    {
+      "match_id": "2026-06-25-group-c-scotland-brazil",
+      "deduction_scores": [
+        "0-2",
+        "1-2"
+      ],
+      "over_2_5_probability": 0.523,
+      "notes": "最可能0-2(10.0%)/1-2(8.3%)/0-1(7.4%)"
+    },
+    {
+      "match_id": "2026-06-25-group-a-south-africa-south-korea",
+      "deduction_scores": [
+        "1-2",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.504,
+      "notes": "最可能1-2(10.5%)/1-1(9.8%)/0-2(8.7%)"
+    },
+    {
+      "match_id": "2026-06-25-group-a-czechia-mexico",
+      "deduction_scores": [
+        "1-2",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.516,
+      "notes": "最可能1-2(9.5%)/1-1(9.1%)/0-2(8.8%)"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:34:49Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

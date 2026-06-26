@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-15-group-f-netherlands-japan",
+  "status": "result_verified",
+  "home_score_90": 2,
+  "away_score_90": 2,
+  "total_goals_90": 4,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "FIFA official match page",
+    "checked_sources": [
+      "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+    ]
+  },
+  "verified_at": "2026-06-26T10:35:00+08:00"
+}

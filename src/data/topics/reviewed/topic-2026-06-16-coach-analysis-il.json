@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-16-coach-analysis-il",
+  "title": "2026年世界杯主教练执教水平深度对比分析",
+  "article_path": "content/topics/draft/topic-2026-06-16-coach-analysis-il.md",
+  "published_date": "2026-06-16",
+  "topic_type": "group",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "| 小组 | 球队1 | 球队2 | 球队3 | 球队4 | 小组特征 |\n|------|-------|-------|-------|-------|----------|\n| **I组** | 🇫🇷 法国 | 🇸🇳 塞内加尔 | 🇳🇴 挪威 | 🇮🇶 伊拉克 | \"死亡之组\"候选 |\n| **J组** | 🇦🇷 阿根廷 | 🇦🇹 奥地利 | 🇩🇿 阿尔及利亚 | 🇯🇴 约旦 | 卫冕冠军最",
+  "priority": 80,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

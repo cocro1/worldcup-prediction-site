@@ -3,11 +3,12 @@ import { dateLabel } from "@/lib/data";
 
 const { dates, selectedDate } = Astro.props;
 const ariaLabel = "\u65e5\u671f\u9009\u62e9\u5668";
+const basePath = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
 ---
 
 <div class="date-switcher" aria-label={ariaLabel}>
   {dates.map((date: string) => (
-    <a class:list={["date-pill", date === selectedDate && "active"]} href={`/date/${date}/`}>
+    <a class:list={["date-pill", date === selectedDate && "active"]} href={`${basePath}/date/${date}/`}>
       {dateLabel(date)}
     </a>
   ))}

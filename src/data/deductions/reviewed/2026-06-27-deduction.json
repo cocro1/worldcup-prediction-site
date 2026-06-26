@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-06-27",
+  "title": "6月27日世界杯小组赛推演：基于 Dixon-Coles 模型的蒙特卡洛模拟",
+  "article_path": "content/deductions/reviewed/2026-06-27-deduction.md",
+  "match_count": 6,
+  "summary": "使用 Dixon-Coles 泊松模型结合 10,000 次蒙特卡洛模拟生成推演结果。法国、西班牙、比利时等强队被看好，但比分路径呈现多样化。",
+  "matches": [
+    {
+      "match_id": "2026-06-27-group-i-norway-france",
+      "deduction_scores": ["0-2", "1-2"],
+      "over_2_5_probability": 0.613,
+      "notes": "法国实力占优（FIFA 1870.70 vs 1557.44），模型显示法国更可能零封或仅失1球。挪威依赖哈兰德个人能力，但整体实力差距明显。"
+    },
+    {
+      "match_id": "2026-06-27-group-i-senegal-iraq",
+      "deduction_scores": ["1-1", "1-0"],
+      "over_2_5_probability": 0.510,
+      "notes": "塞内加尔 FIFA 积分领先（1684.07 vs 1480），但伊拉克防守组织严密。模拟显示平局或塞内加尔小胜为最可能路径。"
+    },
+    {
+      "match_id": "2026-06-27-group-h-cape-verde-saudi-arabia",
+      "deduction_scores": ["1-1", "1-0"],
+      "over_2_5_probability": 0.397,
+      "notes": "两队 FIFA 积分接近（1460 vs 1470），属于势均力敌的对决。模型预测低比分，可能出现平局。"
+    },
+    {
+      "match_id": "2026-06-27-group-h-uruguay-spain",
+      "deduction_scores": ["1-2", "1-1"],
+      "over_2_5_probability": 0.624,
+      "notes": "强强对话（西班牙 FIFA 1874.71 vs 乌拉圭 1673.07）。西班牙技术优势明显，但乌拉圭反击威胁大。大球概率超过 60%。"
+    },
+    {
+      "match_id": "2026-06-27-group-g-egypt-iran",
+      "deduction_scores": ["1-1", "0-1"],
+      "over_2_5_probability": 0.501,
+      "notes": "伊朗 FIFA 积分略高（1619.58 vs 1562.37），两队都偏向防守反击。模型显示平局或伊朗小胜的可能性较高。"
+    },
+    {
+      "match_id": "2026-06-27-group-g-new-zealand-belgium",
+      "deduction_scores": ["0-1", "0-2"],
+      "over_2_5_probability": 0.530,
+      "notes": "比利时实力明显占优（FIFA 1742.24 vs 1380），但新西兰可能采取深度防守。模型预测比利时小胜，可能 1-0 或 2-0。"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-26T13:20:00+08:00",
+  "reviewed_at": "2026-06-26T19:30:00+08:00"
+}

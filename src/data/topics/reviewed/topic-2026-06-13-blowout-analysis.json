@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-13-blowout-analysis",
+  "title": "2018 & 2022 世界杯「大比分比赛」特征深度分析报告",
+  "article_path": "content/topics/draft/topic-2026-06-13-blowout-analysis.md",
+  "published_date": "2026-06-13",
+  "topic_type": "methodology",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "| # | 阶段 | 对阵 | 比分 | 总进球 | 净胜 | 类型标签 |\n|---|------|------|------|--------|------|----------|\n| 1 | 小组赛 A 组 | 俄罗斯 vs 沙特阿拉伯 | **5–0** | 5 | 5 | 🏠 东道主揭幕战 |\n| 2 | 小组赛 G 组 | 英格兰 vs 巴拿马 | **6–1** | 7 | 5 |",
+  "priority": 65,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

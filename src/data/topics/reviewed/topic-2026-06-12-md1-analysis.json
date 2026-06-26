@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-12-md1-analysis",
+  "title": "📊 2026 FIFA世界杯小组赛第一轮数据分析报告",
+  "article_path": "content/topics/draft/topic-2026-06-12-md1-analysis.md",
+  "published_date": "2026-06-12",
+  "topic_type": "stage",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "**核心发现:** 2026年世界杯首次扩军至48支球队，分为12个小组。根据数据分析，**E组（西班牙、德国、日本、哥斯达黎加）和I组（法国、挪威、塞内加尔、伊拉克）**为\"死亡之组\"，竞争激烈程度最高。",
+  "priority": 70,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

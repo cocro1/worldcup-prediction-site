@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "content_type": "mystic",
+  "article_id": "mystic-2026-06-12-curse-analysis-champion-prediction",
+  "title": "🔮 2026世界杯魔咒分析：基于历史规律的冠军预测",
+  "article_path": "content/mystic/draft/mystic-2026-06-12-curse-analysis-champion-prediction.md",
+  "published_date": "2026-06-12",
+  "scope": "topic",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage",
+      "knockout_stage"
+    ]
+  },
+  "summary": "截至2026年6月11日，**阿根廷排名第一**（1877.27分），根据历史规律，阿根廷**无法夺冠**！",
+  "display_index": null,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:47:33Z",
+  "reviewed_at": "2026-06-25T12:05:26Z"
+}

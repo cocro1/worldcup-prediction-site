@@ -26,7 +26,7 @@ function predictionHref(match: Match) {
   const prediction = predictions.get(match.match_id);
   if (!prediction) return "";
   const href = articleHref(prediction.article_path);
-  return href === "#" ? "" : href;
+  return (href === "#" || !href) ? "" : href;
 }
 ---
 

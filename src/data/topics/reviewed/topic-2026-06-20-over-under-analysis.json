@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-20-over-under-analysis",
+  "title": "2026 世界杯大小球分析",
+  "article_path": "content/topics/draft/topic-2026-06-20-over-under-analysis.md",
+  "published_date": "2026-06-20",
+  "topic_type": "match_collection",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "| 指标 | 数值 |\n|------|------|\n| 已赛场次 | 28 |\n| 总进球 | 89 |\n| 场均进球 | **3.18** |\n| 场均 2.5 球线 | 超过 2.5 |\n| 赛程进度 | 28/104（26.9%） |",
+  "priority": 65,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

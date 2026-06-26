@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-06-23-group-j-argentina-austria",
+  "title": "阿根廷 vs 奥地利 预测报告",
+  "article_path": "content/predictions/draft/2026-06-23-group-j-argentina-austria.md",
+  "prediction_score": "2-0",
+  "backup_score": "3-0",
+  "confidence": "high",
+  "confidence_zh": "高置信",
+  "summary": null,
+  "source_names": [
+    "FIFA官网",
+    "Footlab",
+    "xGscore",
+    "Transfermarkt",
+    "ESPN FC"
+  ],
+  "source_urls": [
+    "https://www.fifa.com",
+    "https://www.transfermarkt.com"
+  ],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T10:27:52Z",
+  "reviewed_at": "2026-06-25T11:47:13Z"
+}
