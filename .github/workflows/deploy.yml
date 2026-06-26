@@ -26,7 +26,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          FWC_DATA_ROOT: ${{ github.workspace }}/src/data
+          FWC_DATA_ROOT: ${{ github.workspace }}/src
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
