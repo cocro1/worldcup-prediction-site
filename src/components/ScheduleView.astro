@@ -7,6 +7,7 @@ import {
   getDeductionsByMatch,
   getMatches,
   getPredictionsByMatch,
+  getResultsByMatch,
   getSharedRoot,
   getVisibleDatesAround,
 } from "@/lib/data";
@@ -18,6 +19,7 @@ const visibleDates = getVisibleDatesAround(selectedDate, matches);
 const selectedMatches = matches.filter((match) => match.kickoff_beijing_date === selectedDate);
 const predictions = getPredictionsByMatch();
 const deductions = getDeductionsByMatch();
+const results = getResultsByMatch();
 
 const scheduleLabel = "\u8d5b\u7a0b";
 const emptyPrefix = "\u6682\u65e0\u8d5b\u7a0b\u3002\u5171\u4eab\u76ee\u5f55\uff1a";
@@ -46,15 +48,16 @@ function predictionHref(match: Match) {
     {selectedMatches.map((match) => {
       const prediction = predictions.get(match.match_id);
       const deduction = deductions.get(match.match_id);
+      const result = results.get(match.match_id);
       const href = predictionHref(match);
       const label = `${match.home_team.display_name_zh} vs ${match.away_team.display_name_zh}`;
 
       return href ? (
         <a class="match-card-link" href={href} aria-label={label}>
-          <MatchCard match={match} prediction={prediction} deduction={deduction} />
+          <MatchCard match={match} prediction={prediction} deduction={deduction} result={result} />
         </a>
       ) : (
-        <MatchCard match={match} prediction={prediction} deduction={deduction} />
+        <MatchCard match={match} prediction={prediction} deduction={deduction} result={result} />
       );
     })}
   </div>

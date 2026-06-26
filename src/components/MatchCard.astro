@@ -4,17 +4,22 @@ import {
   formatScore,
   matchStageLabel,
 } from "@/lib/data";
-import type { Match, Prediction, DeductionMatch } from "@/lib/types";
+import type { Match, Prediction, DeductionMatch, Result } from "@/lib/types";
 
-const { match, prediction, deduction } = Astro.props as {
+const { match, prediction, deduction, result } = Astro.props as {
   match: Match;
   prediction?: Prediction;
   deduction?: DeductionMatch;
+  result?: Result;
 };
 
 const predictionReady = Boolean(prediction);
 const deductionReady = Boolean(deduction);
-const mainScore = predictionReady ? formatScore(prediction?.prediction_score) : "待生成";
+const mainScore = result
+  ? `${result.home_score_90} : ${result.away_score_90}`
+  : predictionReady
+    ? formatScore(prediction?.prediction_score)
+    : "待生成";
 const backupScore = predictionReady ? formatScore(prediction?.backup_score) : "";
 const home = match.home_team.display_name_zh;
 const away = match.away_team.display_name_zh;
@@ -50,7 +55,7 @@ const over25 = deductionReady && typeof deduction?.over_2_5_probability === "num
     <span class:list={["confidence", !predictionReady && "pending"]}>
       {predictionReady ? confidenceLabel(prediction?.confidence, prediction?.confidence_zh) : "待生成"}
     </span>
-    <span class="match-state">未开赛</span>
+    <span class="match-state">{result ? "已结束" : "未开赛"}</span>
   </div>
   <div class="detail-grid">
     <div class="mini-panel">
