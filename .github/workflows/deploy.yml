@@ -15,12 +15,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Debug data path
-        run: |
-          echo "pwd: $(pwd)"
-          ls -la src/data/matches/
-          ls -la src/data/
-
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -31,6 +25,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          FWC_DATA_ROOT: ${{ github.workspace }}/src/data
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
