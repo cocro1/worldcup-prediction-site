@@ -1,10 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 
-// Project-relative data directory (always available, even on CI)
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-export const PROJECT_DATA_ROOT = path.resolve(__dirname, "..", "data");
+// During Astro build, process.cwd() is the project root directory
+// This is reliable across all environments (Windows, Linux, CI)
+const PROJECT_ROOT = process.cwd();
+export const PROJECT_DATA_ROOT = path.resolve(PROJECT_ROOT, "src", "data");
 
 // Shared drive root (may not exist on CI)
 export const SHARED_ROOT =
