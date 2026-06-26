@@ -1,0 +1,169 @@
+# 预测文件迁移记录
+
+**迁移时间**: 2026-06-25T10:27:52Z
+**源目录**: D:\我的坚果云\OB笔记\自媒体\fwc2026\content\predictions
+**处理文件数**: 60
+**跳过文件数**: 1
+
+---
+## 需关注的问题
+
+- **2026-06-12-korea-czech-prediction.md** -> `2026-06-12-group-a-south-korea-czechia.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-13-brazil-morocco-prediction.md** -> `2026-06-14-group-c-brazil-morocco.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-13-canada-bosnia-herzegovina-prediction.md** -> `2026-06-13-group-b-canada-bosnia-and-herzegovina.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-13-canada-bosnia-herzegovina-prediction.md** -> `2026-06-13-group-b-canada-bosnia-and-herzegovina.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-13-qatar-switzerland-prediction.md** -> `2026-06-14-group-b-qatar-switzerland.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-13-qatar-switzerland-prediction.md** -> `2026-06-14-group-b-qatar-switzerland.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-13-usa-paraguay-prediction.md** -> `2026-06-13-group-d-united-states-paraguay.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-14-australia-turkey-prediction.md** -> `2026-06-14-group-d-australia-turkey.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-14-germany-curacao-prediction.md** -> `2026-06-15-group-e-germany-curacao.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-14-germany-curacao-prediction.md** -> `2026-06-15-group-e-germany-curacao.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-14-haiti-scotland-prediction.md** -> `2026-06-14-group-c-haiti-scotland.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-14-ivory-coast-ecuador-prediction.md** -> `2026-06-15-group-e-ivory-coast-ecuador.md`: 未找到备选比分，请手动补全
+- **2026-06-14-ivory-coast-ecuador-prediction.md** -> `2026-06-15-group-e-ivory-coast-ecuador.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-14-ivory-coast-ecuador-prediction.md** -> `2026-06-15-group-e-ivory-coast-ecuador.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-14-ivory-coast-ecuador-prediction.md** -> `2026-06-15-group-e-ivory-coast-ecuador.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-14-netherlands-japan-prediction.md** -> `2026-06-15-group-f-netherlands-japan.md`: 未找到备选比分，请手动补全
+- **2026-06-14-netherlands-japan-prediction.md** -> `2026-06-15-group-f-netherlands-japan.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-14-netherlands-japan-prediction.md** -> `2026-06-15-group-f-netherlands-japan.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-14-netherlands-japan-prediction.md** -> `2026-06-15-group-f-netherlands-japan.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-15-belgium-egypt-prediction.md** -> `2026-06-16-group-g-belgium-egypt.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-15-iran-new-zealand-prediction.md** -> `2026-06-16-group-g-iran-new-zealand.md`: 未找到备选比分，请手动补全
+- **2026-06-15-iran-new-zealand-prediction.md** -> `2026-06-16-group-g-iran-new-zealand.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-15-iran-new-zealand-prediction.md** -> `2026-06-16-group-g-iran-new-zealand.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-15-saudi-arabia-uruguay-prediction.md** -> `2026-06-16-group-h-saudi-arabia-uruguay.md`: 未找到备选比分，请手动补全
+- **2026-06-15-saudi-arabia-uruguay-prediction.md** -> `2026-06-16-group-h-saudi-arabia-uruguay.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-15-saudi-arabia-uruguay-prediction.md** -> `2026-06-16-group-h-saudi-arabia-uruguay.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-15-spain-cabo-verde-prediction.md** -> `2026-06-16-group-h-spain-cape-verde.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-15-sweden-tunisia-prediction.md** -> `2026-06-15-group-f-sweden-tunisia.md`: 未找到备选比分，请手动补全
+- **2026-06-15-sweden-tunisia-prediction.md** -> `2026-06-15-group-f-sweden-tunisia.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-15-sweden-tunisia-prediction.md** -> `2026-06-15-group-f-sweden-tunisia.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-15-sweden-tunisia-prediction.md** -> `2026-06-15-group-f-sweden-tunisia.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-16-argentina-algeria-prediction.md** -> `2026-06-17-group-j-argentina-algeria.md`: 未找到备选比分，请手动补全
+- **2026-06-16-argentina-algeria-prediction.md** -> `2026-06-17-group-j-argentina-algeria.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-16-argentina-algeria-prediction.md** -> `2026-06-17-group-j-argentina-algeria.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-16-austria-jordan-prediction.md** -> `2026-06-17-group-j-austria-jordan.md`: 未找到备选比分，请手动补全
+- **2026-06-16-austria-jordan-prediction.md** -> `2026-06-17-group-j-austria-jordan.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-16-austria-jordan-prediction.md** -> `2026-06-17-group-j-austria-jordan.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-16-austria-jordan-prediction.md** -> `2026-06-17-group-j-austria-jordan.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-16-france-senegal-prediction.md** -> `2026-06-17-group-i-france-senegal.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-16-iraq-norway-prediction.md** -> `2026-06-17-group-i-iraq-norway.md`: 未找到备选比分，请手动补全
+- **2026-06-16-iraq-norway-prediction.md** -> `2026-06-17-group-i-iraq-norway.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-17-england-croatia-prediction.md** -> `2026-06-18-group-l-england-croatia.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-17-ghana-panama-prediction.md** -> `2026-06-18-group-l-ghana-panama.md`: 预测比分疑似错误 (44-45)，请手动确认
+- **2026-06-17-ghana-panama-prediction.md** -> `2026-06-18-group-l-ghana-panama.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-17-ghana-panama-prediction.md** -> `2026-06-18-group-l-ghana-panama.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-17-ghana-panama-prediction.md** -> `2026-06-18-group-l-ghana-panama.md`: :warning: 预测比分缺失，请手动补充
+- **2026-06-17-portugal-dr-congo-prediction.md** -> `2026-06-18-group-k-portugal-dr-congo.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-17-uzbekistan-colombia-prediction.md** -> `2026-06-18-group-k-uzbekistan-colombia.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-18-canada-qatar-prediction.md** -> `2026-06-19-group-b-canada-qatar.md`: 未找到备选比分，请手动补全
+- **2026-06-18-canada-qatar-prediction.md** -> `2026-06-19-group-b-canada-qatar.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-18-czechia-south-africa-prediction.md** -> `2026-06-19-group-a-czechia-south-africa.md`: 未找到备选比分，请手动补全
+- **2026-06-18-czechia-south-africa-prediction.md** -> `2026-06-19-group-a-czechia-south-africa.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-18-czechia-south-africa-prediction.md** -> `2026-06-19-group-a-czechia-south-africa.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-18-czechia-south-africa-prediction.md** -> `2026-06-19-group-a-czechia-south-africa.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-18-switzerland-bosnia-herzegovina-prediction.md** -> `2026-06-19-group-b-switzerland-bosnia-and-herzegovina.md`: 未找到备选比分，请手动补全
+- **2026-06-18-switzerland-bosnia-herzegovina-prediction.md** -> `2026-06-19-group-b-switzerland-bosnia-and-herzegovina.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-18-switzerland-bosnia-herzegovina-prediction.md** -> `2026-06-19-group-b-switzerland-bosnia-and-herzegovina.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-18-switzerland-bosnia-herzegovina-prediction.md** -> `2026-06-19-group-b-switzerland-bosnia-and-herzegovina.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-19-brazil-haiti-prediction.md** -> `2026-06-20-group-c-brazil-haiti.md`: 未找到备选比分，请手动补全
+- **2026-06-19-brazil-haiti-prediction.md** -> `2026-06-20-group-c-brazil-haiti.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-19-brazil-haiti-prediction.md** -> `2026-06-20-group-c-brazil-haiti.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-19-brazil-haiti-prediction.md** -> `2026-06-20-group-c-brazil-haiti.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-19-mexico-south-korea-prediction.md** -> `2026-06-19-group-a-mexico-south-korea.md`: 未找到备选比分，请手动补全
+- **2026-06-19-mexico-south-korea-prediction.md** -> `2026-06-19-group-a-mexico-south-korea.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-19-mexico-south-korea-prediction.md** -> `2026-06-19-group-a-mexico-south-korea.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-19-mexico-south-korea-prediction.md** -> `2026-06-19-group-a-mexico-south-korea.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-19-scotland-morocco-prediction.md** -> `2026-06-20-group-c-scotland-morocco.md`: 未找到备选比分，请手动补全
+- **2026-06-19-scotland-morocco-prediction.md** -> `2026-06-20-group-c-scotland-morocco.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-19-scotland-morocco-prediction.md** -> `2026-06-20-group-c-scotland-morocco.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-19-scotland-morocco-prediction.md** -> `2026-06-20-group-c-scotland-morocco.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-19-turkey-paraguay-prediction.md** -> `2026-06-20-group-d-turkey-paraguay.md`: 未找到备选比分，请手动补全
+- **2026-06-19-turkey-paraguay-prediction.md** -> `2026-06-20-group-d-turkey-paraguay.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-19-turkey-paraguay-prediction.md** -> `2026-06-20-group-d-turkey-paraguay.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-19-turkey-paraguay-prediction.md** -> `2026-06-20-group-d-turkey-paraguay.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-19-usa-australia-prediction.md** -> `2026-06-20-group-d-united-states-australia.md`: 未找到备选比分，请手动补全
+- **2026-06-19-usa-australia-prediction.md** -> `2026-06-20-group-d-united-states-australia.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-19-usa-australia-prediction.md** -> `2026-06-20-group-d-united-states-australia.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-19-usa-australia-prediction.md** -> `2026-06-20-group-d-united-states-australia.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-20-ecuador-curacao-prediction.md** -> `2026-06-21-group-e-ecuador-curacao.md`: 未找到备选比分，请手动补全
+- **2026-06-20-ecuador-curacao-prediction.md** -> `2026-06-21-group-e-ecuador-curacao.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-20-ecuador-curacao-prediction.md** -> `2026-06-21-group-e-ecuador-curacao.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-20-ecuador-curacao-prediction.md** -> `2026-06-21-group-e-ecuador-curacao.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-20-germany-ivory-coast-prediction.md** -> `2026-06-21-group-e-germany-ivory-coast.md`: 未找到备选比分，请手动补全
+- **2026-06-20-germany-ivory-coast-prediction.md** -> `2026-06-21-group-e-germany-ivory-coast.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-20-germany-ivory-coast-prediction.md** -> `2026-06-21-group-e-germany-ivory-coast.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-20-germany-ivory-coast-prediction.md** -> `2026-06-21-group-e-germany-ivory-coast.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-20-netherlands-sweden-prediction.md** -> `2026-06-21-group-f-netherlands-sweden.md`: 未找到备选比分，请手动补全
+- **2026-06-20-netherlands-sweden-prediction.md** -> `2026-06-21-group-f-netherlands-sweden.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-20-netherlands-sweden-prediction.md** -> `2026-06-21-group-f-netherlands-sweden.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-20-netherlands-sweden-prediction.md** -> `2026-06-21-group-f-netherlands-sweden.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-20-tunisia-japan-prediction.md** -> `2026-06-21-group-f-tunisia-japan.md`: 未找到备选比分，请手动补全
+- **2026-06-20-tunisia-japan-prediction.md** -> `2026-06-21-group-f-tunisia-japan.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-20-tunisia-japan-prediction.md** -> `2026-06-21-group-f-tunisia-japan.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-20-tunisia-japan-prediction.md** -> `2026-06-21-group-f-tunisia-japan.md`: :warning: 备选比分缺失，请手动补充
+- **2026-06-22-belgium-iran-prediction.md** -> `2026-06-22-group-g-belgium-iran.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-22-belgium-iran-prediction.md** -> `2026-06-22-group-g-belgium-iran.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-22-egypt-new-zealand-prediction.md** -> `2026-06-22-group-g-new-zealand-egypt.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-22-egypt-new-zealand-prediction.md** -> `2026-06-22-group-g-new-zealand-egypt.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-22-spain-saudi-arabia-prediction.md** -> `2026-06-22-group-h-spain-saudi-arabia.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-22-spain-saudi-arabia-prediction.md** -> `2026-06-22-group-h-spain-saudi-arabia.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-22-uruguay-cape-verde-prediction.md** -> `2026-06-22-group-h-uruguay-cape-verde.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-22-uruguay-cape-verde-prediction.md** -> `2026-06-22-group-h-uruguay-cape-verde.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-23-argentina-austria-prediction.md** -> `2026-06-23-group-j-argentina-austria.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-23-argentina-austria-prediction.md** -> `2026-06-23-group-j-argentina-austria.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-23-france-iraq-prediction.md** -> `2026-06-23-group-i-france-iraq.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-23-france-iraq-prediction.md** -> `2026-06-23-group-i-france-iraq.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-23-jordan-algeria-prediction.md** -> `2026-06-23-group-j-jordan-algeria.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-23-jordan-algeria-prediction.md** -> `2026-06-23-group-j-jordan-algeria.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-23-norway-senegal-prediction.md** -> `2026-06-23-group-i-norway-senegal.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-23-norway-senegal-prediction.md** -> `2026-06-23-group-i-norway-senegal.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-24-colombia-congo-dr-prediction.md** -> `2026-06-24-group-k-colombia-dr-congo.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-24-england-ghana-prediction.md** -> `2026-06-24-group-l-england-ghana.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-24-panama-croatia-prediction.md** -> `2026-06-24-group-l-panama-croatia.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-24-portugal-uzbekistan-prediction.md** -> `2026-06-24-group-k-portugal-uzbekistan.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-25-bosnia-qatar-prediction.md** -> `2026-06-25-group-b-bosnia-and-herzegovina-qatar.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-25-bosnia-qatar-prediction.md** -> `2026-06-25-group-b-bosnia-and-herzegovina-qatar.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-25-czech-mexico-prediction.md** -> `2026-06-25-group-a-czechia-mexico.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-25-czech-mexico-prediction.md** -> `2026-06-25-group-a-czechia-mexico.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-25-morocco-haiti-prediction.md** -> `2026-06-25-group-c-morocco-haiti.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-25-morocco-haiti-prediction.md** -> `2026-06-25-group-c-morocco-haiti.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-25-scotland-brazil-prediction.md** -> `2026-06-25-group-c-scotland-brazil.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-25-scotland-brazil-prediction.md** -> `2026-06-25-group-c-scotland-brazil.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-25-south-africa-south-korea-prediction.md** -> `2026-06-25-group-a-south-africa-south-korea.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-25-south-africa-south-korea-prediction.md** -> `2026-06-25-group-a-south-africa-south-korea.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-25-switzerland-canada-prediction.md** -> `2026-06-25-group-b-switzerland-canada.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-26-curacao-ivory-coast-prediction.md** -> `2026-06-26-group-e-curacao-ivory-coast.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-26-curacao-ivory-coast-prediction.md** -> `2026-06-26-group-e-curacao-ivory-coast.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-26-curacao-ivory-coast-prediction.md** -> `2026-06-26-group-e-curacao-ivory-coast.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-26-ecuador-germany-prediction.md** -> `2026-06-26-group-e-ecuador-germany.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-26-ecuador-germany-prediction.md** -> `2026-06-26-group-e-ecuador-germany.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-26-ecuador-germany-prediction.md** -> `2026-06-26-group-e-ecuador-germany.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-26-japan-sweden-prediction.md** -> `2026-06-26-group-f-japan-sweden.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-26-japan-sweden-prediction.md** -> `2026-06-26-group-f-japan-sweden.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-26-japan-sweden-prediction.md** -> `2026-06-26-group-f-japan-sweden.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-26-paraguay-australia-prediction.md** -> `2026-06-26-group-d-paraguay-australia.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-26-paraguay-australia-prediction.md** -> `2026-06-26-group-d-paraguay-australia.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-26-paraguay-australia-prediction.md** -> `2026-06-26-group-d-paraguay-australia.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-26-tunisia-netherlands-prediction.md** -> `2026-06-26-group-f-tunisia-netherlands.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-26-tunisia-netherlands-prediction.md** -> `2026-06-26-group-f-tunisia-netherlands.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-26-tunisia-netherlands-prediction.md** -> `2026-06-26-group-f-tunisia-netherlands.md`: Markdown 缺少'免责声明'小节标记
+- **2026-06-26-turkey-usa-prediction.md** -> `2026-06-26-group-d-turkey-united-states.md`: 置信度未显式指定，默认使用 medium
+- **2026-06-26-turkey-usa-prediction.md** -> `2026-06-26-group-d-turkey-united-states.md`: Markdown 缺少'数据来源'小节标记
+- **2026-06-26-turkey-usa-prediction.md** -> `2026-06-26-group-d-turkey-united-states.md`: Markdown 缺少'免责声明'小节标记
+- **2026_wc_round2_prediction.md**: 非单场预测报告（全组第二轮综述），需手动拆分为多篇单场预测
+- **turkey-vs-paraguay-2026-prediction.md.md** -> `2026-06-20-group-d-turkey-paraguay.md`: 未找到备选比分，请手动补全
+- **turkey-vs-paraguay-2026-prediction.md.md** -> `2026-06-20-group-d-turkey-paraguay.md`: 置信度未显式指定，默认使用 medium
+- **turkey-vs-paraguay-2026-prediction.md.md** -> `2026-06-20-group-d-turkey-paraguay.md`: :warning: 备选比分缺失，请手动补充
+
+## 跳过的文件
+
+- 2026_wc_round2_prediction.md
+
+## 说明
+
+- 所有迁移文件均已放入 `draft` 目录，未进入 `reviewed`
+- 预测比分和备选比分使用 `1-0` 格式（JSON 机器格式），不含冒号
+- 置信度五档：low / medium-low / medium / medium-high / high
+- `2026_wc_round2_prediction.md` 是第二轮综述，需手动拆分为单场预测
+- 请人工检查每篇文件的预测比分和备选比分是否正确
