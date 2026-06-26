@@ -1,0 +1,65 @@
+---
+import {
+  confidenceLabel,
+  formatScore,
+  matchStageLabel,
+} from "@/lib/data";
+import type { Match, Prediction, DeductionMatch } from "@/lib/types";
+
+const { match, prediction, deduction } = Astro.props as {
+  match: Match;
+  prediction?: Prediction;
+  deduction?: DeductionMatch;
+};
+
+const predictionReady = Boolean(prediction);
+const deductionReady = Boolean(deduction);
+const mainScore = predictionReady ? formatScore(prediction?.prediction_score) : "待生成";
+const backupScore = predictionReady ? formatScore(prediction?.backup_score) : "";
+const home = match.home_team.display_name_zh;
+const away = match.away_team.display_name_zh;
+const deductionScores = deductionReady
+  ? deduction?.deduction_scores?.map(formatScore).join(" / ")
+  : "待生成";
+const over25 = deductionReady && typeof deduction?.over_2_5_probability === "number"
+  ? `${(deduction.over_2_5_probability * 100).toFixed(1)}%`
+  : "待生成";
+---
+
+<article class="match-card">
+  <div class="match-meta">
+    <span>{matchStageLabel(match)}</span>
+    <span>预测比分</span>
+    <span>开赛 {match.kickoff_beijing_time} 北京</span>
+  </div>
+  <div class="score-board">
+    <div class="team">
+      <div class="flag-bubble">{match.home_team.is_placeholder ? "?" : "⚑"}</div>
+      <strong>{home}</strong>
+    </div>
+    <div class="score-block">
+      <div class:list={["main-score", !predictionReady && "pending"]}>{mainScore}</div>
+      {predictionReady && <div class="backup-score">{backupScore}</div>}
+    </div>
+    <div class="team">
+      <div class="flag-bubble">{match.away_team.is_placeholder ? "?" : "⚑"}</div>
+      <strong>{away}</strong>
+    </div>
+  </div>
+  <div class="status-row">
+    <span class:list={["confidence", !predictionReady && "pending"]}>
+      {predictionReady ? confidenceLabel(prediction?.confidence, prediction?.confidence_zh) : "待生成"}
+    </span>
+    <span class="match-state">未开赛</span>
+  </div>
+  <div class="detail-grid">
+    <div class="mini-panel">
+      <span>推演比分</span>
+      <strong>{deductionScores}</strong>
+    </div>
+    <div class="mini-panel">
+      <span>&gt;2.5 球概率</span>
+      <strong>{over25}</strong>
+    </div>
+  </div>
+</article>

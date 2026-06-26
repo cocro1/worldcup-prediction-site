@@ -1,0 +1,31 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SiteHeader from "@/components/SiteHeader.astro";
+import {
+  articleHref,
+  getMatches,
+  getReviewedPredictions,
+} from "@/lib/data";
+
+const matches = new Map(getMatches().map((match) => [match.match_id, match]));
+const predictions = getReviewedPredictions();
+---
+
+<BaseLayout active="predictions" title="预测 - 2026 世界杯预测">
+  <SiteHeader subtitle="预测文章" />
+  <section class="list-section">
+    <h2>预测</h2>
+    <div class="article-list">
+      {predictions.length === 0 && <div class="empty-state">暂无已校对预测文章</div>}
+      {predictions.map((item) => {
+        const match = matches.get(item.match_id);
+        return (
+          <a class="article-row" href={articleHref(item.article_path)}>
+            <span>{match?.kickoff_beijing_date || "日期待定"}</span>
+            <strong>{match ? `${match.home_team.display_name_zh} vs ${match.away_team.display_name_zh}` : item.title}</strong>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+</BaseLayout>

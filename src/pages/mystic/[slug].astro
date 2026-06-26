@@ -1,0 +1,19 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { articleHref, getReviewedMystic, readArticleMarkdown } from "@/lib/data";
+import { marked } from "marked";
+
+export function getStaticPaths() {
+  return getReviewedMystic().map((item) => ({
+    params: { slug: articleHref(item.article_path).split("/").filter(Boolean).at(-1) },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+const html = marked.parse(readArticleMarkdown(item.article_path));
+---
+
+<BaseLayout active="mystic" title={`${item.title} - 2026 世界杯预测`}>
+  <article class="markdown-article" set:html={html} />
+</BaseLayout>

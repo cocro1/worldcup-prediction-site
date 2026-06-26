@@ -1,0 +1,14 @@
+﻿---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SiteHeader from "@/components/SiteHeader.astro";
+import ScheduleView from "@/components/ScheduleView.astro";
+import { getCenterDate, getMatches } from "@/lib/data";
+
+const matches = getMatches();
+const selectedDate = getCenterDate(matches);
+---
+
+<BaseLayout active="home">
+  <SiteHeader />
+  <ScheduleView selectedDate={selectedDate} />
+</BaseLayout>

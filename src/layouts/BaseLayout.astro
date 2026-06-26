@@ -1,0 +1,39 @@
+---
+import "../styles/global.css";
+
+const {
+  title = "2026 世界杯预测",
+  active = "home",
+} = Astro.props;
+
+const navItems = [
+  { id: "home", label: "首页", href: "/", icon: "⌂" },
+  { id: "predictions", label: "预测", href: "/predictions/", icon: "⚑" },
+  { id: "deductions", label: "推演", href: "/deductions/", icon: "☼" },
+  { id: "mystic", label: "玄学", href: "/mystic/", icon: "✦" },
+  { id: "topics", label: "专题", href: "/topics/", icon: "▤" },
+];
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <slot />
+    </main>
+    <nav class="bottom-nav" aria-label="底部导航">
+      {navItems.map((item) => (
+        <a class:list={["nav-item", active === item.id && "active"]} href={item.href}>
+          <span class="nav-icon" aria-hidden="true">{item.icon}</span>
+          <span>{item.label}</span>
+        </a>
+      ))}
+    </nav>
+  </body>
+</html>

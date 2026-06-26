@@ -1,0 +1,63 @@
+﻿---
+import DateSwitcher from "@/components/DateSwitcher.astro";
+import MatchCard from "@/components/MatchCard.astro";
+import DashboardMetrics from "@/components/DashboardMetrics.astro";
+import {
+  articleHref,
+  getDeductionsByMatch,
+  getMatches,
+  getPredictionsByMatch,
+  getSharedRoot,
+  getVisibleDatesAround,
+} from "@/lib/data";
+import type { Match } from "@/lib/types";
+
+const { selectedDate } = Astro.props as { selectedDate: string };
+const matches = getMatches();
+const visibleDates = getVisibleDatesAround(selectedDate, matches);
+const selectedMatches = matches.filter((match) => match.kickoff_beijing_date === selectedDate);
+const predictions = getPredictionsByMatch();
+const deductions = getDeductionsByMatch();
+
+const scheduleLabel = "\u8d5b\u7a0b";
+const emptyPrefix = "\u6682\u65e0\u8d5b\u7a0b\u3002\u5171\u4eab\u76ee\u5f55\uff1a";
+
+function predictionHref(match: Match) {
+  const prediction = predictions.get(match.match_id);
+  if (!prediction) return "";
+  const href = articleHref(prediction.article_path);
+  return href === "#" ? "" : href;
+}
+---
+
+<DateSwitcher dates={visibleDates} selectedDate={selectedDate} />
+
+<section class="schedule-section">
+  <div class="section-heading">
+    <h2>{selectedDate ? selectedDate.slice(5).replace("-", ".") : ""} {scheduleLabel}</h2>
+    <span>{selectedDate}</span>
+  </div>
+  <div class="match-list">
+    {selectedMatches.length === 0 && (
+      <div class="empty-state">
+        {emptyPrefix}{getSharedRoot()}
+      </div>
+    )}
+    {selectedMatches.map((match) => {
+      const prediction = predictions.get(match.match_id);
+      const deduction = deductions.get(match.match_id);
+      const href = predictionHref(match);
+      const label = `${match.home_team.display_name_zh} vs ${match.away_team.display_name_zh}`;
+
+      return href ? (
+        <a class="match-card-link" href={href} aria-label={label}>
+          <MatchCard match={match} prediction={prediction} deduction={deduction} />
+        </a>
+      ) : (
+        <MatchCard match={match} prediction={prediction} deduction={deduction} />
+      );
+    })}
+  </div>
+</section>
+
+<DashboardMetrics />

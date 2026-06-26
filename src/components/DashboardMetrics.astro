@@ -1,0 +1,43 @@
+﻿---
+import { getDashboardMetrics } from "@/lib/data";
+
+const dashboardMetrics = getDashboardMetrics();
+const metrics = [
+  {
+    icon: "%",
+    value: dashboardMetrics.predictionScore.displayValue,
+    label: "\u9884\u6d4b\u6bd4\u5206\u547d\u4e2d\u7387",
+    note: dashboardMetrics.predictionScore.note,
+  },
+  {
+    icon: "\u03a3",
+    value: dashboardMetrics.deductionScore.displayValue,
+    label: "\u63a8\u6f14\u6bd4\u5206\u547d\u4e2d\u7387",
+    note: dashboardMetrics.deductionScore.note,
+  },
+  {
+    icon: "\u26bd",
+    value: dashboardMetrics.over25.displayValue,
+    label: "\u5927\u7403\u6982\u7387\u547d\u4e2d\u7387",
+    note: dashboardMetrics.over25.note,
+  },
+  { icon: "\u7384", value: "--", label: "\u7384\u5b66\u9884\u6d4b\u547d\u4e2d\u6307\u6570", note: "\u5f85\u4e0a\u7ebf" },
+  { icon: "\u51b7", value: "--", label: "\u51b7\u95e8\u9884\u6d4b\u547d\u4e2d\u6307\u6570", note: "\u5f85\u4e0a\u7ebf" },
+  { icon: "\u5fc3", value: "--", label: "\u5fc3\u6c34\u547d\u4e2d\u6307\u6570", note: "\u5f85\u4e0a\u7ebf" },
+];
+const title = "\u6570\u636e\u6d4f\u89c8";
+---
+
+<section class="metrics-section">
+  <h2>{title}</h2>
+  <div class="metrics-grid">
+    {metrics.map((metric) => (
+      <div class="metric-card">
+        <div class="metric-icon">{metric.icon}</div>
+        <strong>{metric.value}</strong>
+        <span>{metric.label}</span>
+        <small>{metric.note}</small>
+      </div>
+    ))}
+  </div>
+</section>

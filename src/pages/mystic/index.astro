@@ -1,0 +1,23 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SiteHeader from "@/components/SiteHeader.astro";
+import { articleHref, getReviewedMystic } from "@/lib/data";
+
+const reports = getReviewedMystic();
+---
+
+<BaseLayout active="mystic" title="玄学 - 2026 世界杯预测">
+  <SiteHeader subtitle="玄学文章" />
+  <section class="list-section">
+    <h2>玄学</h2>
+    <div class="article-list">
+      {reports.length === 0 && <div class="empty-state">暂无已校对玄学文章</div>}
+      {reports.map((item) => (
+        <a class="article-row" href={articleHref(item.article_path)}>
+          <span>{item.published_date || "日期待定"}</span>
+          <strong>{item.title}</strong>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
