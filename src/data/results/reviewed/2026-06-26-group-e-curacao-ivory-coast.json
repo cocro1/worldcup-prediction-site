@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-26-group-e-curacao-ivory-coast",
+  "status": "result_verified",
+  "home_score_90": 0,
+  "away_score_90": 2,
+  "total_goals_90": 2,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "Wikipedia 2026 FIFA World Cup Group E: Curaçao 0–2 Ivory Coast",
+    "checked_sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
+      "Cross-checked against group table: Ivory Coast W2 D0 L1, Curaçao Eliminated"
+    ]
+  },
+  "verified_at": "2026-06-27T06:50:00+08:00"
+}

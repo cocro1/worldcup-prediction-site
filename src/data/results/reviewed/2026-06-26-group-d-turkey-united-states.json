@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-26-group-d-turkey-united-states",
+  "status": "result_verified",
+  "home_score_90": 3,
+  "away_score_90": 2,
+  "total_goals_90": 5,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "Wikipedia 2026 FIFA World Cup Group D — deduced from group table: USA GF=8 GA=4 (GF match1=4, match2=2, match3=2; GA match1=1, match2=0, match3=3); Turkey GF=3 GA=5 (GF match1=0, match2=0, match3=3; GA match1=2, match2=1, match3=2)",
+    "checked_sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D",
+      "Group table: United States A (advanced) W2 D0 L1, Turkey E (eliminated) W1 D0 L2"
+    ]
+  },
+  "verified_at": "2026-06-27T06:50:00+08:00"
+}
