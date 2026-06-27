@@ -16,9 +16,13 @@ type RateMetric = {
   note: string;
 };
 
+function stripBom(text: string): string {
+  return text.charCodeAt(0) === 0xfeff ? text.slice(1) : text;
+}
+
 function readJsonFile<T>(filePath: string, fallback: T): T {
   try {
-    return JSON.parse(fs.readFileSync(filePath, "utf-8")) as T;
+    return JSON.parse(stripBom(fs.readFileSync(filePath, "utf-8"))) as T;
   } catch {
     return fallback;
   }
@@ -33,7 +37,7 @@ function readJsonDir<T>(dirPath: string): T[] {
     .flatMap((name) => {
       try {
         const item = JSON.parse(
-          fs.readFileSync(path.join(dirPath, name), "utf-8"),
+          stripBom(fs.readFileSync(path.join(dirPath, name), "utf-8")),
         ) as T;
         return [item];
       } catch {
