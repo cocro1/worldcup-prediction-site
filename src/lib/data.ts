@@ -99,8 +99,11 @@ export function getReviewedResults() {
     if (
       result?.match_id &&
       (result.status === "full_time" || result.status === "result_verified") &&
-      Number.isInteger(result.home_score_90) &&
-      Number.isInteger(result.away_score_90)
+      (
+        // have actual scores OR pre-match handicap
+        (Number.isInteger(result.home_score_90) && Number.isInteger(result.away_score_90))
+        || (typeof result.handicap === "string" && result.handicap.length > 0)
+      )
     ) {
       byMatch.set(result.match_id, result);
     }
