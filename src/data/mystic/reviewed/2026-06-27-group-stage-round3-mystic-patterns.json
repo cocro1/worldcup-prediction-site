@@ -1,0 +1,74 @@
+{
+    "schema_version":  "1.0",
+    "content_type":  "mystic",
+    "article_id":  "mystic-2026-06-27-group-stage-round3-patterns",
+    "title":  "第三轮玄学观察：3球魔咒与东道主之谜",
+    "article_path":  "content/mystic/reviewed/2026-06-27-group-stage-round3-mystic-patterns.md",
+    "published_date":  "2026-06-27",
+    "scope":  "mixed",
+    "related":  {
+                    "dates":  [
+                                  "2026-06-25",
+                                  "2026-06-26",
+                                  "2026-06-27"
+                              ],
+                    "stages":  [
+                                   "group_stage"
+                               ],
+                    "groups":  [
+                                   "A",
+                                   "B",
+                                   "C",
+                                   "D",
+                                   "E",
+                                   "F"
+                               ],
+                    "team_ids":  [
+                                     "czechia",
+                                     "mexico",
+                                     "south_africa",
+                                     "south_korea",
+                                     "bosnia_and_herzegovina",
+                                     "qatar",
+                                     "switzerland",
+                                     "canada",
+                                     "morocco",
+                                     "haiti",
+                                     "scotland",
+                                     "brazil",
+                                     "paraguay",
+                                     "australia",
+                                     "turkey",
+                                     "united_states",
+                                     "curacao",
+                                     "ivory_coast",
+                                     "ecuador",
+                                     "germany",
+                                     "japan",
+                                     "sweden",
+                                     "tunisia",
+                                     "netherlands"
+                                 ],
+                    "match_ids":  [
+                                      "2026-06-25-group-a-czechia-mexico",
+                                      "2026-06-25-group-a-south-africa-south-korea",
+                                      "2026-06-25-group-b-bosnia-and-herzegovina-qatar",
+                                      "2026-06-25-group-b-switzerland-canada",
+                                      "2026-06-25-group-c-morocco-haiti",
+                                      "2026-06-25-group-c-scotland-brazil",
+                                      "2026-06-26-group-d-paraguay-australia",
+                                      "2026-06-26-group-d-turkey-united-states",
+                                      "2026-06-26-group-e-curacao-ivory-coast",
+                                      "2026-06-26-group-e-ecuador-germany",
+                                      "2026-06-26-group-f-japan-sweden",
+                                      "2026-06-26-group-f-tunisia-netherlands"
+                                  ]
+                },
+    "summary":  "分析2026世界杯小组赛第三轮已完赛的12场比赛，发现3球魔咒（4场恰好3球）、东道主第三轮表现不一、冷门温床等现象。纯属玄学娱乐，不构成预测建议。",
+    "display_index":  null,
+    "status":  "reviewed",
+    "generated_by":  "mystic-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-27T12:45:00+08:00",
+    "reviewed_at":  "2026-06-27T12:52:00+08:00"
+}
