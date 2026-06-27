@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-28-group-j-algeria-austria",
+  "status": "result_verified",
+  "home_score_90": null,
+  "away_score_90": null,
+  "total_goals_90": null,
+  "handicap": "平手",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI MyBookie.ag spreads Algeria 0.0 (2.19/1.6)",
+    "checked_sources": [
+      "OddsAPI MyBookie.ag spread: Algeria 0.0 (2.19) / Austria 0.0 (1.6)"
+    ]
+  },
+  "verified_at": "2026-06-27T08:38:00+08:00"
+}

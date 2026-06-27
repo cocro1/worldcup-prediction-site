@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-27-group-g-egypt-iran",
+  "status": "result_verified",
+  "home_score_90": null,
+  "away_score_90": null,
+  "total_goals_90": null,
+  "handicap": "平手",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI BetAnything spreads Egypt 0.0 (1.74/2.15)",
+    "checked_sources": [
+      "OddsAPI BetAnything spread: Egypt 0.0 (1.74) / Iran 0.0 (2.15)"
+    ]
+  },
+  "verified_at": "2026-06-27T08:38:00+08:00"
+}

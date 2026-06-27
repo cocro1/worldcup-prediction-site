@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-28-group-k-dr-congo-uzbekistan",
+  "status": "result_verified",
+  "home_score_90": null,
+  "away_score_90": null,
+  "total_goals_90": null,
+  "handicap": "主-0.75",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI Pinnacle spreads DR Congo -0.75 (1.95/1.95)",
+    "checked_sources": [
+      "OddsAPI Pinnacle spread: DR Congo -0.75 (1.95) / Uzbekistan 0.75 (1.95)"
+    ]
+  },
+  "verified_at": "2026-06-27T08:38:00+08:00"
+}
