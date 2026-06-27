@@ -1,6 +1,7 @@
 ---
 import {
   confidenceLabel,
+  flagEmoji,
   formatScore,
   matchStageLabel,
 } from "@/lib/data";
@@ -38,7 +39,7 @@ const over25 = deductionReady && typeof deduction?.over_2_5_probability === "num
   </div>
   <div class="score-board">
     <div class="team">
-      <div class="flag-bubble">{match.home_team.is_placeholder ? "?" : "⚑"}</div>
+      <div class="flag-bubble">{match.home_team.is_placeholder ? "?" : flagEmoji(match.home_team.flag_code)}</div>
       <strong>{home}</strong>
     </div>
     <div class="score-block">
@@ -46,7 +47,7 @@ const over25 = deductionReady && typeof deduction?.over_2_5_probability === "num
       {predictionReady && <div class="backup-score">{backupScore}</div>}
     </div>
     <div class="team">
-      <div class="flag-bubble">{match.away_team.is_placeholder ? "?" : "⚑"}</div>
+      <div class="flag-bubble">{match.away_team.is_placeholder ? "?" : flagEmoji(match.away_team.flag_code)}</div>
       <strong>{away}</strong>
     </div>
   </div>

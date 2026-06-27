@@ -5,6 +5,7 @@
   display_name_zh: string;
   is_placeholder: boolean;
   placeholder_label: string | null;
+  flag_code?: string;
 };
 
 export type Match = {

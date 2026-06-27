@@ -46,14 +46,51 @@ export function getSharedRoot() {
   return SHARED_ROOT;
 }
 
+export function getTeams() {
+  return readJsonFile<Array<{ team_id: string; flag_code: string }>>(
+    sharedPath("data", "teams", "teams.seed.json"),
+    [],
+  );
+}
+
+export function getTeamsByFlag() {
+  return new Map(
+    getTeams()
+      .filter((t) => t.flag_code)
+      .map((t) => [t.team_id, t.flag_code]),
+  );
+}
+
 export function getMatches() {
+  const flagMap = getTeamsByFlag();
   return readJsonFile<Match[]>(
     sharedPath("data", "matches", "matches.seed.json"),
     [],
-  ).sort((a, b) => {
-    const time = a.kickoff_beijing.localeCompare(b.kickoff_beijing);
-    return time || a.match_no - b.match_no;
-  });
+  )
+    .sort((a, b) => {
+      const time = a.kickoff_beijing.localeCompare(b.kickoff_beijing);
+      return time || a.match_no - b.match_no;
+    })
+    .map((match) => ({
+      ...match,
+      home_team: {
+        ...match.home_team,
+        flag_code: flagMap.get(match.home_team.team_id) || undefined,
+      },
+      away_team: {
+        ...match.away_team,
+        flag_code: flagMap.get(match.away_team.team_id) || undefined,
+      },
+    }));
+}
+
+export function flagEmoji(code?: string) {
+  if (!code || code === "zz") return "⚑";
+  // Convert ISO 3166-1 alpha-2 to regional indicator symbols
+  const chars = [...code.toLowerCase()];
+  if (chars.length !== 2) return "⚑";
+  const offset = 0x1f1e6 - 97; // 'a' → 🇦
+  return String.fromCodePoint(chars[0].charCodeAt(0) + offset, chars[1].charCodeAt(0) + offset);
 }
 
 export function getReviewedPredictions() {
