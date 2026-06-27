@@ -15,6 +15,7 @@ const { match, prediction, deduction, result } = Astro.props as {
 
 const predictionReady = Boolean(prediction);
 const deductionReady = Boolean(deduction);
+const handicapReady = result?.handicap;
 const mainScore = predictionReady
   ? formatScore(prediction?.prediction_score)
   : "待生成";
@@ -53,6 +54,7 @@ const over25 = deductionReady && typeof deduction?.over_2_5_probability === "num
     <span class:list={["confidence", !predictionReady && "pending"]}>
       {predictionReady ? confidenceLabel(prediction?.confidence, prediction?.confidence_zh) : "待生成"}
     </span>
+    {handicapReady && <span class="handicap">{result?.handicap}</span>}
     <span class="match-state">{result ? `实际 ${result.home_score_90} : ${result.away_score_90}` : "未开赛"}</span>
   </div>
   <div class="detail-grid">

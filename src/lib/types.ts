@@ -58,6 +58,7 @@ export type Result = {
   home_score_90: number;
   away_score_90: number;
   total_goals_90?: number;
+  handicap?: string;
   verified_at: string;
 };
 
