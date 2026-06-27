@@ -181,6 +181,14 @@ a {
   border: 1px solid var(--line);
   border-radius: 50%;
   background: var(--surface-soft);
+  overflow: hidden;
+}
+
+.flag-img {
+  width: 36px;
+  height: 27px;
+  border-radius: 2px;
+  object-fit: cover;
   color: var(--brand);
   font-weight: 900;
 }
