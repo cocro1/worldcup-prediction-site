@@ -1,0 +1,28 @@
+﻿{
+    "schema_version":  "1.0",
+    "content_type":  "prediction",
+    "match_id":  "2026-06-28-group-k-colombia-portugal",
+    "title":  "哥伦比亚 vs 葡萄牙赛前预测：技术流派的对攻之战",
+    "article_path":  "content/predictions/reviewed/2026-06-28-colombia-vs-portugal.md",
+    "prediction_score":  "1-2",
+    "backup_score":  "1-1",
+    "confidence":  "medium",
+    "confidence_zh":  "中置信",
+    "summary":  "哥伦比亚和葡萄牙都具备出色的技术能力，葡萄牙在关键球员个人能力上略占优势。",
+    "source_names":  [
+                         "2026世界杯赛程表",
+                         "FIFA官方数据"
+                     ],
+    "source_urls":  [
+
+                    ],
+    "markdown_requirements":  {
+                                  "has_data_sources_section":  true,
+                                  "has_disclaimer_section":  true
+                              },
+    "status":  "reviewed",
+    "generated_by":  "prediction-writer-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-27T07:13:00+08:00",
+    "reviewed_at":  "2026-06-27T09:11:00+08:00"
+}

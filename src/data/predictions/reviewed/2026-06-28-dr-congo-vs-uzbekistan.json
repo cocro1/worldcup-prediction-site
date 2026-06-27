@@ -1,0 +1,28 @@
+﻿{
+    "schema_version":  "1.0",
+    "content_type":  "prediction",
+    "match_id":  "2026-06-28-group-k-dr-congo-uzbekistan",
+    "title":  "刚果（金）vs 乌兹别克斯坦赛前预测：身体对抗与战术纪律的较量",
+    "article_path":  "content/predictions/reviewed/2026-06-28-dr-congo-vs-uzbekistan.md",
+    "prediction_score":  "1-1",
+    "backup_score":  "2-1",
+    "confidence":  "medium-low",
+    "confidence_zh":  "中低置信",
+    "summary":  "刚果（金）球员身体素质出色，乌兹别克斯坦则以战术纪律和团队配合见长。",
+    "source_names":  [
+                         "2026世界杯赛程表",
+                         "FIFA官方数据"
+                     ],
+    "source_urls":  [
+
+                    ],
+    "markdown_requirements":  {
+                                  "has_data_sources_section":  true,
+                                  "has_disclaimer_section":  true
+                              },
+    "status":  "reviewed",
+    "generated_by":  "prediction-writer-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-27T07:13:00+08:00",
+    "reviewed_at":  "2026-06-27T09:11:00+08:00"
+}

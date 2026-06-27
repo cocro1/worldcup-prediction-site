@@ -1,0 +1,28 @@
+﻿{
+    "schema_version":  "1.0",
+    "content_type":  "prediction",
+    "match_id":  "2026-06-28-group-j-jordan-argentina",
+    "title":  "约旦 vs 阿根廷赛前预测：实力悬殊的对抗",
+    "article_path":  "content/predictions/reviewed/2026-06-28-jordan-vs-argentina.md",
+    "prediction_score":  "0-3",
+    "backup_score":  "1-3",
+    "confidence":  "high",
+    "confidence_zh":  "高置信",
+    "summary":  "阿根廷作为世界顶级强队，在整体实力、球员个人能力和大赛经验上全面占优。",
+    "source_names":  [
+                         "2026世界杯赛程表",
+                         "FIFA官方数据"
+                     ],
+    "source_urls":  [
+
+                    ],
+    "markdown_requirements":  {
+                                  "has_data_sources_section":  true,
+                                  "has_disclaimer_section":  true
+                              },
+    "status":  "reviewed",
+    "generated_by":  "prediction-writer-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-27T07:13:00+08:00",
+    "reviewed_at":  "2026-06-27T09:11:00+08:00"
+}

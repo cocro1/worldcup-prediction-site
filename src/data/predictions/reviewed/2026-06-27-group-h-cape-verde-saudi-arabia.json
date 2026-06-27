@@ -1,0 +1,31 @@
+﻿{
+    "schema_version":  "1.0",
+    "content_type":  "prediction",
+    "match_id":  "2026-06-27-group-h-cape-verde-saudi-arabia",
+    "title":  "佛得角 vs 沙特阿拉伯 预测报告",
+    "article_path":  "content/predictions/reviewed/2026-06-27-group-h-cape-verde-saudi-arabia.md",
+    "prediction_score":  "0-1",
+    "backup_score":  "1-1",
+    "confidence":  "medium-low",
+    "confidence_zh":  "中低置信",
+    "summary":  null,
+    "source_names":  [
+                         "FIFA官网",
+                         "Transfermarkt",
+                         "ESPN FC",
+                         "世界杯官方比赛数据"
+                     ],
+    "source_urls":  [
+                        "https://www.fifa.com",
+                        "https://www.transfermarkt.com"
+                    ],
+    "markdown_requirements":  {
+                                  "has_data_sources_section":  true,
+                                  "has_disclaimer_section":  true
+                              },
+    "status":  "reviewed",
+    "generated_by":  "prediction-writer-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-26T11:00:00+08:00",
+    "reviewed_at":  "2026-06-27T09:11:00+08:00"
+}

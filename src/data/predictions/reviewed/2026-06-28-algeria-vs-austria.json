@@ -1,0 +1,28 @@
+﻿{
+    "schema_version":  "1.0",
+    "content_type":  "prediction",
+    "match_id":  "2026-06-28-group-j-algeria-austria",
+    "title":  "阿尔及利亚 vs 奥地利赛前预测：北非劲旅对阵欧洲技术流",
+    "article_path":  "content/predictions/reviewed/2026-06-28-algeria-vs-austria.md",
+    "prediction_score":  "1-2",
+    "backup_score":  "1-1",
+    "confidence":  "medium",
+    "confidence_zh":  "中置信",
+    "summary":  "阿尔及利亚具备出色的身体条件和快速反击能力，奥地利则以严谨的战术纪律和团队配合见长。",
+    "source_names":  [
+                         "2026世界杯赛程表",
+                         "FIFA官方数据"
+                     ],
+    "source_urls":  [
+
+                    ],
+    "markdown_requirements":  {
+                                  "has_data_sources_section":  true,
+                                  "has_disclaimer_section":  true
+                              },
+    "status":  "reviewed",
+    "generated_by":  "prediction-writer-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-27T07:13:00+08:00",
+    "reviewed_at":  "2026-06-27T09:11:00+08:00"
+}
