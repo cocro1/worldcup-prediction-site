@@ -1,0 +1,123 @@
+{
+    "schema_version":  "1.0",
+    "content_type":  "deduction",
+    "title":  "2026-06-28 世界杯推演报告",
+    "deduction_date":  "2026-06-28",
+    "generated_at":  "2026-06-27T10:35:00+08:00",
+    "article_path":  "content/deductions/reviewed/2026-06-28-deduction.md",
+    "match_count":  6,
+    "generated_by":  "推演内容线",
+    "methodology":  {
+                        "name":  "Bayesian Shrinkage Poisson Deduction v2",
+                        "baseline_matches":  60,
+                        "shrinkage_factor":  3,
+                        "calibration_direction_accuracy":  0.695
+                    },
+    "matches":  [
+                    {
+                        "match_id":  "2026-06-28-group-l-panama-england",
+                        "match_no":  67,
+                        "home_team":  "Panama",
+                        "away_team":  "England",
+                        "stage":  "Group Stage",
+                        "group":  "L",
+                        "expected_goals":  {
+                                               "home":  1.077,
+                                               "away":  1.818
+                                           },
+                        "deduction_scores":  [
+                                                 "1-1",
+                                                 "0-1"
+                                             ],
+                        "over_2_5_probability":  0.552
+                    },
+                    {
+                        "match_id":  "2026-06-28-group-l-croatia-ghana",
+                        "match_no":  68,
+                        "home_team":  "Croatia",
+                        "away_team":  "Ghana",
+                        "stage":  "Group Stage",
+                        "group":  "L",
+                        "expected_goals":  {
+                                               "home":  2.624,
+                                               "away":  0.893
+                                           },
+                        "deduction_scores":  [
+                                                 "2-0",
+                                                 "2-1"
+                                             ],
+                        "over_2_5_probability":  0.676
+                    },
+                    {
+                        "match_id":  "2026-06-28-group-k-colombia-portugal",
+                        "match_no":  69,
+                        "home_team":  "Colombia",
+                        "away_team":  "Portugal",
+                        "stage":  "Group Stage",
+                        "group":  "K",
+                        "expected_goals":  {
+                                               "home":  2.428,
+                                               "away":  2.664
+                                           },
+                        "deduction_scores":  [
+                                                 "2-2",
+                                                 "2-3"
+                                             ],
+                        "over_2_5_probability":  0.879
+                    },
+                    {
+                        "match_id":  "2026-06-28-group-k-dr-congo-uzbekistan",
+                        "match_no":  70,
+                        "home_team":  "DR Congo",
+                        "away_team":  "Uzbekistan",
+                        "stage":  "Group Stage",
+                        "group":  "K",
+                        "expected_goals":  {
+                                               "home":  0.683,
+                                               "away":  1.171
+                                           },
+                        "deduction_scores":  [
+                                                 "0-1",
+                                                 "0-0"
+                                             ],
+                        "over_2_5_probability":  0.284
+                    },
+                    {
+                        "match_id":  "2026-06-28-group-j-algeria-austria",
+                        "match_no":  71,
+                        "home_team":  "Algeria",
+                        "away_team":  "Austria",
+                        "stage":  "Group Stage",
+                        "group":  "J",
+                        "expected_goals":  {
+                                               "home":  1.285,
+                                               "away":  1.685
+                                           },
+                        "deduction_scores":  [
+                                                 "1-1",
+                                                 "1-2"
+                                             ],
+                        "over_2_5_probability":  0.532
+                    },
+                    {
+                        "match_id":  "2026-06-28-group-j-jordan-argentina",
+                        "match_no":  72,
+                        "home_team":  "Jordan",
+                        "away_team":  "Argentina",
+                        "stage":  "Group Stage",
+                        "group":  "J",
+                        "expected_goals":  {
+                                               "home":  0.885,
+                                               "away":  2.185
+                                           },
+                        "deduction_scores":  [
+                                                 "0-2",
+                                                 "1-2"
+                                             ],
+                        "over_2_5_probability":  0.468
+                    }
+                ],
+    "status":  "reviewed",
+    "reviewed_by":  "qa-agent",
+    "reviewed_at":  "2026-06-27T10:33:00+08:00"
+}
