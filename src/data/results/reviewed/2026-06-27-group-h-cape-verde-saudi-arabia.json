@@ -2,17 +2,18 @@
   "schema_version": "1.0",
   "match_id": "2026-06-27-group-h-cape-verde-saudi-arabia",
   "status": "result_verified",
-  "home_score_90": null,
-  "away_score_90": null,
-  "total_goals_90": null,
+  "home_score_90": 0,
+  "away_score_90": 0,
+  "total_goals_90": 0,
   "handicap": "平手",
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
-    "primary": "OddsAPI Bovada spreads Cape Verde 0.0 (1.93/1.89)",
+    "primary": "OddsAPI scores endpoint + Wikipedia Group H table: Cape Verde 0-0 Saudi Arabia",
     "checked_sources": [
-      "OddsAPI Bovada spread: Cape Verde 0.0 (1.93) / Saudi Arabia 0.0 (1.89)"
+      "OddsAPI scores endpoint: Cape Verde 0-0 Saudi Arabia (completed=True)",
+      "Wikipedia Group H table: Cape Verde Pld3 GF=2 GA=2 GD=0; Saudi Arabia Pld3 GF=1 GA=5 GD=-4"
     ]
   },
-  "verified_at": "2026-06-27T08:38:00+08:00"
+  "verified_at": "2026-06-27T18:55:00+08:00"
 }

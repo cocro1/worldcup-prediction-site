@@ -2,17 +2,18 @@
   "schema_version": "1.0",
   "match_id": "2026-06-27-group-g-egypt-iran",
   "status": "result_verified",
-  "home_score_90": null,
-  "away_score_90": null,
-  "total_goals_90": null,
+  "home_score_90": 1,
+  "away_score_90": 1,
+  "total_goals_90": 2,
   "handicap": "平手",
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
-    "primary": "OddsAPI BetAnything spreads Egypt 0.0 (1.74/2.15)",
+    "primary": "OddsAPI scores endpoint + Wikipedia Group G table: Egypt 1-1 Iran",
     "checked_sources": [
-      "OddsAPI BetAnything spread: Egypt 0.0 (1.74) / Iran 0.0 (2.15)"
+      "OddsAPI scores endpoint: Egypt 1-1 Iran (completed=True)",
+      "Wikipedia Group G table: Iran W0 D3 L0 GF=3 GA=3; Egypt W1 D2 L0 GF=5 GA=3"
     ]
   },
-  "verified_at": "2026-06-27T08:38:00+08:00"
+  "verified_at": "2026-06-27T18:55:00+08:00"
 }

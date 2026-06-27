@@ -2,17 +2,18 @@
   "schema_version": "1.0",
   "match_id": "2026-06-27-group-g-new-zealand-belgium",
   "status": "result_verified",
-  "home_score_90": null,
-  "away_score_90": null,
-  "total_goals_90": null,
+  "home_score_90": 1,
+  "away_score_90": 5,
+  "total_goals_90": 6,
   "handicap": "主+2.25",
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
-    "primary": "OddsAPI Bovada spreads New Zealand 2.25 (1.89/1.93)",
+    "primary": "OddsAPI scores endpoint + Wikipedia Group G table: New Zealand 1-5 Belgium",
     "checked_sources": [
-      "OddsAPI Bovada spread: New Zealand 2.25 (1.89) / Belgium -2.25 (1.93)"
+      "OddsAPI scores endpoint: New Zealand 1-5 Belgium (completed=True)",
+      "Wikipedia Group G table: Belgium W1 D2 L0 GF=6 GA=2 (with GF=1 from Rd1&2, 5 from Rd3); New Zealand W0 D1 L2 GF=4 GA=10"
     ]
   },
-  "verified_at": "2026-06-27T08:38:00+08:00"
+  "verified_at": "2026-06-27T18:55:00+08:00"
 }
