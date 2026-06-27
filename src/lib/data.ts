@@ -226,12 +226,16 @@ export function confidenceLabel(confidence?: string, fallback?: string) {
 
 export function dateLabel(date: string) {
   const parsed = new Date(`${date}T00:00:00+08:00`);
-  const month = parsed.getMonth() + 1;
-  const day = parsed.getDate();
-  const weekday = new Intl.DateTimeFormat("zh-CN", {
+  const cnFmt = new Intl.DateTimeFormat("zh-CN", {
     timeZone: "Asia/Shanghai",
+    month: "numeric",
+    day: "numeric",
     weekday: "short",
-  }).format(parsed);
+  });
+  const parts = cnFmt.formatToParts(parsed);
+  const month = parts.find((p) => p.type === "month")?.value;
+  const day = parts.find((p) => p.type === "day")?.value;
+  const weekday = parts.find((p) => p.type === "weekday")?.value;
   return `${month}.${day} ${weekday}`;
 }
 
