@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "content_type": "mystic",
+  "article_id": "mystic-2026-06-27-knockout-goal-trend",
+  "title": "从小组第三轮进球分布，预判淘汰赛的「进球密码」",
+  "article_path": "content/mystic/reviewed/2026-06-27-knockout-goal-trend-mystic.md",
+  "published_date": "2026-06-27",
+  "scope": "mixed",
+  "related": {
+    "dates": [
+      "2026-06-25",
+      "2026-06-26",
+      "2026-06-27",
+      "2026-06-28",
+      "2026-06-29",
+      "2026-06-30",
+      "2026-07-01",
+      "2026-07-02"
+    ],
+    "match_ids": [
+      "2026-06-25-group-a-czechia-mexico",
+      "2026-06-25-group-a-south-africa-south-korea",
+      "2026-06-25-group-b-bosnia-and-herzegovina-qatar",
+      "2026-06-25-group-b-switzerland-canada",
+      "2026-06-25-group-c-morocco-haiti",
+      "2026-06-25-group-c-scotland-brazil",
+      "2026-06-26-group-d-paraguay-australia",
+      "2026-06-26-group-d-turkey-united-states",
+      "2026-06-26-group-e-curacao-ivory-coast",
+      "2026-06-26-group-e-ecuador-germany",
+      "2026-06-26-group-f-japan-sweden",
+      "2026-06-26-group-f-tunisia-netherlands"
+    ],
+    "team_ids": [
+      "czechia",
+      "mexico",
+      "south_africa",
+      "south_korea",
+      "bosnia_and_herzegovina",
+      "qatar",
+      "switzerland",
+      "canada",
+      "morocco",
+      "haiti",
+      "scotland",
+      "brazil",
+      "paraguay",
+      "australia",
+      "turkey",
+      "united_states",
+      "curacao",
+      "ivory_coast",
+      "ecuador",
+      "germany",
+      "japan",
+      "sweden",
+      "tunisia",
+      "netherlands"
+    ],
+    "groups": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "stages": [
+      "group_stage",
+      "round_of_32",
+      "round_of_16"
+    ]
+  },
+  "summary": "基于小组第三轮12场已完赛比赛的进球分布（0-6球），分析3球魔咒现象，并对淘汰赛阶段的进球趋势做出玄学预判：1-0主义回归、0-0概率上升、大比分减少。具有娱乐性预判价值。",
+  "display_index": null,
+  "status": "reviewed",
+  "generated_by": "mystic-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-27T13:45:00+08:00",
+  "reviewed_at": "2026-06-28T19:21:58+08:00"
+}
