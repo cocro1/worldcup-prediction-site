@@ -2,17 +2,18 @@
   "schema_version": "1.0",
   "match_id": "2026-06-28-group-k-colombia-portugal",
   "status": "result_verified",
-  "home_score_90": null,
-  "away_score_90": null,
-  "total_goals_90": null,
+  "home_score_90": 0,
+  "away_score_90": 0,
+  "total_goals_90": 0,
   "handicap": "主+0.5",
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
-    "primary": "OddsAPI BetAnything spreads Colombia 0.5 (1.93/1.89)",
+    "primary": "OddsAPI scores endpoint: Colombia 0-0 Portugal",
     "checked_sources": [
-      "OddsAPI BetAnything spread: Colombia 0.5 (1.93) / Portugal -0.5 (1.89)"
+      "OddsAPI scores endpoint: Colombia 0-0 Portugal (completed=True)",
+      "Wikipedia Group K table: Colombia W2 D1 L0 GF=4 GA=1; Portugal W1 D2 L0 GF=6 GA=1"
     ]
   },
-  "verified_at": "2026-06-27T08:38:00+08:00"
+  "verified_at": "2026-06-28T19:00:00+08:00"
 }

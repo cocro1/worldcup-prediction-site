@@ -1,0 +1,18 @@
+﻿{
+  "build_time": "2026-06-28T19:07:34+08:00",
+  "status": "success",
+  "output_dir": "dist/",
+  "pages_built": 110,
+  "reviewed_files": {
+    "data_predictions": 51,
+    "data_deductions": 6,
+    "data_results": 74,
+    "data_mystic": 2,
+    "data_topics": 12,
+    "content_predictions": 51,
+    "content_deductions": 6,
+    "content_mystic": 2,
+    "content_topics": 12
+  },
+  "notes": "Build completed successfully. Warnings: duplicate content IDs from draft/reviewed overlap."
+}

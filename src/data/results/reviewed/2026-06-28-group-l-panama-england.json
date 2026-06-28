@@ -2,17 +2,18 @@
   "schema_version": "1.0",
   "match_id": "2026-06-28-group-l-panama-england",
   "status": "result_verified",
-  "home_score_90": null,
-  "away_score_90": null,
-  "total_goals_90": null,
+  "home_score_90": 0,
+  "away_score_90": 2,
+  "total_goals_90": 2,
   "handicap": "主+2",
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
-    "primary": "OddsAPI Pinnacle spreads Panama 2.0 (1.96/1.93)",
+    "primary": "OddsAPI scores endpoint: Panama 0-2 England",
     "checked_sources": [
-      "OddsAPI Pinnacle spread: Panama 2.0 (1.96) / England -2.0 (1.93)"
+      "OddsAPI scores endpoint: Panama 0-2 England (completed=True)",
+      "Wikipedia Group L table: England W2 D1 L0 GF=6 GA=2; Panama W0 D0 L3 GF=0 GA=4"
     ]
   },
-  "verified_at": "2026-06-27T08:38:00+08:00"
+  "verified_at": "2026-06-28T19:00:00+08:00"
 }
