@@ -1,0 +1,27 @@
+{
+  "build_time": "2026-06-29T11:52:24+08:00",
+  "success": true,
+  "output_dir": "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+  "pages_built": 119,
+  "build_duration_seconds": 6.28,
+  "reviewed_files": {
+    "data": {
+      "predictions": 55,
+      "deductions": 8,
+      "results": 73,
+      "mystic": 4,
+      "topics": 13,
+      "matches": 1,
+      "teams": 1
+    },
+    "content": {
+      "predictions": 55,
+      "deductions": 8,
+      "mystic": 4,
+      "topics": 13
+    }
+  },
+  "bom_stripped": 46,
+  "errors": null
+}
+
