@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-01-round_of_32-ko-mexico-ecuador",
+  "title": "墨西哥 vs 厄瓜多尔 预测报告：墨西哥主场优势明显 预测小胜",
+  "article_path": "content/predictions/reviewed/2026-07-01-round_of_32-ko-mexico-ecuador.md",
+  "prediction_score": "1-0",
+  "backup_score": "2-1",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "source_names": ["2026世界杯小组赛官方数据", "FIFA国家队排名（2026年6月）", "墨西哥主场作战历史战绩"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-30T16:40:00+08:00",
+  "reviewed_at": "2026-06-30T16:49:00+08:00"
+}
