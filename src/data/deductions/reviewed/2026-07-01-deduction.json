@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-01",
+  "title": "7月1日32强推演",
+  "article_path": "content/deductions/draft/2026-07-01-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-01-round_of_32-ko-ivory-coast-norway",
+      "deduction_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.52
+    },
+    {
+      "match_id": "2026-07-01-round_of_32-ko-france-sweden",
+      "deduction_scores": [
+        "2-0",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.48
+    },
+    {
+      "match_id": "2026-07-01-round_of_32-ko-mexico-ecuador",
+      "deduction_scores": [
+        "1-0",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.4
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "generated_at": "2026-06-29T13:06:00+08:00",
+  "reviewed_by": "qa-agent",
+  "reviewed_at": "2026-06-29T06:26:01+08:00",
+  "match_count": 3
+}

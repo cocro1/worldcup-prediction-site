@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-04-round_of_32-ko-colombia-ghana",
+  "status": "full_time",
+  "home_score_90": null,
+  "away_score_90": null,
+  "total_goals_90": null,
+  "handicap": "主-1",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI handicap: MyBookie.ag",
+    "checked_sources": [
+      "OddsAPI handicap endpoint"
+    ]
+  },
+  "verified_at": "2026-06-30T00:11:07+08:00"
+}

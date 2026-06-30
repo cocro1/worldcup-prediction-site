@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-06-30-round_of_32-ko-germany-paraguay",
+  "title": "德国 vs 巴拉圭预测：火力碾压，德国晋级无忧",
+  "article_path": "content/predictions/draft/2026-06-30-round_of_32-ko-germany-paraguay.md",
+  "prediction_score": "3-0",
+  "backup_score": "2-0",
+  "confidence": "high",
+  "confidence_zh": "高置信",
+  "summary": "德国小组赛攻入10球火力全开，巴拉圭三场仅入3球是晋级队中进攻最弱之一，实力差距明显。",
+  "source_names": [
+    "data/results/reviewed/2026-06-15-group-e-germany-curacao.json",
+    "data/results/reviewed/2026-06-21-group-e-germany-ivory-coast.json",
+    "data/results/reviewed/2026-06-26-group-e-ecuador-germany.json",
+    "data/results/reviewed/2026-06-13-group-d-united-states-paraguay.json",
+    "data/results/reviewed/2026-06-20-group-d-turkey-paraguay.json",
+    "data/results/reviewed/2026-06-26-group-d-paraguay-australia.json",
+    "data/matches/matches.seed.json",
+    "data/teams/teams.seed.json"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-29T13:15:00+08:00",
+  "reviewed_at": "2026-06-29T06:25:46+08:00"
+}

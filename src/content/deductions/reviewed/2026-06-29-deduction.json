@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-06-29",
+  "title": "6月29日32强推演",
+  "article_path": "content/deductions/reviewed/2026-06-29-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-06-29-round_of_32-ko-south-africa-canada",
+      "home_team": "South Africa",
+      "away_team": "Canada",
+      "stage": "Round of 32",
+      "deduction_scores": ["1-2", "1-1"],
+      "over_2_5_probability": 0.545,
+      "notes": "加拿大小组赛进攻火力更强（8进3失），但南非防守更稳固；Alphonso Davies可能复出将影响比赛走向"
+    }
+  ],
+  "status": "draft",
+  "generated_by": "deduction-ai",
+  "generated_at": "2026-06-28T13:00:00+08:00"
+}
