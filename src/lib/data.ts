@@ -46,6 +46,18 @@ function readJsonDir<T>(dirPath: string): T[] {
     });
 }
 
+function fallbackDateFromId(value?: string) {
+  return value?.match(/\d{4}-\d{2}-\d{2}/)?.[0] || "";
+}
+
+function sortByDateDesc<T>(items: T[], getDate: (item: T) => string | undefined) {
+  return [...items].sort((a, b) => {
+    const dateCompare = (getDate(b) || "").localeCompare(getDate(a) || "");
+    if (dateCompare !== 0) return dateCompare;
+    return JSON.stringify(b).localeCompare(JSON.stringify(a));
+  });
+}
+
 export function getSharedRoot() {
   return SHARED_ROOT;
 }
@@ -98,27 +110,31 @@ export function flagEmoji(code?: string) {
 }
 
 export function getReviewedPredictions() {
-  return readJsonDir<Prediction>(
+  const matches = new Map(getMatches().map((match) => [match.match_id, match]));
+  return sortByDateDesc(readJsonDir<Prediction>(
     sharedPath("data", "predictions", "reviewed"),
-  ).filter((item) => item.status === "reviewed");
+  ).filter((item) => item.status === "reviewed"), (item) => {
+    const match = matches.get(item.match_id);
+    return match?.kickoff_beijing || fallbackDateFromId(item.match_id);
+  });
 }
 
 export function getReviewedDeductions() {
-  return readJsonDir<Deduction>(
+  return sortByDateDesc(readJsonDir<Deduction>(
     sharedPath("data", "deductions", "reviewed"),
-  ).filter((item) => item.status === "reviewed");
+  ).filter((item) => item.status === "reviewed"), (item) => item.deduction_date);
 }
 
 export function getReviewedMystic() {
-  return readJsonDir<TopicLike>(sharedPath("data", "mystic", "reviewed")).filter(
+  return sortByDateDesc(readJsonDir<TopicLike>(sharedPath("data", "mystic", "reviewed")).filter(
     (item) => item.status === "reviewed",
-  );
+  ), (item) => item.published_date || fallbackDateFromId(item.article_path));
 }
 
 export function getReviewedTopics() {
-  return readJsonDir<TopicLike>(sharedPath("data", "topics", "reviewed")).filter(
+  return sortByDateDesc(readJsonDir<TopicLike>(sharedPath("data", "topics", "reviewed")).filter(
     (item) => item.status === "reviewed",
-  );
+  ), (item) => item.published_date || fallbackDateFromId(item.article_path));
 }
 
 export function getReviewedResults() {
