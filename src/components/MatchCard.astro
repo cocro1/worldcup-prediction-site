@@ -15,8 +15,11 @@ const { match, prediction, deduction, result } = Astro.props as {
 
 const predictionReady = Boolean(prediction);
 const deductionReady = Boolean(deduction);
-const handicapReady = result?.handicap;
+const handicapReady = Boolean(result?.handicap);
 const hasActualScore = result && Number.isInteger(result.home_score_90) && Number.isInteger(result.away_score_90);
+const actualScoreText = hasActualScore
+  ? `实际 ${result.home_score_90} : ${result.away_score_90}`
+  : "";
 const mainScore = predictionReady
   ? formatScore(prediction?.prediction_score)
   : "待生成";
@@ -56,7 +59,7 @@ const over25 = deductionReady && typeof deduction?.over_2_5_probability === "num
       {predictionReady ? confidenceLabel(prediction?.confidence, prediction?.confidence_zh) : "待生成"}
     </span>
     {handicapReady && <span class="handicap">{result?.handicap}</span>}
-    <span class="match-state">{hasActualScore ? `实际 ${result.home_score_90} : ${result.away_score_90}` : "未开赛"}</span>
+    {actualScoreText && <span class="match-state">{actualScoreText}</span>}
   </div>
   <div class="detail-grid">
     <div class="mini-panel">

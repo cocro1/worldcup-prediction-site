@@ -1,4 +1,4 @@
-﻿import fs from "node:fs";
+import fs from "node:fs";
 import path from "node:path";
 import { sharedPath, SHARED_ROOT } from "./paths";
 import type { Deduction, Match, Prediction, Result, TopicLike } from "./types";
@@ -190,7 +190,15 @@ export function getCenterDate(matches = getMatches()) {
   if (dates.length === 0) return beijingDateString();
 
   const today = beijingDateString();
-  if (dates.includes(today)) return today;
+  if (dates.includes(today)) {
+    const results = getResultsByMatch();
+    const todayMatches = matches.filter((match) => match.kickoff_beijing_date === today);
+    const hasUnfinishedMatch = todayMatches.some(
+      (match) => !hasScoreResult(results.get(match.match_id)),
+    );
+    if (hasUnfinishedMatch) return today;
+    return dates.find((date) => date > today) || today;
+  }
 
   return dates.find((date) => date > today) || dates.at(-1) || today;
 }
@@ -250,11 +258,24 @@ function normalizeScore(score?: string) {
   return (score || "").trim().replace(/\s+/g, "").replace(":", "-");
 }
 
-function resultScore(result: Result) {
+type ScoreResult = Result & {
+  home_score_90: number;
+  away_score_90: number;
+};
+
+function hasScoreResult(result?: Result): result is ScoreResult {
+  return Boolean(
+    result &&
+      Number.isInteger(result.home_score_90) &&
+      Number.isInteger(result.away_score_90),
+  );
+}
+
+function resultScore(result: ScoreResult) {
   return `${result.home_score_90}-${result.away_score_90}`;
 }
 
-function resultTotalGoals(result: Result) {
+function resultTotalGoals(result: ScoreResult) {
   return typeof result.total_goals_90 === "number"
     ? result.total_goals_90
     : result.home_score_90 + result.away_score_90;
@@ -265,7 +286,7 @@ function normalizeProbability(probability?: number) {
   return probability > 1 ? probability / 100 : probability;
 }
 
-function scoreHit(candidates: Array<string | undefined>, result: Result) {
+function scoreHit(candidates: Array<string | undefined>, result: ScoreResult) {
   const actual = resultScore(result);
   return candidates.some((score) => normalizeScore(score) === actual);
 }
@@ -298,7 +319,7 @@ export function getDashboardMetrics() {
 
   for (const match of matches) {
     const result = results.get(match.match_id);
-    if (!result) continue;
+    if (!hasScoreResult(result)) continue;
 
     const prediction = predictions.get(match.match_id);
     if (prediction) {

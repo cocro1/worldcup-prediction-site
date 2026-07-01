@@ -1,4 +1,4 @@
-﻿export type TeamRef = {
+export type TeamRef = {
   team_id: string;
   name_en: string;
   name_zh: string;
@@ -56,11 +56,17 @@ export type Result = {
   schema_version: "1.0";
   match_id: string;
   status: "full_time" | "result_verified";
-  home_score_90: number;
-  away_score_90: number;
-  total_goals_90?: number;
-  handicap?: string;
-  verified_at: string;
+  home_score_90?: number | null;
+  away_score_90?: number | null;
+  total_goals_90?: number | null;
+  handicap?: string | null;
+  extra_time_score?: string | null;
+  penalty_score?: string | null;
+  source?: {
+    primary: string;
+    checked_sources: string[];
+  } | null;
+  verified_at?: string | null;
 };
 
 export type TopicLike = {

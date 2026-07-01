@@ -1,4 +1,4 @@
-{
+﻿{
   "schema_version": "1.0",
   "content_type": "deduction",
   "deduction_date": "2026-06-30",
@@ -6,7 +6,7 @@
   "article_path": "content/deductions/reviewed/2026-06-30-deduction.md",
   "matches": [
     {
-      "match_id": "2026-06-30-round_of_32-ko-brazil-japan",
+      "match_id": 74,
       "home_team": "Brazil",
       "away_team": "Japan",
       "stage": "Round of 32",
@@ -15,7 +15,7 @@
       "notes": "巴西小组赛场均进球2.7个，进攻火力强劲；日本防守稳固但面对顶级强队可能受限"
     },
     {
-      "match_id": "2026-06-30-round_of_32-ko-germany-paraguay",
+      "match_id": 75,
       "home_team": "Germany",
       "away_team": "Paraguay",
       "stage": "Round of 32",
@@ -24,7 +24,7 @@
       "notes": "德国整体实力占优，但巴拉圭防守严密擅长反击；预计德国控球率60%以上"
     },
     {
-      "match_id": "2026-06-30-round_of_32-ko-netherlands-morocco",
+      "match_id": 76,
       "home_team": "Netherlands",
       "away_team": "Morocco",
       "stage": "Round of 32",

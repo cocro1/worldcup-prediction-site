@@ -1,10 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// In the workflow, we export FWC_DATA_ROOT=$(pwd)/src/data
-// This is the most reliable way to find the data on CI
-// Point to the fwc2026 root (NOT src/data/), because all sharedPath calls
-// in data.ts already include the "data" prefix.
+// In CI/Publisher builds, point FWC_DATA_ROOT at the root that contains
+// both data/ and content/. For the mirrored site files, use $(pwd)/src.
+// For local development, the default remains the shared fwc2026 root.
 export const PROJECT_DATA_ROOT =
   process.env.FWC_DATA_ROOT ||
   process.env.FWC_SHARED_ROOT ||

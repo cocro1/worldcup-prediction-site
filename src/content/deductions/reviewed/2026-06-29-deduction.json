@@ -1,4 +1,4 @@
-{
+﻿{
   "schema_version": "1.0",
   "content_type": "deduction",
   "deduction_date": "2026-06-29",
@@ -6,7 +6,7 @@
   "article_path": "content/deductions/reviewed/2026-06-29-deduction.md",
   "matches": [
     {
-      "match_id": "2026-06-29-round_of_32-ko-south-africa-canada",
+      "match_id": 73,
       "home_team": "South Africa",
       "away_team": "Canada",
       "stage": "Round of 32",
