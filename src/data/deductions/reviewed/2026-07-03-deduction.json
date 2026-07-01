@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-03",
+  "title": "7月3日32强推演",
+  "article_path": "content/deductions/reviewed/2026-07-03-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-03-round_of_32-ko-spain-austria",
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "2-0",
+        "1-0"
+      ],
+      "over_2_5_probability": 0.382,
+      "notes": "西班牙实力占优，预期控球主导，低于2.5球概率较高"
+    },
+    {
+      "match_id": "2026-07-03-round_of_32-ko-portugal-croatia",
+      "home_team": "Portugal",
+      "away_team": "Croatia",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.465,
+      "notes": "势均力敌，克罗地亚经验丰富，可能进入加时或点球大战"
+    },
+    {
+      "match_id": "2026-07-03-round_of_32-ko-switzerland-algeria",
+      "home_team": "Switzerland",
+      "away_team": "Algeria",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "1-0",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.418,
+      "notes": "瑞士防守体系成熟，预期低比分比赛，瑞士小胜概率较高"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-01T13:06:00+08:00",
+  "reviewed_at": "2026-07-01T15:21:00+08:00"
+}

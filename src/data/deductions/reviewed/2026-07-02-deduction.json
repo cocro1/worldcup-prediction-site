@@ -12,10 +12,10 @@
       "stage": "Round of 32",
       "deduction_scores": [
         "2-0",
-        "3-1"
+        "1-0"
       ],
-      "over_2_5_probability": 0.58,
-      "notes": "英格兰实力占优，DR Congo首次晋级淘汰赛可能采取守势"
+      "over_2_5_probability": 0.42,
+      "notes": "英格兰主场优势明显，刚果（金）首次晋级淘汰赛经验不足"
     },
     {
       "match_id": "2026-07-02-round_of_32-ko-belgium-senegal",
@@ -23,11 +23,11 @@
       "away_team": "Senegal",
       "stage": "Round of 32",
       "deduction_scores": [
-        "1-1",
-        "2-1"
+        "2-1",
+        "1-1"
       ],
-      "over_2_5_probability": 0.48,
-      "notes": "比利时黄金一代最后一舞，塞内加尔团队足球稳健"
+      "over_2_5_probability": 0.58,
+      "notes": "两队均擅长进攻，可能对攻战，塞内加尔速度优势明显"
     },
     {
       "match_id": "2026-07-02-round_of_32-ko-united-states-bosnia-and-herzegovina",
@@ -36,16 +36,15 @@
       "stage": "Round of 32",
       "deduction_scores": [
         "2-1",
-        "1-1"
+        "1-0"
       ],
-      "over_2_5_probability": 0.52,
-      "notes": "美国东道主优势明显，波黑首次晋级淘汰赛经验不足"
+      "over_2_5_probability": 0.48,
+      "notes": "美国东道主优势明显，波黑防守组织严密"
     }
   ],
   "status": "reviewed",
   "generated_by": "deduction-ai",
-  "generated_at": "2026-06-30T16:40:00+08:00",
   "reviewed_by": "qa-agent",
-  "reviewed_at": "2026-06-30T16:49:00+08:00",
-  "match_count": 3
+  "generated_at": "2026-07-01T13:00:00+08:00",
+  "reviewed_at": "2026-07-01T15:21:00+08:00"
 }

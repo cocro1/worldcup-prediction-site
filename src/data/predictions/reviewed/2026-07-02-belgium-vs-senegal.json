@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-02-round_of_32-ko-belgium-senegal",
+  "title": "比利时 vs 塞内加尔预测报告",
+  "article_path": "content/predictions/reviewed/2026-07-02-belgium-vs-senegal.md",
+  "prediction_score": "2-1",
+  "backup_score": "1-0",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "比利时小组赛末轮5球大胜找回进攻状态，对阵以小组第三出线的塞内加尔，比利时凭借更稳定的中场控制和阵容深度，预测取胜晋级。",
+  "source_names": [
+    "2026世界杯G组小组赛赛果",
+    "2026世界杯I组小组赛赛果",
+    "FIFA国家队世界排名"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-01T13:22:00+08:00",
+  "reviewed_at": "2026-07-01T15:21:00+08:00"
+}
