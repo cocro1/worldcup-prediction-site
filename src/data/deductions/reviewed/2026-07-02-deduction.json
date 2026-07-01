@@ -10,41 +10,32 @@
       "home_team": "England",
       "away_team": "DR Congo",
       "stage": "Round of 32",
-      "deduction_scores": [
-        "2-0",
-        "1-0"
-      ],
+      "deduction_scores": ["2-0", "2-1"],
       "over_2_5_probability": 0.42,
-      "notes": "英格兰主场优势明显，刚果（金）首次晋级淘汰赛经验不足"
+      "notes": "英格兰净强度1.33 vs 刚果(金)0.33，优势局。淘汰赛修正因子-0.82压低总进球预期，两推演覆盖零封与失球两种场景。"
     },
     {
       "match_id": "2026-07-02-round_of_32-ko-belgium-senegal",
       "home_team": "Belgium",
       "away_team": "Senegal",
       "stage": "Round of 32",
-      "deduction_scores": [
-        "2-1",
-        "1-1"
-      ],
-      "over_2_5_probability": 0.58,
-      "notes": "两队均擅长进攻，可能对攻战，塞内加尔速度优势明显"
+      "deduction_scores": ["2-1", "1-1"],
+      "over_2_5_probability": 0.48,
+      "notes": "比利时净强度1.33 vs 塞内加尔0.67，优势局。塞内加尔进攻爆发力强(场均2.67球)但防守松散(场均失2.0)，预计双方都有进球机会。"
     },
     {
       "match_id": "2026-07-02-round_of_32-ko-united-states-bosnia-and-herzegovina",
       "home_team": "United States",
       "away_team": "Bosnia and Herzegovina",
       "stage": "Round of 32",
-      "deduction_scores": [
-        "2-1",
-        "1-0"
-      ],
-      "over_2_5_probability": 0.48,
-      "notes": "美国东道主优势明显，波黑防守组织严密"
+      "deduction_scores": ["3-0", "2-0"],
+      "over_2_5_probability": 0.62,
+      "notes": "美国净强度1.33 vs 波黑-0.33，碾压局(强度差1.67)。美国主场+0.35额外预期进球，波黑防守面对强队时溃败(0-4负瑞士)。"
     }
   ],
   "status": "reviewed",
   "generated_by": "deduction-ai",
   "reviewed_by": "qa-agent",
-  "generated_at": "2026-07-01T13:00:00+08:00",
-  "reviewed_at": "2026-07-01T15:21:00+08:00"
+  "generated_at": "2026-07-01T15:25:00+08:00",
+  "reviewed_at": "2026-07-01T20:55:00+08:00"
 }
