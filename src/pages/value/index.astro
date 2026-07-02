@@ -1,0 +1,167 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import SiteHeader from "@/components/SiteHeader.astro";
+import { getMatches, getReviewedValueSignals } from "@/lib/data";
+
+const matches = new Map(getMatches().map((match) => [match.match_id, match]));
+const signals = getReviewedValueSignals();
+const activeSignals = signals.filter((item) => item.signal === "watch" || item.signal === "thin_value");
+const watchCount = signals.filter((item) => item.signal === "watch").length;
+const valueCount = activeSignals.length;
+const averageEdge = activeSignals.length
+  ? activeSignals.reduce((sum, item) => sum + item.edge, 0) / activeSignals.length
+  : 0;
+const latestGeneratedAt = signals
+  .map((item) => item.generated_at)
+  .filter(Boolean)
+  .sort()
+  .at(-1);
+
+function percent(value: number) {
+  return `${(value * 100).toFixed(1)}%`;
+}
+
+function signedPercent(value: number) {
+  const sign = value > 0 ? "+" : "";
+  return `${sign}${(value * 100).toFixed(1)}%`;
+}
+
+function odds(value: number) {
+  return value.toFixed(2);
+}
+
+function signalLabel(signal: string) {
+  if (signal === "watch") return "观察";
+  if (signal === "thin_value") return "薄价值";
+  if (signal === "avoid") return "回避";
+  return "无价值";
+}
+
+function riskLabel(risk: string) {
+  if (risk === "low") return "低风险";
+  if (risk === "high") return "高风险";
+  return "中风险";
+}
+
+function marketLabel(signal: { market: string; line?: number | null }) {
+  if (signal.market === "moneyline_1x2") return "胜平负";
+  if (signal.market === "over_under_2_5") return `大小球 ${signal.line ?? 2.5}`;
+  return signal.market;
+}
+
+function selectionLabel(selection: string, matchId: string) {
+  const match = matches.get(matchId);
+  if (selection === "home") return match?.home_team.display_name_zh || "主队";
+  if (selection === "away") return match?.away_team.display_name_zh || "客队";
+  if (selection === "draw") return "平局";
+  if (selection === "over_2_5") return "大 2.5";
+  if (selection === "under_2_5") return "小 2.5";
+  return selection;
+}
+
+function formatDateTime(matchId: string) {
+  const match = matches.get(matchId);
+  if (!match) return "比赛时间待定";
+  return `${match.kickoff_beijing_date} ${match.kickoff_beijing_time} 北京`;
+}
+
+const summary = [
+  { label: "影子盘样本", value: signals.length.toString(), note: "研究记录" },
+  { label: "正向信号", value: valueCount.toString(), note: `${watchCount} 个观察` },
+  { label: "平均 Edge", value: signedPercent(averageEdge), note: "仅统计正向信号" },
+  { label: "运行模式", value: signals.some((item) => item.mode === "published_research") ? "公开研究" : "影子盘", note: "不自动下注" },
+];
+---
+
+<BaseLayout active="value" title="价值模型 - 2026 世界杯预测">
+  <SiteHeader subtitle="赔率价值评估" />
+
+  <section class="value-hero">
+    <div>
+      <p class="eyebrow">Odds Value Model v0.1</p>
+      <h2>只做研究信号，不做投注指令</h2>
+      <p>模型比较“站内预测概率”和“去水市场概率”，输出观察、薄价值、无价值或回避。第一版用于影子盘验证。</p>
+    </div>
+    <span>{latestGeneratedAt ? `更新 ${latestGeneratedAt.slice(0, 10)}` : "待生成"}</span>
+  </section>
+
+  <section class="value-stat-grid" aria-label="价值模型摘要">
+    {summary.map((item) => (
+      <div class="value-stat">
+        <span>{item.label}</span>
+        <strong>{item.value}</strong>
+        <small>{item.note}</small>
+      </div>
+    ))}
+  </section>
+
+  <section class="value-section">
+    <div class="section-heading">
+      <h2>价值信号</h2>
+      <span>最新在上</span>
+    </div>
+
+    <div class="value-list">
+      {signals.length === 0 && <div class="empty-state">暂无赔率价值信号</div>}
+      {signals.map((signal) => {
+        const match = matches.get(signal.match_id);
+        return (
+          <article class:list={["value-card", signal.signal]}>
+            <div class="value-card-head">
+              <div>
+                <span>{formatDateTime(signal.match_id)}</span>
+                <h3>{match ? `${match.home_team.display_name_zh} vs ${match.away_team.display_name_zh}` : signal.match_id}</h3>
+                <p>{marketLabel(signal)} · {selectionLabel(signal.selection, signal.match_id)}</p>
+              </div>
+              <strong class="value-badge">{signalLabel(signal.signal)}</strong>
+            </div>
+
+            <div class="value-metrics">
+              <div class="value-metric">
+                <span>模型概率</span>
+                <strong>{percent(signal.model_probability)}</strong>
+              </div>
+              <div class="value-metric">
+                <span>市场概率</span>
+                <strong>{percent(signal.market_probability)}</strong>
+              </div>
+              <div class="value-metric">
+                <span>价值差</span>
+                <strong>{signedPercent(signal.edge)}</strong>
+              </div>
+              <div class="value-metric">
+                <span>EV</span>
+                <strong>{signedPercent(signal.expected_value)}</strong>
+              </div>
+            </div>
+
+            <div class="prob-bars" aria-label="概率对比">
+              <div class="prob-row">
+                <span>模型</span>
+                <div class="bar-track"><i style={`width:${Math.min(100, signal.model_probability * 100)}%`}></i></div>
+              </div>
+              <div class="prob-row market">
+                <span>市场</span>
+                <div class="bar-track"><i style={`width:${Math.min(100, signal.market_probability * 100)}%`}></i></div>
+              </div>
+            </div>
+
+            <div class="value-meta-grid">
+              <div><span>盘口赔率</span><strong>{odds(signal.decimal_odds)}</strong></div>
+              <div><span>公允赔率</span><strong>{odds(signal.fair_odds)}</strong></div>
+              <div><span>风险</span><strong>{riskLabel(signal.risk_level)}</strong></div>
+              <div><span>记录单位</span><strong>{signal.shadow_stake_units ?? 0}u</strong></div>
+            </div>
+
+            {signal.rationale && <p class="value-rationale">{signal.rationale}</p>}
+          </article>
+        );
+      })}
+    </div>
+  </section>
+
+  <section class="value-disclaimer">
+    <strong>免责声明</strong>
+    <p>本页为赔率价值研究和影子盘验证工具，仅用于内容分析与模型校准，不构成投注建议，不保证收益，也不执行自动下注。</p>
+  </section>
+</BaseLayout>

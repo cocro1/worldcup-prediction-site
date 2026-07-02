@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { sharedPath, SHARED_ROOT } from "./paths";
-import type { Deduction, Match, Prediction, Result, TopicLike } from "./types";
+import type { Deduction, Match, OddsSnapshot, Prediction, Result, TopicLike, ValueSignal } from "./types";
 
 export const HIT_RATE_START_DATE = "2026-06-24";
 export const OVER_2_5_THRESHOLD = 0.65;
@@ -123,6 +123,29 @@ export function getReviewedDeductions() {
   return sortByDateDesc(readJsonDir<Deduction>(
     sharedPath("data", "deductions", "reviewed"),
   ).filter((item) => item.status === "reviewed"), (item) => item.deduction_date);
+}
+
+export function getReviewedOddsSnapshots() {
+  return sortByDateDesc(readJsonDir<OddsSnapshot>(
+    sharedPath("data", "odds", "reviewed"),
+  ).filter((item) => item.status === "reviewed"), (item) => item.fetched_at);
+}
+
+export function getReviewedValueSignals() {
+  const matches = new Map(getMatches().map((match) => [match.match_id, match]));
+  const priority = { watch: 0, thin_value: 1, no_value: 2, avoid: 3 } as const;
+  return sortByDateDesc(readJsonDir<ValueSignal>(
+    sharedPath("data", "value", "reviewed"),
+  ).filter((item) => item.status === "reviewed"), (item) => {
+    const match = matches.get(item.match_id);
+    return match?.kickoff_beijing || fallbackDateFromId(item.match_id);
+  }).sort((a, b) => {
+    const matchTime = (matches.get(b.match_id)?.kickoff_beijing || "").localeCompare(matches.get(a.match_id)?.kickoff_beijing || "");
+    if (matchTime !== 0) return matchTime;
+    const priorityCompare = (priority[a.signal] ?? 9) - (priority[b.signal] ?? 9);
+    if (priorityCompare !== 0) return priorityCompare;
+    return b.expected_value - a.expected_value;
+  });
 }
 
 export function getReviewedMystic() {

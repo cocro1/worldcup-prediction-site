@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-03-round_of_32-ko-spain-austria",
+  "title": "西班牙 vs 奥地利 赛前预测：H组全胜零失球，斗牛士冲击32强",
+  "article_path": "content/predictions/reviewed/2026-07-03-spain-vs-austria.md",
+  "prediction_score": "2-0",
+  "backup_score": "1-0",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "西班牙以 H组全胜零失球姿态晋级，传控体系成熟；奥地利防守场均失2球，防线不稳。斗牛士压制性传控主导比赛，取胜晋级。",
+  "source_names": ["2026世界杯小组赛赛程数据", "2026世界杯球队数据"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-02T19:35:00+08:00",
+  "reviewed_at": "2026-07-02T19:56:00+08:00"
+}

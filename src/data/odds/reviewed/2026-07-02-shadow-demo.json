@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "content_type": "odds_snapshot",
+  "snapshot_id": "2026-07-02-shadow-demo",
+  "provider": "shadow-demo",
+  "provider_is_live": false,
+  "fetched_at": "2026-07-02T09:00:00+08:00",
+  "notes": "演示用影子盘赔率快照。真实使用时由 Odds/Value Agent 写入公开赔率源或 OddsAPI 校验后的快照。",
+  "matches": [
+    {
+      "match_id": "2026-07-02-round_of_32-ko-england-dr-congo",
+      "markets": [
+        {
+          "market": "moneyline_1x2",
+          "outcomes": [
+            { "selection": "home", "label": "英格兰胜", "decimal_odds": 1.45 },
+            { "selection": "draw", "label": "平局", "decimal_odds": 4.40 },
+            { "selection": "away", "label": "刚果（金）胜", "decimal_odds": 8.20 }
+          ]
+        },
+        {
+          "market": "over_under_2_5",
+          "line": 2.5,
+          "outcomes": [
+            { "selection": "over_2_5", "label": "大 2.5", "decimal_odds": 2.28 },
+            { "selection": "under_2_5", "label": "小 2.5", "decimal_odds": 1.64 }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "2026-07-02-round_of_32-ko-belgium-senegal",
+      "markets": [
+        {
+          "market": "moneyline_1x2",
+          "outcomes": [
+            { "selection": "home", "label": "比利时胜", "decimal_odds": 2.05 },
+            { "selection": "draw", "label": "平局", "decimal_odds": 3.25 },
+            { "selection": "away", "label": "塞内加尔胜", "decimal_odds": 3.85 }
+          ]
+        },
+        {
+          "market": "over_under_2_5",
+          "line": 2.5,
+          "outcomes": [
+            { "selection": "over_2_5", "label": "大 2.5", "decimal_odds": 2.08 },
+            { "selection": "under_2_5", "label": "小 2.5", "decimal_odds": 1.78 }
+          ]
+        }
+      ]
+    },
+    {
+      "match_id": "2026-07-02-round_of_32-ko-united-states-bosnia-and-herzegovina",
+      "markets": [
+        {
+          "market": "moneyline_1x2",
+          "outcomes": [
+            { "selection": "home", "label": "美国胜", "decimal_odds": 1.62 },
+            { "selection": "draw", "label": "平局", "decimal_odds": 4.10 },
+            { "selection": "away", "label": "波黑胜", "decimal_odds": 5.70 }
+          ]
+        },
+        {
+          "market": "over_under_2_5",
+          "line": 2.5,
+          "outcomes": [
+            { "selection": "over_2_5", "label": "大 2.5", "decimal_odds": 1.95 },
+            { "selection": "under_2_5", "label": "小 2.5", "decimal_odds": 1.87 }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "value-model-demo-seed",
+  "reviewed_by": "codex",
+  "reviewed_at": "2026-07-02T09:05:00+08:00"
+}

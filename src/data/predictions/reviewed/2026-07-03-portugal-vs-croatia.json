@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-03-round_of_32-ko-portugal-croatia",
+  "title": "葡萄牙 vs 克罗地亚 赛前预测：H2H绝对优势，葡萄牙冲击32强",
+  "article_path": "content/predictions/reviewed/2026-07-03-portugal-vs-croatia.md",
+  "prediction_score": "2-1",
+  "backup_score": "1-0",
+  "confidence": "medium-low",
+  "confidence_zh": "中低置信",
+  "summary": "葡萄牙 F组头名防守稳固，H2H 对克罗地亚优势明显；但克罗地亚淘汰赛经验丰富，老将压阵不可轻视。预测葡萄牙小胜晋级。",
+  "source_names": ["2026世界杯小组赛赛程数据", "2026世界杯球队数据"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-02T19:35:00+08:00",
+  "reviewed_at": "2026-07-02T19:56:00+08:00"
+}
