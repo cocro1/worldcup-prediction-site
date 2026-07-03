@@ -1,18 +1,19 @@
 {
   "schema_version": "1.0",
   "match_id": "2026-07-03-round_of_32-ko-spain-austria",
-  "status": "full_time",
-  "home_score_90": null,
-  "away_score_90": null,
-  "total_goals_90": null,
+  "status": "result_verified",
+  "home_score_90": 3,
+  "away_score_90": 0,
+  "total_goals_90": 3,
   "handicap": "主-1.5",
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
-    "primary": "OddsAPI handicap: Bovada",
+    "primary": "OddsAPI scores endpoint: Spain 3-0 Austria",
     "checked_sources": [
-      "OddsAPI handicap endpoint"
+      "OddsAPI scores endpoint",
+      "Match score confirmed via multiple sports media"
     ]
   },
-  "verified_at": "2026-06-30T00:11:07+08:00"
+  "verified_at": "2026-07-03T17:12:00+08:00"
 }
