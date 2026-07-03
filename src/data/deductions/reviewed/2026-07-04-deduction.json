@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-04",
+  "title": "7月4日32强推演",
+  "article_path": "content/deductions/reviewed/2026-07-04-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-04-round_of_32-ko-australia-egypt",
+      "home_team": "Australia",
+      "away_team": "Egypt",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "1-1",
+        "0-1"
+      ],
+      "over_2_5_probability": 0.42
+    },
+    {
+      "match_id": "2026-07-04-round_of_32-ko-argentina-cape-verde",
+      "home_team": "Argentina",
+      "away_team": "Cape Verde",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "3-0",
+        "2-0"
+      ],
+      "over_2_5_probability": 0.68
+    },
+    {
+      "match_id": "2026-07-04-round_of_32-ko-colombia-ghana",
+      "home_team": "Colombia",
+      "away_team": "Ghana",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "2-0",
+        "1-0"
+      ],
+      "over_2_5_probability": 0.48
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "generated_at": "2026-07-03T13:05:00+08:00",
+  "reviewed_by": "qa-agent",
+  "reviewed_at": "2026-07-03T16:26:20+08:00",
+  "match_count": 3
+}
