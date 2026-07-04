@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-06",
+  "title": "7月6日16强推演",
+  "article_path": "content/deductions/reviewed/2026-07-06-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-06-round_of_16-ko-brazil-norway",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "stage": "Round of 16",
+      "deduction_scores": ["2-0", "3-1"],
+      "over_2_5_probability": 0.65,
+      "notes": "巴西进攻火力强劲，挪威防守稳固"
+    },
+    {
+      "match_id": "2026-07-06-round_of_16-ko-mexico-england",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "stage": "Round of 16",
+      "deduction_scores": ["1-2", "0-1"],
+      "over_2_5_probability": 0.38,
+      "notes": "均势对决，墨西哥主场优势明显"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-04T17:35:00+08:00",
+  "reviewed_at": "2026-07-04T17:47:00+08:00"
+}

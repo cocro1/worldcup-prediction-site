@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-07",
+  "title": "7月7日16强推演",
+  "article_path": "content/deductions/reviewed/2026-07-07-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-07-round_of_16-ko-portugal-spain",
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "stage": "Round of 16",
+      "deduction_scores": ["1-1", "2-1"],
+      "over_2_5_probability": 0.48,
+      "notes": "伊比利亚德比，均势对决"
+    },
+    {
+      "match_id": "2026-07-07-round_of_16-ko-usa-belgium",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "stage": "Round of 16",
+      "deduction_scores": ["1-2", "0-1"],
+      "over_2_5_probability": 0.55,
+      "notes": "比利时实力占优，美国主场作战"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-04T17:40:00+08:00",
+  "reviewed_at": "2026-07-04T17:47:00+08:00"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-08",
+  "title": "7月8日16强推演",
+  "article_path": "content/deductions/reviewed/2026-07-08-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-08-round_of_16-ko-argentina-egypt",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "stage": "Round of 16",
+      "deduction_scores": ["3-0", "2-0"],
+      "over_2_5_probability": 0.72,
+      "notes": "阿根廷实力碾压，进攻火力强劲"
+    },
+    {
+      "match_id": "2026-07-08-round_of_16-ko-switzerland-colombia",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "stage": "Round of 16",
+      "deduction_scores": ["1-2", "0-1"],
+      "over_2_5_probability": 0.52,
+      "notes": "哥伦比亚实力占优，瑞士防守稳固"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-04T17:45:00+08:00",
+  "reviewed_at": "2026-07-04T17:47:00+08:00"
+}

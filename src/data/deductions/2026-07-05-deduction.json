@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-05",
+  "title": "7月5日16强推演",
+  "article_path": "content/deductions/reviewed/2026-07-05-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-05-round_of_16-ko-canada-morocco",
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "stage": "Round of 16",
+      "deduction_scores": ["1-1", "2-1"],
+      "over_2_5_probability": 0.42,
+      "notes": "均势对决，加拿大主场优势明显"
+    },
+    {
+      "match_id": "2026-07-05-round_of_16-ko-paraguay-france",
+      "home_team": "Paraguay",
+      "away_team": "France",
+      "stage": "Round of 16",
+      "deduction_scores": ["0-3", "1-2"],
+      "over_2_5_probability": 0.68,
+      "notes": "法国实力碾压，进攻火力强劲"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-04T17:30:00+08:00",
+  "reviewed_at": "2026-07-04T17:47:00+08:00"
+}
