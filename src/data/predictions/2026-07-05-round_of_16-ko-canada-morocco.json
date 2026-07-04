@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-05-round_of_16-ko-canada-morocco",
+  "title": "加拿大 vs 摩洛哥 预测报告",
+  "article_path": "content/predictions/reviewed/2026-07-05-round_of_16-ko-canada-morocco.md",
+  "prediction_score": "0-1",
+  "backup_score": "1-1",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "摩洛哥防守稳健、经验丰富，加拿大首次进淘汰赛进攻效率偏低，预测摩洛哥1-0小胜。",
+  "source_names": ["matches.seed.json", "teams.seed.json", "世界杯公开报道"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-04T16:36:52+08:00",
+  "reviewed_at": "2026-07-04T16:49:00+08:00"
+}

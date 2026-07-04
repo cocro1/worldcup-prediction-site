@@ -3345,26 +3345,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-89-W74-vs-W77",
+    "match_id": "2026-07-05-round_of_16-ko-canada-morocco",
     "match_no": 89,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w74",
-      "name_en": "W74",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W74"
+      "team_id": "canada",
+      "name_en": "Canada",
+      "name_zh": "加拿大",
+      "display_name_zh": "加拿大",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w77",
-      "name_en": "W77",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W77"
+      "team_id": "morocco",
+      "name_en": "Morocco",
+      "name_zh": "摩洛哥",
+      "display_name_zh": "摩洛哥",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-05T01:00:00+08:00",
     "kickoff_beijing_date": "2026-07-05",
@@ -3373,7 +3373,7 @@
     "venue": "Lincoln Financial Field",
     "city": "Philadelphia",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 92,
@@ -3383,26 +3383,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-90-W73-vs-W75",
+    "match_id": "2026-07-05-round_of_16-ko-paraguay-france",
     "match_no": 90,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w73",
-      "name_en": "W73",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W73"
+      "team_id": "paraguay",
+      "name_en": "Paraguay",
+      "name_zh": "巴拉圭",
+      "display_name_zh": "巴拉圭",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w75",
-      "name_en": "W75",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W75"
+      "team_id": "france",
+      "name_en": "France",
+      "name_zh": "法国",
+      "display_name_zh": "法国",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-05T05:00:00+08:00",
     "kickoff_beijing_date": "2026-07-05",
@@ -3411,7 +3411,7 @@
     "venue": "NRG Stadium",
     "city": "Houston",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 93,
@@ -3421,26 +3421,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-91-W76-vs-W78",
+    "match_id": "2026-07-06-round_of_16-ko-brazil-norway",
     "match_no": 91,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w76",
-      "name_en": "W76",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W76"
+      "team_id": "brazil",
+      "name_en": "Brazil",
+      "name_zh": "巴西",
+      "display_name_zh": "巴西",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w78",
-      "name_en": "W78",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W78"
+      "team_id": "norway",
+      "name_en": "Norway",
+      "name_zh": "挪威",
+      "display_name_zh": "挪威",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-06T04:00:00+08:00",
     "kickoff_beijing_date": "2026-07-06",
@@ -3449,7 +3449,7 @@
     "venue": "MetLife Stadium",
     "city": "East Rutherford",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 94,
@@ -3459,26 +3459,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-92-W79-vs-W80",
+    "match_id": "2026-07-06-round_of_16-ko-mexico-england",
     "match_no": 92,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w79",
-      "name_en": "W79",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W79"
+      "team_id": "mexico",
+      "name_en": "Mexico",
+      "name_zh": "墨西哥",
+      "display_name_zh": "墨西哥",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w80",
-      "name_en": "W80",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W80"
+      "team_id": "england",
+      "name_en": "England",
+      "name_zh": "英格兰",
+      "display_name_zh": "英格兰",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-06T08:00:00+08:00",
     "kickoff_beijing_date": "2026-07-06",
@@ -3487,7 +3487,7 @@
     "venue": "Estadio Azteca",
     "city": "Mexico City",
     "country": "Mexico",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 95,
@@ -3497,26 +3497,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-93-W83-vs-W84",
+    "match_id": "2026-07-07-round_of_16-ko-portugal-spain",
     "match_no": 93,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w83",
-      "name_en": "W83",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W83"
+      "team_id": "portugal",
+      "name_en": "Portugal",
+      "name_zh": "葡萄牙",
+      "display_name_zh": "葡萄牙",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w84",
-      "name_en": "W84",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W84"
+      "team_id": "spain",
+      "name_en": "Spain",
+      "name_zh": "西班牙",
+      "display_name_zh": "西班牙",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-07T03:00:00+08:00",
     "kickoff_beijing_date": "2026-07-07",
@@ -3525,7 +3525,7 @@
     "venue": "AT&T Stadium",
     "city": "Arlington",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 96,
@@ -3535,26 +3535,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-94-W81-vs-W82",
+    "match_id": "2026-07-07-round_of_16-ko-usa-belgium",
     "match_no": 94,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w81",
-      "name_en": "W81",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W81"
+      "team_id": "united_states",
+      "name_en": "United States",
+      "name_zh": "美国",
+      "display_name_zh": "美国",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w82",
-      "name_en": "W82",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W82"
+      "team_id": "belgium",
+      "name_en": "Belgium",
+      "name_zh": "比利时",
+      "display_name_zh": "比利时",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-07T08:00:00+08:00",
     "kickoff_beijing_date": "2026-07-07",
@@ -3563,7 +3563,7 @@
     "venue": "Lumen Field",
     "city": "Seattle",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 97,
@@ -3573,26 +3573,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-95-W86-vs-W88",
+    "match_id": "2026-07-08-round_of_16-ko-argentina-egypt",
     "match_no": 95,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w86",
-      "name_en": "W86",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W86"
+      "team_id": "argentina",
+      "name_en": "Argentina",
+      "name_zh": "阿根廷",
+      "display_name_zh": "阿根廷",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w88",
-      "name_en": "W88",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W88"
+      "team_id": "egypt",
+      "name_en": "Egypt",
+      "name_zh": "埃及",
+      "display_name_zh": "埃及",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-08T00:00:00+08:00",
     "kickoff_beijing_date": "2026-07-08",
@@ -3601,7 +3601,7 @@
     "venue": "Mercedes-Benz Stadium",
     "city": "Atlanta",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 98,
@@ -3611,26 +3611,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-96-W85-vs-W87",
+    "match_id": "2026-07-08-round_of_16-ko-switzerland-colombia",
     "match_no": 96,
     "stage": "round_of_16",
     "stage_zh": "16强",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w85",
-      "name_en": "W85",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W85"
+      "team_id": "switzerland",
+      "name_en": "Switzerland",
+      "name_zh": "瑞士",
+      "display_name_zh": "瑞士",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w87",
-      "name_en": "W87",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W87"
+      "team_id": "colombia",
+      "name_en": "Colombia",
+      "name_zh": "哥伦比亚",
+      "display_name_zh": "哥伦比亚",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-08T04:00:00+08:00",
     "kickoff_beijing_date": "2026-07-08",
@@ -3639,7 +3639,7 @@
     "venue": "BC Place",
     "city": "Vancouver",
     "country": "Canada",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
       "primary": "excel_seed",
       "excel_row": 99,

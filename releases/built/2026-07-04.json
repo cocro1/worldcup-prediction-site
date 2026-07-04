@@ -1,0 +1,21 @@
+{
+  "build_time": "2026-07-04T16:54:43+08:00",
+  "success": true,
+  "pages_built": 167,
+  "sync_summary": {
+    "content_predictions_md": 98,
+    "content_deductions_md": 12,
+    "content_mystic_md": 4,
+    "content_topics_md": 13,
+    "data_predictions_json": 98,
+    "data_deductions_json": 12,
+    "data_mystic_json": 4,
+    "data_topics_json": 13,
+    "data_results_json": 88,
+    "data_matches": true,
+    "data_teams": true
+  },
+  "bom_stripped": 46,
+  "output_dir": "dist/",
+  "build_duration_seconds": 11.12
+}

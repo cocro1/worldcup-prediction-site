@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-08-round_of_16-ko-switzerland-colombia",
+  "title": "瑞士 vs 哥伦比亚 预测报告",
+  "article_path": "content/predictions/reviewed/2026-07-08-round_of_16-ko-switzerland-colombia.md",
+  "prediction_score": "1-1",
+  "backup_score": "0-1",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "双方防守极稳（瑞士失2球、哥伦比亚失1球），风格相似（防反），大概率胶着战。",
+  "source_names": ["matches.seed.json", "teams.seed.json", "世界杯公开报道"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-04T16:36:52+08:00",
+  "reviewed_at": "2026-07-04T16:49:00+08:00"
+}
