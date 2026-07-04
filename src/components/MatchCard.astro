@@ -21,12 +21,10 @@ const actualScoreText = hasActualScore
   ? (() => {
       const regular = `${result.home_score_90}:${result.away_score_90}`;
       const parts: string[] = [regular];
-      // 有加时且比分不同时，显示全场比分
+      // 有加时就显示全场比分（即使和常规相同，也表明打了加时）
       if (result.extra_time_score) {
         const et = result.extra_time_score.replace("-", ":");
-        if (et !== regular) {
-          parts.push(`全场 ${et}`);
-        }
+        parts.push(`全场 ${et}`);
       }
       // 有加时同分后点球，或直接点球，显示点球比分
       if (result.penalty_score) {
