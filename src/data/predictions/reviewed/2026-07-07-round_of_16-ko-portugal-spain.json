@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-07-round_of_16-ko-portugal-spain",
+  "title": "葡萄牙 vs 西班牙 预测报告",
+  "article_path": "content/predictions/reviewed/2026-07-07-round_of_16-ko-portugal-spain.md",
+  "prediction_score": "1-2",
+  "backup_score": "0-1",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "西班牙11-1得失球状态火热，葡萄牙面对强队创造力不足，但伊比利亚德比充满变数。",
+  "source_names": ["matches.seed.json", "teams.seed.json", "世界杯公开报道"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-04T16:36:52+08:00",
+  "reviewed_at": "2026-07-04T16:49:00+08:00"
+}
