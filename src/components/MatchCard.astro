@@ -20,21 +20,23 @@ const hasActualScore = result && Number.isInteger(result.home_score_90) && Numbe
 const actualScoreText = hasActualScore
   ? (() => {
       const regular = `${result.home_score_90}:${result.away_score_90}`;
-      // 全场比赛比分：如有加时且不同则用加时比分，否则用常规比分
-      let fullMatch = regular;
+      const parts: string[] = [regular];
+      // 有加时且比分不同时，显示全场比分
       if (result.extra_time_score) {
         const et = result.extra_time_score.replace("-", ":");
         if (et !== regular) {
-          fullMatch = et;
+          parts.push(`全场 ${et}`);
         }
       }
-      // 先写常规时间比分，再在括号里写全场比分，最后加点球信息
-      const parts: string[] = [`全场 ${fullMatch}`];
+      // 有加时同分后点球，或直接点球，显示点球比分
       if (result.penalty_score) {
         const pen = result.penalty_score.replace("-", ":");
         parts.push(`点球 ${pen}`);
       }
-      return `实际 ${regular}（${parts.join("，")}）`;
+      // 实际 X:X（全场 Y:Y）（点球 Z:Z）——只有需要时才加括号
+      return parts.length > 1
+        ? `实际 ${parts[0]}（${parts.slice(1).join("，")}）`
+        : `实际 ${regular}`;
     })()
   : "";
 const mainScore = predictionReady
