@@ -18,7 +18,25 @@ const deductionReady = Boolean(deduction);
 const handicapReady = Boolean(result?.handicap);
 const hasActualScore = result && Number.isInteger(result.home_score_90) && Number.isInteger(result.away_score_90);
 const actualScoreText = hasActualScore
-  ? `实际 ${result.home_score_90} : ${result.away_score_90}`
+  ? (() => {
+      const regular = `${result.home_score_90}:${result.away_score_90}`;
+      const parts: string[] = [regular];
+      // If match went to extra time, show full-match score in parentheses
+      if (result.extra_time_score) {
+        const et = result.extra_time_score.replace("-", ":");
+        if (et !== regular) {
+          parts.push(`全场 ${et}`);
+        }
+      }
+      if (result.penalty_score) {
+        const pen = result.penalty_score.replace("-", ":");
+        parts.push(`点球 ${pen}`);
+      }
+      // Format: "实际 1:1（加时 2:1，点球 4:3）"
+      return parts.length > 1
+        ? `实际 ${parts[0]}（${parts.slice(1).join("，")}）`
+        : `实际 ${regular}`;
+    })()
   : "";
 const mainScore = predictionReady
   ? formatScore(prediction?.prediction_score)
