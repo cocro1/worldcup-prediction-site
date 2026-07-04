@@ -20,22 +20,21 @@ const hasActualScore = result && Number.isInteger(result.home_score_90) && Numbe
 const actualScoreText = hasActualScore
   ? (() => {
       const regular = `${result.home_score_90}:${result.away_score_90}`;
-      const parts: string[] = [regular];
-      // If match went to extra time, show full-match score in parentheses
+      // 全场比赛比分：如有加时且不同则用加时比分，否则用常规比分
+      let fullMatch = regular;
       if (result.extra_time_score) {
         const et = result.extra_time_score.replace("-", ":");
         if (et !== regular) {
-          parts.push(`全场 ${et}`);
+          fullMatch = et;
         }
       }
+      // 先写常规时间比分，再在括号里写全场比分，最后加点球信息
+      const parts: string[] = [`全场 ${fullMatch}`];
       if (result.penalty_score) {
         const pen = result.penalty_score.replace("-", ":");
         parts.push(`点球 ${pen}`);
       }
-      // Format: "实际 1:1（加时 2:1，点球 4:3）"
-      return parts.length > 1
-        ? `实际 ${parts[0]}（${parts.slice(1).join("，")}）`
-        : `实际 ${regular}`;
+      return `实际 ${regular}（${parts.join("，")}）`;
     })()
   : "";
 const mainScore = predictionReady
