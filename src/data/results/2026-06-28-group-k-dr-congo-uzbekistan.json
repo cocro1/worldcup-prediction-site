@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-28-group-k-dr-congo-uzbekistan",
+  "status": "result_verified",
+  "home_score_90": 3,
+  "away_score_90": 1,
+  "total_goals_90": 4,
+  "handicap": "主-0.75",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI scores endpoint: DR Congo 3-1 Uzbekistan",
+    "checked_sources": [
+      "OddsAPI scores endpoint: DR Congo 3-1 Uzbekistan (completed=True)",
+      "Wikipedia Group K table: DR Congo W1 D1 L1 GF=4 GA=3; Uzbekistan W0 D0 L3 GF=2 GA=11"
+    ]
+  },
+  "verified_at": "2026-06-28T19:00:00+08:00"
+}

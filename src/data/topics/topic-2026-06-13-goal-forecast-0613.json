@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-13-goal-forecast-0613",
+  "title": "⚽ 2026世界杯 · 前五轮进球预测分析",
+  "article_path": "content/topics/draft/topic-2026-06-13-goal-forecast-0613.md",
+  "published_date": "2026-06-13",
+  "topic_type": "date",
+  "related": {
+    "dates": [
+      "2026-06-13"
+    ],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": []
+  },
+  "summary": "| 指标 | 数值 |\n|---|---|\n| 本届已完赛场次 | 3场 |\n| 已进球数 | 7球 |\n| 场均进球（3场） | 2.33球 |\n| **首轮总进球预测区间** | **35-41球（等效32队赛制）/ 55-65球（48队）** |",
+  "priority": 70,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

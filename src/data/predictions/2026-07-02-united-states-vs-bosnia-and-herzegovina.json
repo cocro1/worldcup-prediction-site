@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-02-round_of_32-ko-united-states-bosnia-and-herzegovina",
+  "title": "美国 vs 波黑预测报告",
+  "article_path": "content/predictions/reviewed/2026-07-02-united-states-vs-bosnia-and-herzegovina.md",
+  "prediction_score": "2-0",
+  "backup_score": "3-1",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "美国队作为东道主，小组赛两连胜锁定头名，主场作战优势明显。波黑小组赛防守漏洞较大，对阵瑞士单场丢4球，预测美国主场取胜晋级。",
+  "source_names": [
+    "2026世界杯D组小组赛赛果",
+    "2026世界杯B组小组赛赛果",
+    "FIFA国家队世界排名"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-01T13:24:00+08:00",
+  "reviewed_at": "2026-07-01T15:21:00+08:00"
+}

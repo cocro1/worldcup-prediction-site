@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-04-round_of_32-ko-argentina-cape-verde",
+  "title": "阿根廷 vs 佛得角 赛前预测：卫冕冠军多点开花，黑马铁桶难挡梅西",
+  "article_path": "content/predictions/reviewed/2026-07-04-argentina-vs-cape-verde.md",
+  "prediction_score": "2-0",
+  "backup_score": "3-0",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "阿根廷全面占优，梅西6球领跑射手榜；佛得角防守韧性极强但中场伤缺，进攻能力严重不足，难挡卫冕冠军。",
+  "source_names": [
+    "企鹅号：阿根廷vs佛得角比赛分析（2026-07-03 08:41）",
+    "企鹅号：阿根廷小组赛回顾（2026-07-03 01:11）",
+    "企鹅号：佛得角世界杯历史性晋级报道（2026-07-03 10:55）",
+    "企鹅号：佛得角0-0逼平沙特报道（2026-07-03 07:22）",
+    "人民网：佛得角首次晋级世界杯淘汰赛（2026-07-02 21:48）"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-03T16:02:00+08:00",
+  "reviewed_at": "2026-07-03T16:51:59+08:00"
+}

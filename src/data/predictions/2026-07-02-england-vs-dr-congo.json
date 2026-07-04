@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-02-round_of_32-ko-england-dr-congo",
+  "title": "英格兰 vs 刚果（金）预测报告",
+  "article_path": "content/predictions/reviewed/2026-07-02-england-vs-dr-congo.md",
+  "prediction_score": "3-1",
+  "backup_score": "2-0",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "英格兰凭借小组赛的强势进攻表现和阵容深度，在32强对阵刚果（金）的比赛中占据明显优势，预测英格兰取胜晋级。",
+  "source_names": [
+    "2026世界杯L组小组赛赛果",
+    "2026世界杯K组小组赛赛果",
+    "FIFA 2026世界杯夺冠赔率"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-01T13:20:00+08:00",
+  "reviewed_at": "2026-07-01T15:21:00+08:00"
+}

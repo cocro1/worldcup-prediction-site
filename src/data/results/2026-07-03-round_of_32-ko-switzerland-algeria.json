@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-03-round_of_32-ko-switzerland-algeria",
+  "status": "result_verified",
+  "home_score_90": 2,
+  "away_score_90": 0,
+  "total_goals_90": 2,
+  "handicap": "主-0.5",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI scores endpoint: Switzerland 2-0 Algeria",
+    "checked_sources": [
+      "OddsAPI scores endpoint",
+      "Match score confirmed via multiple sports media"
+    ]
+  },
+  "verified_at": "2026-07-03T17:12:00+08:00"
+}

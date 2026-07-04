@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-07-04T06-31-58Z",
+  "build_time": "2026-07-04 14:31 (Asia/Shanghai)",
+  "success": true,
+  "page_count": 159,
+  "output_dir": "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+  "synced_files": {
+    "json": 207,
+    "md": 119,
+    "seed_data": true
+  },
+  "bom_cleaned": 46,
+  "build_duration_seconds": 20.06,
+  "git_commit_message": "每日发布 2026-07-04",
+  "note": "Auto-generated collections from src/content/"
+}

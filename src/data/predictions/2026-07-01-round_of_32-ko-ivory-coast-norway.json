@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-01-round_of_32-ko-ivory-coast-norway",
+  "title": "科特迪瓦 vs 挪威 预测报告：双方实力接近 常规时间难分胜负",
+  "article_path": "content/predictions/reviewed/2026-07-01-round_of_32-ko-ivory-coast-norway.md",
+  "prediction_score": "1-1",
+  "backup_score": "1-2",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "source_names": ["2026世界杯小组赛官方数据", "FIFA国家队排名（2026年6月）", "球队近期表现统计"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-30T16:40:00+08:00",
+  "reviewed_at": "2026-06-30T16:49:00+08:00"
+}

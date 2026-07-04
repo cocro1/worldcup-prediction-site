@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-03-round_of_32-ko-switzerland-algeria",
+  "title": "瑞士 vs 阿尔及利亚 赛前预测：十六郎魔咒考验，北非黑马欲改写历史",
+  "article_path": "content/predictions/reviewed/2026-07-03-switzerland-vs-algeria.md",
+  "prediction_score": "1-0",
+  "backup_score": "2-1",
+  "confidence": "medium-low",
+  "confidence_zh": "中低置信",
+  "summary": "瑞士整体结构占优，但十六郎魔咒和前主帅知根知底使比赛充满变数，小分差决胜。",
+  "source_names": ["2026世界杯赛程表", "企鹅号世界杯报道", "腾讯网报道"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-02T18:05:00+08:00",
+  "reviewed_at": "2026-07-02T19:56:00+08:00"
+}

@@ -1,0 +1,28 @@
+{
+    "schema_version":  "1.0",
+    "content_type":  "prediction",
+    "match_id":  "2026-06-28-group-l-croatia-ghana",
+    "title":  "克罗地亚 vs 加纳赛前预测：中场控制力决定胜负",
+    "article_path":  "content/predictions/reviewed/2026-06-28-croatia-vs-ghana.md",
+    "prediction_score":  "2-1",
+    "backup_score":  "1-1",
+    "confidence":  "medium-high",
+    "confidence_zh":  "中高置信",
+    "summary":  "克罗地亚的中场组织能力出色，预计能掌控比赛节奏。",
+    "source_names":  [
+                         "2026世界杯赛程表",
+                         "FIFA官方数据"
+                     ],
+    "source_urls":  [
+
+                    ],
+    "markdown_requirements":  {
+                                  "has_data_sources_section":  true,
+                                  "has_disclaimer_section":  true
+                              },
+    "status":  "reviewed",
+    "generated_by":  "prediction-writer-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-27T07:13:00+08:00",
+    "reviewed_at":  "2026-06-27T09:11:00+08:00"
+}

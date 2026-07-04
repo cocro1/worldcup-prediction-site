@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-13-blowout-prediction",
+  "title": "2026 世界杯小组赛「大比分高概率场次」预测分析",
+  "article_path": "content/topics/draft/topic-2026-06-13-blowout-prediction.md",
+  "published_date": "2026-06-13",
+  "topic_type": "methodology",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "基于前两届世界杯 28 场大比分比赛的深度分析，采用 **10 项赛前信号 + 实时进程信号** 的 Checklist 模型：",
+  "priority": 65,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

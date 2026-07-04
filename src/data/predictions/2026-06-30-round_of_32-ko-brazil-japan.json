@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-06-30-round_of_32-ko-brazil-japan",
+  "title": "巴西 vs 日本预测：桑巴军团防线稳固，日本面临考验",
+  "article_path": "content/predictions/draft/2026-06-30-round_of_32-ko-brazil-japan.md",
+  "prediction_score": "2-0",
+  "backup_score": "2-1",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "巴西小组赛攻入7球仅失1球，攻防两端表现出统治力。日本三场不败晋级但面对强队未能取胜。",
+  "source_names": [
+    "data/results/reviewed/2026-06-14-group-c-brazil-morocco.json",
+    "data/results/reviewed/2026-06-20-group-c-brazil-haiti.json",
+    "data/results/reviewed/2026-06-25-group-c-scotland-brazil.json",
+    "data/results/reviewed/2026-06-15-group-f-netherlands-japan.json",
+    "data/results/reviewed/2026-06-21-group-f-tunisia-japan.json",
+    "data/results/reviewed/2026-06-26-group-f-japan-sweden.json",
+    "data/matches/matches.seed.json",
+    "data/teams/teams.seed.json"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-29T13:15:00+08:00",
+  "reviewed_at": "2026-06-29T06:25:46+08:00"
+}

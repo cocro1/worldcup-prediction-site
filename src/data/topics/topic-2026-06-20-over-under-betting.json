@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-20-over-under-betting",
+  "title": "⚽ 2026世界杯小组赛第一轮 · 大小球博彩分析",
+  "article_path": "content/topics/draft/topic-2026-06-20-over-under-betting.md",
+  "published_date": "2026-06-20",
+  "topic_type": "match_collection",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "| 指标 | 数值 |\n|------|------|\n| 第一轮比赛总数 | **24** |\n| 推荐大球 (Over) | **11** |\n| 推荐小球 (Under) | **10** |\n| 均势/观望 | **3** |\n| 标准盘口线 | **2.5** |",
+  "priority": 65,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

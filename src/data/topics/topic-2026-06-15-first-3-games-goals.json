@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-15-first-3-games-goals",
+  "title": "世界杯「前3场」总进球数 · 历史数据",
+  "article_path": "content/topics/draft/topic-2026-06-15-first-3-games-goals.md",
+  "published_date": "2026-06-15",
+  "topic_type": "methodology",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "| 指标 | 数值 |\n|------|------|\n| 6届平均 | **7.2球** |\n| 场均进球 | **2.39球** |\n| 最高一届 | **12球**（2022 卡塔尔） |\n| 最低一届 | **4球**（2010 南非） |",
+  "priority": 60,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-24-md3-data-analysis",
+  "title": "世界杯第三轮预测：强弱之外，先看分数",
+  "article_path": "content/topics/draft/topic-2026-06-24-md3-data-analysis.md",
+  "published_date": "2026-06-24",
+  "topic_type": "stage",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "**生成时间：** 2026-06-24  \n**范围：** 2026 世界杯小组赛第三轮 24 场  \n**报告类型：** Data Analytics 分析预测报告  \n**分析口径：** 科学向数据分析 75% + 出线情景推演 20% + 玄学向参考 5%  \n**母稿：** `C:\\Users\\pc\\.openclaw\\workspace\\自媒体\\wc2026-reports\\round",
+  "priority": 75,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-06-30",
+  "title": "6月30日32强推演",
+  "article_path": "content/deductions/reviewed/2026-06-30-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-06-30-round_of_32-ko-brazil-japan",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.62,
+      "notes": "巴西进攻火力强劲，日本防守稳固但反击效率高"
+    },
+    {
+      "match_id": "2026-06-30-round_of_32-ko-germany-paraguay",
+      "home_team": "Germany",
+      "away_team": "Paraguay",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "2-1",
+        "1-0"
+      ],
+      "over_2_5_probability": 0.55,
+      "notes": "德国整体实力占优，巴拉圭防守顽强擅长反击"
+    },
+    {
+      "match_id": "2026-06-30-round_of_32-ko-netherlands-morocco",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "stage": "Round of 32",
+      "deduction_scores": [
+        "2-1",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.58,
+      "notes": "荷兰技术流占优，摩洛哥身体对抗能力强"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "generated_at": "2026-06-30T16:40:00+08:00",
+  "reviewed_by": "qa-agent",
+  "reviewed_at": "2026-06-30T16:49:00+08:00",
+  "match_count": 3
+}

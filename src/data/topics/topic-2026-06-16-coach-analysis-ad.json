@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-16-coach-analysis-ad",
+  "title": "2026 世界杯主教练执教水平深度对比分析",
+  "article_path": "content/topics/draft/topic-2026-06-16-coach-analysis-ad.md",
+  "published_date": "2026-06-16",
+  "topic_type": "group",
+  "related": {
+    "dates": [],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "stages": [
+      "group_stage"
+    ]
+  },
+  "summary": "| 小组 | 种子队 | 第二档 | 第三档 | 第四档 |\n|------|--------|--------|--------|--------|\n| **A组** | 🇲🇽 墨西哥 | 🇰🇷 韩国 | 🇿🇦 南非 | 🇨🇿 捷克 |\n| **B组** | 🇨🇦 加拿大 | 🇨🇭 瑞士 | 🇶🇦 卡塔尔 | 🇧🇦 波黑 |\n| **C组** | 🇧🇷 巴西 | 🇲🇦 摩洛哥 | 🇸🇴 苏格兰",
+  "priority": 80,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

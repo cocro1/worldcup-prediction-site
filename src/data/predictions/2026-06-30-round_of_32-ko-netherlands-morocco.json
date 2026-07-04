@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-06-30-round_of_32-ko-netherlands-morocco",
+  "title": "荷兰 vs 摩洛哥预测：不败之师正面交锋，荷兰攻击线或成胜负手",
+  "article_path": "content/predictions/draft/2026-06-30-round_of_32-ko-netherlands-morocco.md",
+  "prediction_score": "2-1",
+  "backup_score": "1-1",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "两队小组赛均不败晋级。荷兰后两场攻入8球状态火热，摩洛哥则1-1逼平巴西展现防守实力。",
+  "source_names": [
+    "data/results/reviewed/2026-06-15-group-f-netherlands-japan.json",
+    "data/results/reviewed/2026-06-21-group-f-netherlands-sweden.json",
+    "data/results/reviewed/2026-06-26-group-f-tunisia-netherlands.json",
+    "data/results/reviewed/2026-06-14-group-c-brazil-morocco.json",
+    "data/results/reviewed/2026-06-20-group-c-scotland-morocco.json",
+    "data/results/reviewed/2026-06-25-group-c-morocco-haiti.json",
+    "data/matches/matches.seed.json",
+    "data/teams/teams.seed.json"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-29T13:15:00+08:00",
+  "reviewed_at": "2026-06-29T06:25:46+08:00"
+}

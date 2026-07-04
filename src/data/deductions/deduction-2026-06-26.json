@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-06-26",
+  "title": "小组赛第3轮 Dixon-Coles蒙特卡洛预测报告 · 6月26日",
+  "article_path": "content/deductions/reviewed/deduction-2026-06-26.md",
+  "match_count": 6,
+  "summary": null,
+  "matches": [
+    {
+      "match_id": "2026-06-26-group-e-curacao-ivory-coast",
+      "deduction_scores": [
+        "0-3",
+        "0-2"
+      ],
+      "over_2_5_probability": 0.778,
+      "notes": "科特迪瓦3-0库拉索(11.2%)；库拉索防线薄弱"
+    },
+    {
+      "match_id": "2026-06-26-group-e-ecuador-germany",
+      "deduction_scores": [
+        "1-1",
+        "0-1"
+      ],
+      "over_2_5_probability": 0.453,
+      "notes": "最可能比分1-1/0-1；双方攻防接近"
+    },
+    {
+      "match_id": "2026-06-26-group-f-japan-sweden",
+      "deduction_scores": [
+        "3-1",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.9,
+      "notes": "日本3-1瑞典；日本69.6%胜率"
+    },
+    {
+      "match_id": "2026-06-26-group-f-tunisia-netherlands",
+      "deduction_scores": [
+        "0-3",
+        "0-2"
+      ],
+      "over_2_5_probability": 0.807,
+      "notes": "荷兰3-0突尼斯；荷兰88.8%胜率"
+    },
+    {
+      "match_id": "2026-06-26-group-d-turkey-united-states",
+      "deduction_scores": [
+        "0-2",
+        "1-2"
+      ],
+      "over_2_5_probability": 0.647,
+      "notes": "美国2-0土耳其(87.9%胜率)"
+    },
+    {
+      "match_id": "2026-06-26-group-d-paraguay-australia",
+      "deduction_scores": [
+        "1-2",
+        "2-2"
+      ],
+      "over_2_5_probability": 0.606,
+      "notes": "澳大利亚2-1巴拉圭(59.7%胜率)"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:34:49Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

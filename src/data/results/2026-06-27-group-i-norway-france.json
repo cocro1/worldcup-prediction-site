@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-27-group-i-norway-france",
+  "status": "result_verified",
+  "home_score_90": 1,
+  "away_score_90": 4,
+  "total_goals_90": 5,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "Wikipedia 2026 FIFA World Cup Group I: Norway 1–4 France",
+    "checked_sources": [
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I",
+      "Cross-checked against group table: France A (advanced) W3 D0 L0, Norway A (advanced) W2 D0 L1"
+    ]
+  },
+  "verified_at": "2026-06-27T08:38:00+08:00",
+  "handicap": null
+}

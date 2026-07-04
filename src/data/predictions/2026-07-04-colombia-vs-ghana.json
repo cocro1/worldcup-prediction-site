@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-04-round_of_32-ko-colombia-ghana",
+  "title": "哥伦比亚 vs 加纳 赛前预测：南美铁军稳中求胜，非洲黑马防守存忧",
+  "article_path": "content/predictions/reviewed/2026-07-04-colombia-vs-ghana.md",
+  "prediction_score": "1-0",
+  "backup_score": "2-0",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "哥伦比亚攻防均衡，无伤病；加纳进攻匮乏且中场核心缺阵，哥伦比亚整体控制力大概率在90分钟内解决战斗。",
+  "source_names": [
+    "企鹅号：哥伦比亚vs加纳比赛分析（2026-07-03 08:40）",
+    "企鹅号：哥伦比亚vs加纳前瞻（2026-07-03 13:24）",
+    "企鹅号：哥伦比亚vs加纳头名分析（2026-07-03 07:07）",
+    "企鹅号：哥伦比亚小组赛回顾（2026-07-03 01:11）",
+    "企鹅号：加纳小组赛回顾（2026-07-03 07:21）",
+    "企鹅号：哥伦比亚vs加纳谁能晋级（2026-07-03 10:19）"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-03T16:02:00+08:00",
+  "reviewed_at": "2026-07-03T16:51:59+08:00"
+}

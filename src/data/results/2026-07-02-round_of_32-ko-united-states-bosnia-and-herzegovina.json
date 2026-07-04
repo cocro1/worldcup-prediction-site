@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-02-round_of_32-ko-united-states-bosnia-and-herzegovina",
+  "status": "result_verified",
+  "home_score_90": 2,
+  "away_score_90": 0,
+  "total_goals_90": 2,
+  "handicap": "主-1.25",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI scores endpoint: USA 2-0 Bosnia and Herzegovina",
+    "checked_sources": [
+      "OddsAPI scores endpoint",
+      "Match score confirmed via multiple sports media"
+    ]
+  },
+  "verified_at": "2026-07-03T17:12:00+08:00"
+}

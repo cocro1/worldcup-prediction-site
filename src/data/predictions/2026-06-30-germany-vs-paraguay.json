@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-06-30-round_of_32-ko-germany-paraguay",
+  "title": "德国 vs 巴拉圭：32强赛前预测",
+  "article_path": "content/predictions/reviewed/2026-06-30-germany-vs-paraguay.md",
+  "prediction_score": "2-0",
+  "backup_score": "1-0",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "德国小组赛进10球进攻火力极强，但末轮爆冷输球暴露防守隐患。巴拉圭3场仅进3球进攻效率偏低，整体实力处于下风。",
+  "source_names": ["FIFA official match page", "2026 世界杯小组赛赛果"],
+  "source_urls": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings"
+  ],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-29T10:25:00+08:00",
+  "reviewed_at": "2026-06-29T10:18:00+08:00"
+}

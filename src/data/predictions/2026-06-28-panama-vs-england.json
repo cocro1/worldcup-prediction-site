@@ -1,0 +1,28 @@
+{
+    "schema_version":  "1.0",
+    "content_type":  "prediction",
+    "match_id":  "2026-06-28-group-l-panama-england",
+    "title":  "巴拿马 vs 英格兰赛前预测：经验差距决定比赛走向",
+    "article_path":  "content/predictions/reviewed/2026-06-28-panama-vs-england.md",
+    "prediction_score":  "0-2",
+    "backup_score":  "0-3",
+    "confidence":  "high",
+    "confidence_zh":  "高置信",
+    "summary":  "英格兰凭借整体实力和大赛经验优势，预计将战胜巴拿马。",
+    "source_names":  [
+                         "2026世界杯赛程表",
+                         "FIFA官方数据"
+                     ],
+    "source_urls":  [
+
+                    ],
+    "markdown_requirements":  {
+                                  "has_data_sources_section":  true,
+                                  "has_disclaimer_section":  true
+                              },
+    "status":  "reviewed",
+    "generated_by":  "prediction-writer-agent",
+    "reviewed_by":  "qa-agent",
+    "generated_at":  "2026-06-27T07:13:00+08:00",
+    "reviewed_at":  "2026-06-27T09:11:00+08:00"
+}

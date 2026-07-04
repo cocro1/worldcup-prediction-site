@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-06-16-match-report-0616",
+  "title": "🏆 2026 FIFA World Cup 战报 & 预测",
+  "article_path": "content/topics/draft/topic-2026-06-16-match-report-0616.md",
+  "published_date": "2026-06-16",
+  "topic_type": "date",
+  "related": {
+    "dates": [
+      "2026-06-15",
+      "2026-06-16"
+    ],
+    "match_ids": [],
+    "team_ids": [],
+    "groups": [],
+    "stages": []
+  },
+  "summary": "- **时间**：6月11日 → 7月19日\n- **主办**：🇺🇸 美国 · 🇨🇦 加拿大 · 🇲🇽 墨西哥（史上首次三国联办）\n- **赛制**：48 队 → 12 组 × 4 队 → 前 2 + 最佳第三 8 → 32 强\n- **总场次**：104 场（上届 64）\n- **已赛**：16 场 / **46 进球** / 场均 **2.88**",
+  "priority": 70,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:39:34Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

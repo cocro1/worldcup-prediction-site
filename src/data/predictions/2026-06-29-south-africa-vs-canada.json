@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-06-29-round_of_32-ko-south-africa-canada",
+  "title": "南非 vs 加拿大：32强赛前预测",
+  "article_path": "content/predictions/reviewed/2026-06-29-south-africa-vs-canada.md",
+  "prediction_score": "0-2",
+  "backup_score": "1-2",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "加拿大小组赛7进球，进攻效率远超仅进2球的南非。倾向加拿大在常规时间内凭借进攻优势击败对手。",
+  "source_names": [
+    "FIFA official match page",
+    "2026 世界杯小组赛赛果"
+  ],
+  "source_urls": [
+    "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings"
+  ],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-28T18:19:00+08:00",
+  "reviewed_at": "2026-06-28T19:21:58+08:00"
+}

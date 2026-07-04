@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-04-round_of_32-ko-australia-egypt",
+  "title": "澳大利亚 vs 埃及 赛前预测：萨拉赫出战成疑，埃及进攻优势存在隐患",
+  "article_path": "content/predictions/reviewed/2026-07-04-australia-vs-egypt.md",
+  "prediction_score": "0-1",
+  "backup_score": "1-1",
+  "confidence": "medium-low",
+  "confidence_zh": "中低置信",
+  "summary": "埃及进攻火力优于澳大利亚，但萨拉赫出战成疑削弱优势；澳大利亚进攻哑火是最大隐患，铁桶防守可能守住平局。",
+  "source_names": [
+    "企鹅号：澳大利亚vs埃及比赛分析（2026-07-03）",
+    "企鹅号：澳大利亚vs埃及前瞻（2026-07-03 15:29）",
+    "企鹅号：澳大利亚小组赛回顾（2026-07-03 07:06）",
+    "企鹅号：埃及小组赛回顾（2026-07-03 07:21）",
+    "人民网：佛得角世界杯报道（2026-07-02）"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-03T16:02:00+08:00",
+  "reviewed_at": "2026-07-03T16:51:59+08:00"
+}

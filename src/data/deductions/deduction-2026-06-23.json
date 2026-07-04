@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-06-23",
+  "title": "Dixon-Coles蒙特卡洛精算预测报告 · 6月23日",
+  "article_path": "content/deductions/reviewed/deduction-2026-06-23.md",
+  "match_count": 4,
+  "summary": null,
+  "matches": [
+    {
+      "match_id": "2026-06-23-group-j-argentina-austria",
+      "deduction_scores": [
+        "2-1",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.637,
+      "notes": "推荐精准比分排序：2-1(9.7%), 2-0(7.1%), 1-1(9.4%)"
+    },
+    {
+      "match_id": "2026-06-23-group-i-france-iraq",
+      "deduction_scores": [
+        "3-0",
+        "2-0"
+      ],
+      "over_2_5_probability": 0.534,
+      "notes": "推荐精准比分排序：3-0, 2-0, 4-0"
+    },
+    {
+      "match_id": "2026-06-23-group-i-norway-senegal",
+      "deduction_scores": [
+        "2-1",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.582,
+      "notes": "推荐精准比分排序：2-1, 1-1, 2-0"
+    },
+    {
+      "match_id": "2026-06-23-group-j-jordan-algeria",
+      "deduction_scores": [
+        "1-2",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.511,
+      "notes": "推荐精准比分排序：0-1, 1-1, 0-2"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-06-25T11:34:49Z",
+  "reviewed_at": "2026-06-25T11:47:25Z"
+}

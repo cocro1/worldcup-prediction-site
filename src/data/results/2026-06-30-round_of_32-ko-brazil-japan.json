@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-06-30-round_of_32-ko-brazil-japan",
+  "status": "result_verified",
+  "home_score_90": 2,
+  "away_score_90": 1,
+  "total_goals_90": 3,
+  "handicap": null,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "BBC Sport: Brazil 2-1 Japan (Gabriel Martinelli 90+5')",
+    "checked_sources": [
+      "BBC Sport live page: https://www.bbc.com/sport/football/live/c5yzjyq9685t",
+      "OddsAPI scores endpoint"
+    ]
+  },
+  "verified_at": "2026-07-03T17:11:00+08:00"
+}
