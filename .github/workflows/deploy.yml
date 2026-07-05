@@ -28,6 +28,9 @@ jobs:
         env:
           FWC_DATA_ROOT: ${{ github.workspace }}/src
 
+      - name: Create .nojekyll
+        run: touch ./dist/.nojekyll
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:
