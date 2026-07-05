@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0",
-  "match_id": "2026-06-24-group-k-colombia-congo-dr",
+  "match_id": "2026-07-05-round_of_16-ko-canada-morocco",
   "status": "result_verified",
-  "home_score_90": 1,
-  "away_score_90": 0,
-  "total_goals_90": 1,
+  "home_score_90": 0,
+  "away_score_90": 3,
+  "total_goals_90": 3,
   "handicap": null,
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
     "primary": "football-data.org API",
     "checked_sources": [
-      "football-data.org (match 537406)"
+      "football-data.org (match 537376)"
     ]
   },
-  "verified_at": "2026-07-05T11:14:51.429442+00:00"
+  "verified_at": "2026-07-05T11:14:51.464211+00:00"
 }
