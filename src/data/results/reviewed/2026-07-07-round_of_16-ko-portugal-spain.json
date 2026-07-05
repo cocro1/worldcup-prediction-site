@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-07-round_of_16-ko-portugal-spain",
+  "status": "result_verified",
+  "home_score_90": null,
+  "away_score_90": null,
+  "total_goals_90": null,
+  "handicap": "主+0.5",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI handicap endpoint",
+    "checked_sources": [
+      "OddsAPI handicap endpoint"
+    ]
+  },
+  "verified_at": "2026-07-05T18:15:00+08:00"
+}
