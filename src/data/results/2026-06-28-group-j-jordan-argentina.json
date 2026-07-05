@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint: Jordan 1-3 Argentina",
     "checked_sources": [
       "OddsAPI scores endpoint: Jordan 1-3 Argentina (completed=True)",
-      "Wikipedia Group J table: Argentina W3 D0 L0 GF=8 GA=1; Jordan W0 D0 L3 GF=3 GA=8"
+      "Wikipedia Group J table: Argentina W3 D0 L0 GF=8 GA=1; Jordan W0 D0 L3 GF=3 GA=8",
+      "football-data.org (match 537401)"
     ]
   },
-  "verified_at": "2026-06-28T19:00:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.854481+00:00"
 }

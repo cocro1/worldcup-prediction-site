@@ -12,8 +12,9 @@
     "primary": "BBC Sport: South Africa 0-1 Canada (Stephen Eustaquio 90+2')",
     "checked_sources": [
       "BBC Sport live page: https://www.bbc.com/sport/football/live/cjwg760j4jnt",
-      "OddsAPI scores endpoint: South Africa 0-1 Canada (completed=True)"
+      "OddsAPI scores endpoint: South Africa 0-1 Canada (completed=True)",
+      "football-data.org (match 537417)"
     ]
   },
-  "verified_at": "2026-06-29T10:02:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.856234+00:00"
 }

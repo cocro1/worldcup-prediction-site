@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint: Algeria 3-3 Austria",
     "checked_sources": [
       "OddsAPI scores endpoint: Algeria 3-3 Austria (completed=True)",
-      "Wikipedia Group J tiebreaker note: Algeria 3–3 Austria; Group J table confirms Algeria GF=5 GA=7, Austria GF=6 GA=6"
+      "Wikipedia Group J tiebreaker note: Algeria 3–3 Austria; Group J table confirms Algeria GF=5 GA=7, Austria GF=6 GA=6",
+      "football-data.org (match 537402)"
     ]
   },
-  "verified_at": "2026-06-28T19:00:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.855361+00:00"
 }

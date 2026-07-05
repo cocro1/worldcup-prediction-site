@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint: Croatia 2-1 Ghana",
     "checked_sources": [
       "OddsAPI scores endpoint: Croatia 2-1 Ghana (completed=True)",
-      "Wikipedia Group L table: Croatia W2 D0 L1 GF=5 GA=5; Ghana W1 D1 L1 GF=2 GA=2"
+      "Wikipedia Group L table: Croatia W2 D0 L1 GF=5 GA=5; Ghana W1 D1 L1 GF=2 GA=2",
+      "football-data.org (match 537414)"
     ]
   },
-  "verified_at": "2026-06-28T19:00:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.852106+00:00"
 }

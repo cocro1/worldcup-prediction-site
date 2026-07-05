@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint: Mexico 2-0 Ecuador",
     "checked_sources": [
       "OddsAPI scores endpoint",
-      "Match score confirmed via multiple sports media"
+      "Match score confirmed via multiple sports media",
+      "football-data.org (match 537425)"
     ]
   },
-  "verified_at": "2026-07-03T17:12:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.861142+00:00"
 }

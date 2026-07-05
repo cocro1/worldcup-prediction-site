@@ -2,18 +2,19 @@
   "schema_version": "1.0",
   "match_id": "2026-07-02-round_of_32-ko-belgium-senegal",
   "status": "result_verified",
-  "home_score_90": 3,
+  "home_score_90": 2,
   "away_score_90": 2,
-  "total_goals_90": 5,
+  "total_goals_90": 4,
   "handicap": "主-0.25",
-  "extra_time_score": null,
+  "extra_time_score": "3-2",
   "penalty_score": null,
   "source": {
     "primary": "OddsAPI scores endpoint: Belgium 3-2 Senegal",
     "checked_sources": [
       "OddsAPI scores endpoint",
-      "Match score confirmed via multiple sports media"
+      "Match score confirmed via multiple sports media",
+      "football-data.org (match 537422)"
     ]
   },
-  "verified_at": "2026-07-03T17:12:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.862433+00:00"
 }

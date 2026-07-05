@@ -5,14 +5,16 @@
   "home_score_90": 2,
   "away_score_90": 1,
   "total_goals_90": 3,
+  "handicap": null,
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
     "primary": "Wikipedia 2026 FIFA World Cup Group E: Ecuador 2–1 Germany",
     "checked_sources": [
       "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_E",
-      "Cross-checked against group table: Ecuador W1 D1 L1, Germany A (advanced)"
+      "Cross-checked against group table: Ecuador W1 D1 L1, Germany A (advanced)",
+      "football-data.org (match 537355)"
     ]
   },
-  "verified_at": "2026-06-27T06:50:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.838378+00:00"
 }

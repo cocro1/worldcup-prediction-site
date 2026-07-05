@@ -11,8 +11,9 @@
   "source": {
     "primary": "OddsAPI scores endpoint (updated post-match)",
     "checked_sources": [
-      "OddsAPI scores endpoint"
+      "OddsAPI scores endpoint",
+      "football-data.org (match 537430)"
     ]
   },
-  "verified_at": "2026-07-04T08:25:01.049513+00:00"
+  "verified_at": "2026-07-05T00:05:52.868158+00:00"
 }

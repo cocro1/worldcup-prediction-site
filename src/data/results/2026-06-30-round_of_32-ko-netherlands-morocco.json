@@ -7,13 +7,14 @@
   "total_goals_90": 2,
   "handicap": "主-0.25",
   "extra_time_score": "1-1",
-  "penalty_score": "3-2",
+  "penalty_score": "2-3",
   "source": {
     "primary": "BBC Sport: Netherlands 1-1 Morocco (aet; Morocco 3-2 pens; 90-min 1-1)",
     "checked_sources": [
       "BBC Sport live page: https://www.bbc.com/sport/football/live/c8023x0d3g9t",
-      "OddsAPI scores endpoint"
+      "OddsAPI scores endpoint",
+      "football-data.org (match 537418)"
     ]
   },
-  "verified_at": "2026-07-03T17:12:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.859051+00:00"
 }

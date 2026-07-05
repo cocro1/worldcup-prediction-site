@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint + Wikipedia Group H table: Cape Verde 0-0 Saudi Arabia",
     "checked_sources": [
       "OddsAPI scores endpoint: Cape Verde 0-0 Saudi Arabia (completed=True)",
-      "Wikipedia Group H table: Cape Verde Pld3 GF=2 GA=2 GD=0; Saudi Arabia Pld3 GF=1 GA=5 GD=-4"
+      "Wikipedia Group H table: Cape Verde Pld3 GF=2 GA=2 GD=0; Saudi Arabia Pld3 GF=1 GA=5 GD=-4",
+      "football-data.org (match 537374)"
     ]
   },
-  "verified_at": "2026-06-27T18:55:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.848138+00:00"
 }

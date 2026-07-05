@@ -5,14 +5,16 @@
   "home_score_90": 1,
   "away_score_90": 1,
   "total_goals_90": 2,
+  "handicap": null,
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
     "primary": "Wikipedia 2026 FIFA World Cup Group F: Japan 1–1 Sweden",
     "checked_sources": [
       "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_F",
-      "Cross-checked against group table: Japan W1 D2 L0, Sweden W1 D1 L1"
+      "Cross-checked against group table: Japan W1 D2 L0, Sweden W1 D1 L1",
+      "football-data.org (match 537362)"
     ]
   },
-  "verified_at": "2026-06-27T06:50:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.840333+00:00"
 }

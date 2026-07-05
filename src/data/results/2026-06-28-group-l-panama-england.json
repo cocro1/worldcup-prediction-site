@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint: Panama 0-2 England",
     "checked_sources": [
       "OddsAPI scores endpoint: Panama 0-2 England (completed=True)",
-      "Wikipedia Group L table: England W2 D1 L0 GF=6 GA=2; Panama W0 D0 L3 GF=0 GA=4"
+      "Wikipedia Group L table: England W2 D1 L0 GF=6 GA=2; Panama W0 D0 L3 GF=0 GA=4",
+      "football-data.org (match 537413)"
     ]
   },
-  "verified_at": "2026-06-28T19:00:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.850920+00:00"
 }

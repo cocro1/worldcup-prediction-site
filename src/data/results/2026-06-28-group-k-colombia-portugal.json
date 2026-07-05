@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint: Colombia 0-0 Portugal",
     "checked_sources": [
       "OddsAPI scores endpoint: Colombia 0-0 Portugal (completed=True)",
-      "Wikipedia Group K table: Colombia W2 D1 L0 GF=4 GA=1; Portugal W1 D2 L0 GF=6 GA=1"
+      "Wikipedia Group K table: Colombia W2 D1 L0 GF=4 GA=1; Portugal W1 D2 L0 GF=6 GA=1",
+      "football-data.org (match 537407)"
     ]
   },
-  "verified_at": "2026-06-28T19:00:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.853096+00:00"
 }

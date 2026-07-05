@@ -2,17 +2,18 @@
   "schema_version": "1.0",
   "match_id": "2026-07-04-round_of_32-ko-argentina-cape-verde",
   "status": "result_verified",
-  "home_score_90": 3,
-  "away_score_90": 2,
-  "total_goals_90": 5,
+  "home_score_90": 1,
+  "away_score_90": 1,
+  "total_goals_90": 2,
   "handicap": "主-2",
-  "extra_time_score": null,
+  "extra_time_score": "3-2",
   "penalty_score": null,
   "source": {
     "primary": "OddsAPI scores endpoint (updated post-match)",
     "checked_sources": [
-      "OddsAPI scores endpoint"
+      "OddsAPI scores endpoint",
+      "football-data.org (match 537427)"
     ]
   },
-  "verified_at": "2026-07-04T08:25:01.049513+00:00"
+  "verified_at": "2026-07-05T00:05:52.867212+00:00"
 }
