@@ -12,8 +12,9 @@
     "primary": "BBC Sport: France 3-0 Sweden (Mbappe 45', Barcola 53', Mbappe 74')",
     "checked_sources": [
       "BBC Sport live page: https://www.bbc.com/sport/football/live/cpd326dj9xvt",
-      "OddsAPI scores endpoint"
+      "OddsAPI scores endpoint",
+      "football-data.org (match 537416)"
     ]
   },
-  "verified_at": "2026-07-03T17:12:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.860381+00:00"
 }

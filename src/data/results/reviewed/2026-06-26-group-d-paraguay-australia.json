@@ -5,14 +5,16 @@
   "home_score_90": 0,
   "away_score_90": 0,
   "total_goals_90": 0,
+  "handicap": null,
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
     "primary": "Wikipedia 2026 FIFA World Cup Group D — confirmed by group table note: \"Tied on head-to-head result (Paraguay 0–0 Australia)\"",
     "checked_sources": [
       "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_D",
-      "Group table: Paraguay W1 D1 L1 GF=2 GA=4, Australia A (advanced) W1 D1 L1 GF=2 GA=2"
+      "Group table: Paraguay W1 D1 L1 GF=2 GA=4, Australia A (advanced) W1 D1 L1 GF=2 GA=2",
+      "football-data.org (match 537350)"
     ]
   },
-  "verified_at": "2026-06-27T06:50:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.842058+00:00"
 }

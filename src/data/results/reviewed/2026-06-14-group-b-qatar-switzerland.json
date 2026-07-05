@@ -5,14 +5,16 @@
   "home_score_90": 1,
   "away_score_90": 1,
   "total_goals_90": 2,
+  "handicap": null,
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
     "primary": "FIFA official match page",
     "checked_sources": [
       "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/standings",
-      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup"
+      "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "football-data.org (match 537334)"
     ]
   },
-  "verified_at": "2026-06-26T10:35:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.798639+00:00"
 }

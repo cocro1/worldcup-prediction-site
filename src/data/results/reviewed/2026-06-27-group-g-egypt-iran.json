@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint + Wikipedia Group G table: Egypt 1-1 Iran",
     "checked_sources": [
       "OddsAPI scores endpoint: Egypt 1-1 Iran (completed=True)",
-      "Wikipedia Group G table: Iran W0 D3 L0 GF=3 GA=3; Egypt W1 D2 L0 GF=5 GA=3"
+      "Wikipedia Group G table: Iran W0 D3 L0 GF=3 GA=3; Egypt W1 D2 L0 GF=5 GA=3",
+      "football-data.org (match 537368)"
     ]
   },
-  "verified_at": "2026-06-27T18:55:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.849845+00:00"
 }

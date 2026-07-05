@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint + Wikipedia Group H table: Uruguay 0-1 Spain",
     "checked_sources": [
       "OddsAPI scores endpoint: Uruguay 0-1 Spain (completed=True)",
-      "Wikipedia Group H table: Spain W2 D1 L0 GF=5 GA=0 (Rd3 win); Uruguay W0 D2 L1 GF=3 GA=4"
+      "Wikipedia Group H table: Spain W2 D1 L0 GF=5 GA=0 (Rd3 win); Uruguay W0 D2 L1 GF=3 GA=4",
+      "football-data.org (match 537373)"
     ]
   },
-  "verified_at": "2026-06-27T18:55:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.847230+00:00"
 }

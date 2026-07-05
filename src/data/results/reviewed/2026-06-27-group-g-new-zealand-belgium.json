@@ -12,8 +12,9 @@
     "primary": "OddsAPI scores endpoint + Wikipedia Group G table: New Zealand 1-5 Belgium",
     "checked_sources": [
       "OddsAPI scores endpoint: New Zealand 1-5 Belgium (completed=True)",
-      "Wikipedia Group G table: Belgium W1 D2 L0 GF=6 GA=2 (with GF=1 from Rd1&2, 5 from Rd3); New Zealand W0 D1 L2 GF=4 GA=10"
+      "Wikipedia Group G table: Belgium W1 D2 L0 GF=6 GA=2 (with GF=1 from Rd1&2, 5 from Rd3); New Zealand W0 D1 L2 GF=4 GA=10",
+      "football-data.org (match 537367)"
     ]
   },
-  "verified_at": "2026-06-27T18:55:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.848943+00:00"
 }

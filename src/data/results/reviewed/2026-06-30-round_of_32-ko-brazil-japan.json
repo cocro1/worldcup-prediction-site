@@ -12,8 +12,9 @@
     "primary": "BBC Sport: Brazil 2-1 Japan (Gabriel Martinelli 90+5')",
     "checked_sources": [
       "BBC Sport live page: https://www.bbc.com/sport/football/live/c5yzjyq9685t",
-      "OddsAPI scores endpoint"
+      "OddsAPI scores endpoint",
+      "football-data.org (match 537423)"
     ]
   },
-  "verified_at": "2026-07-03T17:11:00+08:00"
+  "verified_at": "2026-07-05T00:05:52.857221+00:00"
 }
