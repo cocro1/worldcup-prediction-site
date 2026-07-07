@@ -1,0 +1,35 @@
+[
+  {
+    "match_id": 83,
+    "home_team": "Spain",
+    "away_team": "Austria",
+    "stage": "round_of_32",
+    "deduction_scores": [
+      {"score": "2-0", "probability": 0.35},
+      {"score": "1-0", "probability": 0.28}
+    ],
+    "over_2_5_probability": 0.382
+  },
+  {
+    "match_id": 84,
+    "home_team": "Portugal",
+    "away_team": "Croatia",
+    "stage": "round_of_32",
+    "deduction_scores": [
+      {"score": "1-1", "probability": 0.31},
+      {"score": "2-1", "probability": 0.24}
+    ],
+    "over_2_5_probability": 0.465
+  },
+  {
+    "match_id": 85,
+    "home_team": "Switzerland",
+    "away_team": "Algeria",
+    "stage": "round_of_32",
+    "deduction_scores": [
+      {"score": "1-0", "probability": 0.33},
+      {"score": "2-1", "probability": 0.27}
+    ],
+    "over_2_5_probability": 0.418
+  }
+]

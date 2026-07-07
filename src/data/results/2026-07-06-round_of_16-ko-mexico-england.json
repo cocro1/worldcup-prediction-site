@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-06-round_of_16-ko-mexico-england",
+  "status": "result_verified",
+  "home_score_90": 2,
+  "away_score_90": 3,
+  "total_goals_90": 5,
+  "handicap": "主+0.25",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "BBC Sport: https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
+    "checked_sources": [
+      "BBC Sport match page: England 3-2 Mexico",
+      "OddsAPI scores endpoint"
+    ]
+  },
+  "verified_at": "2026-07-06T21:00:00+08:00"
+}

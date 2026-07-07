@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-02",
+  "title": "7月2日32强推演",
+  "article_path": "content/deductions/reviewed/2026-07-02-deduction.md",
+  "matches": [
+    {
+      "match_id": 80,
+      "home_team": "England",
+      "away_team": "DR Congo",
+      "stage": "Round of 32",
+      "deduction_scores": ["2-0", "3-1"],
+      "over_2_5_probability": 0.58,
+      "notes": "英格兰实力占优，DR Congo首次晋级淘汰赛可能采取守势"
+    },
+    {
+      "match_id": 81,
+      "home_team": "Belgium",
+      "away_team": "Senegal",
+      "stage": "Round of 32",
+      "deduction_scores": ["1-1", "2-1"],
+      "over_2_5_probability": 0.48,
+      "notes": "比利时黄金一代最后一舞，塞内加尔团队足球稳健"
+    },
+    {
+      "match_id": 82,
+      "home_team": "United States",
+      "away_team": "Bosnia and Herzegovina",
+      "stage": "Round of 32",
+      "deduction_scores": ["2-1", "1-1"],
+      "over_2_5_probability": 0.52,
+      "notes": "美国东道主优势明显，波黑首次晋级淘汰赛经验不足"
+    }
+  ],
+  "status": "draft",
+  "generated_by": "deduction-ai",
+  "generated_at": "2026-06-29T20:55:00+08:00"
+}

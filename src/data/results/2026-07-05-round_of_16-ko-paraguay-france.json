@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-05-round_of_16-ko-paraguay-france",
+  "status": "result_verified",
+  "home_score_90": 0,
+  "away_score_90": 1,
+  "total_goals_90": 1,
+  "handicap": null,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "football-data.org API",
+    "checked_sources": [
+      "football-data.org (match 537375)"
+    ]
+  },
+  "verified_at": "2026-07-05T11:14:51.464630+00:00"
+}

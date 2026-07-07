@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-01",
+  "title": "7月1日32强推演",
+  "article_path": "content/deductions/reviewed/2026-07-01-deduction.md",
+  "matches": [
+    {
+      "match_id": 77,
+      "home_team": "Côte d'Ivoire",
+      "away_team": "Norway",
+      "stage": "Round of 32",
+      "deduction_scores": ["1-1", "2-1"],
+      "over_2_5_probability": 0.52,
+      "notes": "两队小组第二之间的较量，实力最接近；科特迪瓦防守纪律性对阵挪威进攻天赋"
+    },
+    {
+      "match_id": 78,
+      "home_team": "France",
+      "away_team": "Sweden",
+      "stage": "Round of 32",
+      "deduction_scores": ["2-0", "2-1"],
+      "over_2_5_probability": 0.48,
+      "notes": "法国小组赛三战全胜进10+球，实力碾压；瑞典防守有序但进攻能力有限"
+    },
+    {
+      "match_id": 79,
+      "home_team": "Mexico",
+      "away_team": "Ecuador",
+      "stage": "Round of 32",
+      "deduction_scores": ["1-0", "1-1"],
+      "over_2_5_probability": 0.40,
+      "notes": "墨西哥东道主优势，厄瓜多尔刚击败德国士气正盛；预计低比分激烈对抗"
+    }
+  ],
+  "status": "draft",
+  "generated_by": "deduction-ai",
+  "generated_at": "2026-06-29T13:06:00+08:00"
+}
