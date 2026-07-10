@@ -2,17 +2,17 @@
   "schema_version": "1.0",
   "match_id": "2026-07-08-round_of_16-ko-switzerland-colombia",
   "status": "result_verified",
-  "home_score_90": null,
-  "away_score_90": null,
-  "total_goals_90": null,
-  "handicap": "主+0.25",
-  "extra_time_score": null,
-  "penalty_score": null,
+  "home_score_90": 0,
+  "away_score_90": 0,
+  "total_goals_90": 0,
+  "handicap": null,
+  "extra_time_score": "0-0",
+  "penalty_score": "4-3",
   "source": {
-    "primary": "OddsAPI handicap endpoint",
+    "primary": "football-data.org API",
     "checked_sources": [
-      "OddsAPI handicap endpoint"
+      "football-data.org (match 537382)"
     ]
   },
-  "verified_at": "2026-07-05T18:15:00+08:00"
+  "verified_at": "2026-07-08T14:34:28.057486+00:00"
 }

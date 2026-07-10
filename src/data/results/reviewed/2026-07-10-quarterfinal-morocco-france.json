@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-10-quarterfinal-morocco-france",
+  "status": "result_verified",
+  "home_score_90": 0,
+  "away_score_90": 2,
+  "total_goals_90": 2,
+  "handicap": null,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "OddsAPI scores endpoint",
+    "checked_sources": [
+      "OddsAPI scores endpoint (France 2-0 Morocco, completed)",
+      "BBC Sport live match page (https://www.bbc.com/sport/football/live/c30y244nl8mt)"
+    ]
+  },
+  "verified_at": "2026-07-10T00:46:20.279057+00:00"
+}

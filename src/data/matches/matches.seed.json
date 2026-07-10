@@ -2889,7 +2889,7 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "2026-07-01-round_of_32-ko-ivory-coast-norway",
+    "match_id": "2026-07-01-round_of_32-ko-cote-d-ivoire-norway",
     "match_no": 78,
     "stage": "round_of_32",
     "stage_zh": "32强",
@@ -3003,7 +3003,7 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "2026-07-02-round_of_32-ko-england-dr-congo",
+    "match_id": "2026-07-02-round_of_32-ko-england-congo-dr",
     "match_no": 80,
     "stage": "round_of_32",
     "stage_zh": "32强",
@@ -3535,7 +3535,7 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "2026-07-07-round_of_16-ko-usa-belgium",
+    "match_id": "2026-07-07-round_of_16-ko-united-states-belgium",
     "match_no": 94,
     "stage": "round_of_16",
     "stage_zh": "16强",
@@ -3649,26 +3649,26 @@
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-97-W89-vs-W90",
+    "match_id": "2026-07-10-quarterfinal-morocco-france",
     "match_no": 97,
     "stage": "quarterfinal",
     "stage_zh": "四分之一决赛",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w89",
-      "name_en": "W89",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W89"
+      "team_id": "morocco",
+      "name_en": "Morocco",
+      "name_zh": "摩洛哥",
+      "display_name_zh": "摩洛哥",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w90",
-      "name_en": "W90",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W90"
+      "team_id": "france",
+      "name_en": "France",
+      "name_zh": "法国",
+      "display_name_zh": "法国",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-10T04:00:00+08:00",
     "kickoff_beijing_date": "2026-07-10",
@@ -3677,36 +3677,36 @@
     "venue": "Gillette Stadium",
     "city": "Foxborough",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
-      "primary": "excel_seed",
+      "primary": "round_of_16_results_override",
       "excel_row": 100,
-      "override_id": null,
+      "override_id": "QF-teams-confirmed-2026-07-10",
       "last_checked_at": "2026-06-28T10:05:16+08:00"
     }
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-98-W93-vs-W94",
+    "match_id": "2026-07-11-quarterfinal-spain-belgium",
     "match_no": 98,
     "stage": "quarterfinal",
     "stage_zh": "四分之一决赛",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w93",
-      "name_en": "W93",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W93"
+      "team_id": "spain",
+      "name_en": "Spain",
+      "name_zh": "西班牙",
+      "display_name_zh": "西班牙",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w94",
-      "name_en": "W94",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W94"
+      "team_id": "belgium",
+      "name_en": "Belgium",
+      "name_zh": "比利时",
+      "display_name_zh": "比利时",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-11T03:00:00+08:00",
     "kickoff_beijing_date": "2026-07-11",
@@ -3715,36 +3715,36 @@
     "venue": "SoFi Stadium",
     "city": "Inglewood",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
-      "primary": "excel_seed",
+      "primary": "round_of_16_results_override",
       "excel_row": 101,
-      "override_id": null,
+      "override_id": "QF-teams-confirmed-2026-07-10",
       "last_checked_at": "2026-06-28T10:05:16+08:00"
     }
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-99-W91-vs-W92",
+    "match_id": "2026-07-12-quarterfinal-norway-england",
     "match_no": 99,
     "stage": "quarterfinal",
     "stage_zh": "四分之一决赛",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w91",
-      "name_en": "W91",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W91"
+      "team_id": "norway",
+      "name_en": "Norway",
+      "name_zh": "挪威",
+      "display_name_zh": "挪威",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w92",
-      "name_en": "W92",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W92"
+      "team_id": "england",
+      "name_en": "England",
+      "name_zh": "英格兰",
+      "display_name_zh": "英格兰",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-12T05:00:00+08:00",
     "kickoff_beijing_date": "2026-07-12",
@@ -3753,36 +3753,36 @@
     "venue": "Hard Rock Stadium",
     "city": "Miami",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
-      "primary": "excel_seed",
+      "primary": "round_of_16_results_override",
       "excel_row": 102,
-      "override_id": null,
+      "override_id": "QF-teams-confirmed-2026-07-10",
       "last_checked_at": "2026-06-28T10:05:16+08:00"
     }
   },
   {
     "schema_version": "1.0",
-    "match_id": "match-100-W95-vs-W96",
+    "match_id": "2026-07-12-quarterfinal-argentina-switzerland",
     "match_no": 100,
     "stage": "quarterfinal",
     "stage_zh": "四分之一决赛",
     "group": null,
     "home_team": {
-      "team_id": "placeholder_w95",
-      "name_en": "W95",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W95"
+      "team_id": "argentina",
+      "name_en": "Argentina",
+      "name_zh": "阿根廷",
+      "display_name_zh": "阿根廷",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "away_team": {
-      "team_id": "placeholder_w96",
-      "name_en": "W96",
-      "name_zh": "待定",
-      "display_name_zh": "待定",
-      "is_placeholder": true,
-      "placeholder_label": "W96"
+      "team_id": "switzerland",
+      "name_en": "Switzerland",
+      "name_zh": "瑞士",
+      "display_name_zh": "瑞士",
+      "is_placeholder": false,
+      "placeholder_label": null
     },
     "kickoff_beijing": "2026-07-12T09:00:00+08:00",
     "kickoff_beijing_date": "2026-07-12",
@@ -3791,11 +3791,11 @@
     "venue": "GEHA Field at Arrowhead",
     "city": "Kansas City",
     "country": "United States",
-    "teams_confirmed": false,
+    "teams_confirmed": true,
     "source": {
-      "primary": "excel_seed",
+      "primary": "round_of_16_results_override",
       "excel_row": 103,
-      "override_id": null,
+      "override_id": "QF-teams-confirmed-2026-07-10",
       "last_checked_at": "2026-06-28T10:05:16+08:00"
     }
   },

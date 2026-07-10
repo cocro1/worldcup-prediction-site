@@ -1,0 +1,30 @@
+﻿{
+    "data_results":  {
+
+                     },
+    "synced_files":  {
+                         "teams":  1,
+                         "content":  {
+                                         "topics":  13,
+                                         "mystic":  4,
+                                         "predictions":  98,
+                                         "deductions":  18
+                                     },
+                         "data":  {
+                                      "topics":  13,
+                                      "mystic":  4,
+                                      "predictions":  98,
+                                      "deductions":  16
+                                  },
+                         "matches":  1,
+                         "results":  99
+                     },
+    "output_dir":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+    "success":  false,
+    "error":  "",
+    "build_time":  "2026-07-10T08:50:25+08:00",
+    "content_results":  {
+
+                        },
+    "bom_cleaned":  50
+}
