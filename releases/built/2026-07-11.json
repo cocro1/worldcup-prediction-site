@@ -1,0 +1,28 @@
+﻿{
+    "content":  {
+                    "results":  {
+                                    "json":  109
+                                },
+                    "topics":  {
+                                   "json":  13,
+                                   "md":  13
+                               },
+                    "mystic":  {
+                                   "json":  4,
+                                   "md":  4
+                               },
+                    "predictions":  {
+                                        "json":  98,
+                                        "md":  98
+                                    },
+                    "deductions":  {
+                                       "json":  16,
+                                       "md":  12
+                                   }
+                },
+    "bom_files_cleaned":  0,
+    "build_time":  "2026-07-11T22:27:33",
+    "success":  true,
+    "files_synced":  0,
+    "output_dir":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist"
+}
