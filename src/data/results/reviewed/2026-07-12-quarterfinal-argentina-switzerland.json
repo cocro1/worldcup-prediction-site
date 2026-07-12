@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-12-quarterfinal-argentina-switzerland",
+  "status": "result_verified",
+  "home_score_90": 1,
+  "away_score_90": 1,
+  "total_goals_90": 2,
+  "handicap": "主-0.75",
+  "extra_time_score": "2-0",
+  "penalty_score": null,
+  "source": {
+    "primary": "BBC Sport live page: https://www.bbc.com/sport/football/live/c4gyj35k3n3t (90-min: Argentina 1-1 Switzerland; ET: 2-0; final 3-1)",
+    "checked_sources": [
+      "BBC Sport: https://www.bbc.com/sport/football/live/c4gyj35k3n3t",
+      "AFP via Yahoo Sports: https://uk.sports.yahoo.com/news/argentina-know-suffer-says-alvarez-051855693.html",
+      "OddsAPI scores endpoint (final score 3-1 incl. ET)"
+    ]
+  },
+  "verified_at": "2026-07-12T14:03:00+08:00"
+}

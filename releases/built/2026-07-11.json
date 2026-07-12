@@ -1,7 +1,9 @@
 ﻿{
+    "git_branch":  "main",
+    "build_time":  "2026-07-11T22:28:06",
     "content":  {
                     "results":  {
-                                    "json":  109
+                                    "json":  100
                                 },
                     "topics":  {
                                    "json":  13,
@@ -12,17 +14,18 @@
                                    "md":  4
                                },
                     "predictions":  {
-                                        "json":  98,
-                                        "md":  98
+                                        "json":  100,
+                                        "md":  100
                                     },
                     "deductions":  {
                                        "json":  16,
-                                       "md":  12
+                                       "md":  16
                                    }
                 },
-    "bom_files_cleaned":  0,
-    "build_time":  "2026-07-11T22:27:33",
+    "output_dir":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
     "success":  true,
-    "files_synced":  0,
-    "output_dir":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist"
+    "bom_files_cleaned":  0,
+    "files_synced":  4,
+    "git_commit":  "48926e9",
+    "pages":  173
 }
