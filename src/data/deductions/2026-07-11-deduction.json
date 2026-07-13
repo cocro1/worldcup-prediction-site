@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-11",
+  "title": "7月11日四分之一决赛推演",
+  "article_path": "content/deductions/reviewed/2026-07-11-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-11-quarterfinal-spain-belgium",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "stage": "Quarterfinal",
+      "deduction_scores": ["2-1", "2-0"],
+      "over_2_5_probability": 0.52,
+      "notes": "优势局推演：西班牙防守优势明显，但比利时进攻效率与主队持平"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-10T13:15:00+08:00",
+  "reviewed_at": "2026-07-13T09:31:00+08:00",
+  "model": {
+    "name": "Strength-Adjusted Bayesian Poisson",
+    "shrinkage": 1.5,
+    "prior_group_goals_per_game": 2.78,
+    "calibration_knockout_goals_per_game": 1.25,
+    "knockout_modifier": -1.53
+  },
+  "team_data": {
+    "spain": {
+      "matches_played": 7,
+      "goals_for": 13,
+      "goals_against": 1,
+      "attack_strength": 1.86,
+      "defense_strength": 0.14
+    },
+    "belgium": {
+      "matches_played": 7,
+      "goals_for": 13,
+      "goals_against": 5,
+      "attack_strength": 1.86,
+      "defense_strength": 0.71
+    }
+  },
+  "match_count": 1
+}

@@ -12,8 +12,9 @@
     "primary": "BBC Sport: https://www.bbc.com/sport/football/live/cr5j14eyzm8t",
     "checked_sources": [
       "BBC Sport match page: England 3-2 Mexico",
-      "OddsAPI scores endpoint"
+      "OddsAPI scores endpoint",
+      "football-data.org (match 537378)"
     ]
   },
-  "verified_at": "2026-07-06T21:00:00+08:00"
+  "verified_at": "2026-07-08T14:34:28.055520+00:00"
 }

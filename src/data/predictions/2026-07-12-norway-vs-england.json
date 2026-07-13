@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-12-quarterfinal-norway-england",
+  "title": "挪威 vs 英格兰赛前预测：右路伤兵危机遇上哈兰德强侧",
+  "article_path": "content/predictions/draft/2026-07-12-norway-vs-england.md",
+  "prediction_score": "1-2",
+  "backup_score": "1-1",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "英格兰整体实力和替补深度占优，但右路伤兵满营（宽萨禁赛、里斯·詹姆斯重伤、赖斯/格伊带伤）恰好对上哈兰德进攻强侧，挪威有爆冷空间。",
+  "source_names": [
+    "FIFA 官方赛程及比赛数据",
+    "LiveScores / ESPN / WhoScored",
+    "纳米数据",
+    "BBC Sport / Marca / DAZN",
+    "Transfermarkt",
+    "FBref / Understat",
+    "FIFA 排名"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-11T22:02:00+08:00",
+  "reviewed_at": "2026-07-11T22:23:49+08:00"
+}

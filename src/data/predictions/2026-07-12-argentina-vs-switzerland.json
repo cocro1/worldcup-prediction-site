@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-12-quarterfinal-argentina-switzerland",
+  "title": "阿根廷 vs 瑞士赛前预测：传控攻坚遇上铁桶防守",
+  "article_path": "content/predictions/draft/2026-07-12-argentina-vs-switzerland.md",
+  "prediction_score": "2-0",
+  "backup_score": "1-0",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "阿根廷纸面实力、球星上限和历史交锋全面领先，替补深度是决定性优势。瑞士5场0败+铁桶防守+科贝尔超神是拖入加时的底牌，但曼赞比伤缺后反击威胁大幅下降。",
+  "source_names": [
+    "FIFA 官方赛程及比赛数据",
+    "LiveScores / ESPN / WhoScored",
+    "纳米数据",
+    "BBC Sport / Marca / DAZN",
+    "Transfermarkt",
+    "FBref / Understat",
+    "FIFA 排名",
+    "历史交锋记录"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-11T22:02:00+08:00",
+  "reviewed_at": "2026-07-11T22:23:49+08:00"
+}

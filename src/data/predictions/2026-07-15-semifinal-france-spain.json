@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-15-semifinal-france-spain",
+  "title": "法国 vs 西班牙赛前预测：最强之矛对决最固之盾",
+  "article_path": "content/predictions/reviewed/2026-07-15-semifinal-france-spain.md",
+  "prediction_score": "2-1",
+  "backup_score": "1-1",
+  "confidence": "high",
+  "confidence_zh": "高置信",
+  "summary": "法国的反击体系是破解西班牙传控的最优解，加之全胜零加时的体能优势，看好法国常规时间小胜。",
+  "source_names": ["2026 世界杯赛程表", "FIFA 官方赛程", "纳米数据", "Sports Illustrated", "The Soccer Era", "The World Cup 2026", "央视新闻", "羊城晚报", "搜狐体育"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-13T09:24:00+08:00",
+  "reviewed_at": "2026-07-13T09:31:00+08:00"
+}

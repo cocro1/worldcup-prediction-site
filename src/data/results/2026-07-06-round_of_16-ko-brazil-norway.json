@@ -12,8 +12,9 @@
     "primary": "BBC Sport: https://www.bbc.com/sport/football/live/c3wyl9qe4xgt",
     "checked_sources": [
       "BBC Sport match page: Brazil 1-2 Norway",
-      "OddsAPI scores endpoint"
+      "OddsAPI scores endpoint",
+      "football-data.org (match 537377)"
     ]
   },
-  "verified_at": "2026-07-06T21:00:00+08:00"
+  "verified_at": "2026-07-08T14:34:28.054658+00:00"
 }

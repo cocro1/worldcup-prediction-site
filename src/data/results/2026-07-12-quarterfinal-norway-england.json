@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-12-quarterfinal-norway-england",
+  "status": "result_verified",
+  "home_score_90": 1,
+  "away_score_90": 1,
+  "total_goals_90": 2,
+  "handicap": "主+0.5",
+  "extra_time_score": "0-1",
+  "penalty_score": null,
+  "source": {
+    "primary": "BBC Sport match report: https://www.bbc.com/sport/football/live/cgl33l55100t (90-min: Norway 1-1 England; ET: 0-1; final 1-2)",
+    "checked_sources": [
+      "BBC Sport: https://www.bbc.com/sport/football/live/cgl33l55100t",
+      "AFP via Yahoo Sports: https://uk.sports.yahoo.com/news/england-battle-norway-argentina-face-053621560.html",
+      "OddsAPI scores endpoint (final score 1-2 incl. ET)"
+    ]
+  },
+  "verified_at": "2026-07-12T14:03:00+08:00"
+}
