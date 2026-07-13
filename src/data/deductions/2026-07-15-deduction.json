@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-15",
+  "title": "7月15日世界杯推演：半决赛首场法国 vs 西班牙",
+  "article_path": "content/deductions/reviewed/2026-07-15-deduction.md",
+  "match_count": 1,
+  "summary": "半决赛首场为法国与西班牙的顶级防守对话，模型显示低比分、高平局概率，大于2.5球概率偏低。",
+  "matches": [
+    {
+      "match_id": "2026-07-15-semifinal-france-spain",
+      "deduction_scores": [
+        "1-1",
+        "0-1"
+      ],
+      "over_2_5_probability": 0.337,
+      "notes": "法西两队防守效率顶级，Lambda接近1.0，预计为低比分战术局，细节或加时/点球可能决定胜负。"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-13T09:52:20+08:00",
+  "reviewed_at": "2026-07-13T10:29:00+08:00"
+}

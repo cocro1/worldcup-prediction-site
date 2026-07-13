@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "content_type": "topic",
+  "topic_id": "topic-2026-07-04-round-of-16-deep-report",
+  "title": "2026年美加墨世界杯16强赛深度报告",
+  "article_path": "content/topics/reviewed/topic-2026-07-04-round-of-16-deep-report.md",
+  "published_date": "2026-07-04",
+  "topic_type": "stage",
+  "related": {
+    "dates": [
+      "2026-07-05",
+      "2026-07-06",
+      "2026-07-07",
+      "2026-07-08"
+    ],
+    "match_ids": [
+      "2026-07-05-round_of_16-ko-canada-morocco",
+      "2026-07-05-round_of_16-ko-paraguay-france",
+      "2026-07-06-round_of_16-ko-brazil-norway",
+      "2026-07-06-round_of_16-ko-mexico-england",
+      "2026-07-07-round_of_16-ko-portugal-spain",
+      "2026-07-07-round_of_16-ko-united-states-belgium",
+      "2026-07-08-round_of_16-ko-argentina-egypt",
+      "2026-07-08-round_of_16-ko-switzerland-colombia"
+    ],
+    "team_ids": [
+      "canada",
+      "morocco",
+      "paraguay",
+      "france",
+      "brazil",
+      "norway",
+      "mexico",
+      "england",
+      "portugal",
+      "spain",
+      "united_states",
+      "belgium",
+      "argentina",
+      "egypt",
+      "switzerland",
+      "colombia"
+    ],
+    "stages": [
+      "round_of_16"
+    ]
+  },
+  "summary": "从历史演变分析、核心博弈维度（体能红利、高原环境、战术回摆）、焦点战役深度推演、全景数据预测与舆论锚点等角度，对2026世界杯16强赛进行深度战略评估。",
+  "priority": 75,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-13T10:38:00+08:00",
+  "reviewed_at": "2026-07-13T10:42:00+08:00"
+}

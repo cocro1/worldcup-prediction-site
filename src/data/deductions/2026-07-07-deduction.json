@@ -10,23 +10,24 @@
       "home_team": "Portugal",
       "away_team": "Spain",
       "stage": "Round of 16",
-      "deduction_scores": ["1-1", "2-1"],
-      "over_2_5_probability": 0.48,
-      "notes": "伊比利亚德比，均势对决"
+      "deduction_scores": ["2-1", "1-1"],
+      "over_2_5_probability": 0.58,
+      "notes": "伊比利亚德比，葡萄牙进攻火力配合C罗状态，西班牙防守全零金身将受考验"
     },
     {
-      "match_id": "2026-07-07-round_of_16-ko-usa-belgium",
-      "home_team": "United States",
+      "match_id": "2026-07-07-round_of_16-ko-united-states-belgium",
+      "home_team": "USA",
       "away_team": "Belgium",
       "stage": "Round of 16",
-      "deduction_scores": ["1-2", "0-1"],
-      "over_2_5_probability": 0.55,
-      "notes": "比利时实力占优，美国主场作战"
+      "deduction_scores": ["2-1", "1-0"],
+      "over_2_5_probability": 0.52,
+      "notes": "美国东道主优势明显，进攻火力强劲；比利时逆转能力值得关注"
     }
   ],
   "status": "reviewed",
   "generated_by": "deduction-ai",
   "reviewed_by": "qa-agent",
-  "generated_at": "2026-07-04T17:40:00+08:00",
-  "reviewed_at": "2026-07-04T17:47:00+08:00"
+  "generated_at": "2026-07-05T13:00:00+08:00",
+  "reviewed_at": "2026-07-13T10:29:00+08:00",
+  "match_count": 2
 }

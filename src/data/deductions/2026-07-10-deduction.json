@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-10",
+  "title": "7月10日四分之一决赛推演",
+  "article_path": "content/deductions/reviewed/2026-07-10-deduction.md",
+  "matches": [
+    {
+      "match_id": "2026-07-10-quarterfinal-morocco-france",
+      "home_team": "France",
+      "away_team": "Morocco",
+      "stage": "Quarterfinal",
+      "deduction_scores": [
+        "2-0",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.52,
+      "notes": "法国净强度+2.4碾压摩洛哥+1.2，姆巴佩7球领跑射手榜，摩洛哥虽坚韧但难以阻挡法国攻势"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-09T13:10:00+08:00",
+  "reviewed_at": "2026-07-13T10:29:00+08:00",
+  "match_count": 1,
+  "methodology": {
+    "model": "Strength-Adjusted Bayesian Poisson",
+    "shrinkage": 1.5,
+    "global_avg_goals": 2.99,
+    "calibration_window": "小组赛72场 + 已完赛淘汰赛",
+    "notes": "四分之一决赛节奏偏保守，预期进球数会低于小组赛均值"
+  },
+  "team_strengths": {
+    "France": {
+      "attack_strength": 2.8,
+      "defense_strength": 0.4,
+      "net_strength": 2.4,
+      "matches_played": 5,
+      "goals_scored": 14,
+      "goals_conceded": 2
+    },
+    "Morocco": {
+      "attack_strength": 2.0,
+      "defense_strength": 0.8,
+      "net_strength": 1.2,
+      "matches_played": 5,
+      "goals_scored": 10,
+      "goals_conceded": 4
+    }
+  },
+  "risks": [
+    "淘汰赛不确定性：四分之一决赛节奏更保守，实际进球数可能低于预期",
+    "伤病影响：法国中场楚阿梅尼伤缺可能影响中场控制力",
+    "摩洛哥韧性：上届世界杯四强底蕴不可小觑，点球大战或加时赛可能性存在"
+  ],
+  "data_sources": [
+    "小组赛72场共215球，场均2.99球",
+    "法国5战全胜进14球失2球",
+    "摩洛哥5战3胜2平进10球失4球",
+    "2026世界杯官方比赛结果"
+  ]
+}
