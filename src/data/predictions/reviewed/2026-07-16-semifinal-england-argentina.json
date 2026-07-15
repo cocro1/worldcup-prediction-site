@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-16-semifinal-england-argentina",
+  "title": "英格兰 vs 阿根廷赛前预测：青春风暴对决冠军底蕴",
+  "article_path": "content/predictions/reviewed/2026-07-16-semifinal-england-argentina.md",
+  "prediction_score": "2-1",
+  "backup_score": "1-1",
+  "confidence": "medium",
+  "confidence_zh": "中置信",
+  "summary": "阿根廷三场淘汰赛全打加时、累计多踢约一整场，39 岁梅西体能逼近极限；英格兰更年轻、阵容更深，有望在比赛后段凭借体能优势小胜。",
+  "source_names": ["2026 世界杯赛程表", "FIFA 官方赛程", "纳米数据", "Sports Illustrated", "The Soccer Era", "The World Cup 2026", "央视新闻", "羊城晚报", "搜狐体育"],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-13T09:24:00+08:00",
+  "reviewed_at": "2026-07-13T09:31:00+08:00"
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "content_type": "mystic",
+  "article_id": "mystic-2026-07-04-round-of-16-prediction",
+  "title": "2026美加墨世界杯 1/8决赛（淘汰赛第二轮）多维预测报告",
+  "article_path": "content/mystic/reviewed/mystic-2026-07-04-round-of-16-prediction.md",
+  "published_date": "2026-07-04",
+  "scope": "stage",
+  "related": {
+    "dates": [
+      "2026-07-05",
+      "2026-07-06",
+      "2026-07-07",
+      "2026-07-08"
+    ],
+    "match_ids": [
+      "2026-07-05-round_of_16-ko-canada-morocco",
+      "2026-07-05-round_of_16-ko-paraguay-france",
+      "2026-07-06-round_of_16-ko-brazil-norway",
+      "2026-07-06-round_of_16-ko-mexico-england",
+      "2026-07-07-round_of_16-ko-portugal-spain",
+      "2026-07-07-round_of_16-ko-united-states-belgium",
+      "2026-07-08-round_of_16-ko-argentina-egypt",
+      "2026-07-08-round_of_16-ko-switzerland-colombia"
+    ],
+    "team_ids": [
+      "canada",
+      "morocco",
+      "paraguay",
+      "france",
+      "brazil",
+      "norway",
+      "mexico",
+      "england",
+      "portugal",
+      "spain",
+      "united_states",
+      "belgium",
+      "argentina",
+      "egypt",
+      "switzerland",
+      "colombia"
+    ],
+    "stages": [
+      "round_of_16"
+    ]
+  },
+  "summary": "基于历史统计对标 × Dixon-Coles量化模型 × 玄学易理 × 混沌理论，对2026世界杯1/8决赛八场比赛（7月5日-8日）进行逐场多维预测。含八场预测汇总表、跨场次统计预测和易理格局总论。",
+  "display_index": null,
+  "status": "reviewed",
+  "generated_by": "content-migrator",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-13T10:38:00+08:00",
+  "reviewed_at": "2026-07-13T10:42:00+08:00"
+}

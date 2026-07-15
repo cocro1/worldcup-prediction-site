@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-15-semifinal-france-spain",
+  "status": "result_verified",
+  "home_score_90": 0,
+  "away_score_90": 2,
+  "total_goals_90": 2,
+  "handicap": "主-0.25",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "ESPN API: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260714",
+    "checked_sources": [
+      "ESPN API",
+      "OddsAPI scores endpoint"
+    ]
+  },
+  "verified_at": "2026-07-15T14:05:00+08:00"
+}

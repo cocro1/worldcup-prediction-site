@@ -1,0 +1,25 @@
+{
+  "build_time": "2026-07-15T14:30:00+08:00",
+  "build_completed": "2026-07-15T14:37:03+08:00",
+  "success": true,
+  "pages_built": 182,
+  "build_duration_seconds": 15.34,
+  "output_directory": "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+  "sync_summary": {
+    "data_predictions_json": 102,
+    "data_deductions_json": 21,
+    "data_results_json": 102,
+    "data_mystic_json": 5,
+    "data_topics_json": 14,
+    "data_matches_json": 1,
+    "data_teams_json": 1,
+    "content_predictions_md": 102,
+    "content_deductions_md": 21,
+    "content_mystic_md": 5,
+    "content_topics_md": 14,
+    "total_files_synced": 388
+  },
+  "bom_cleaned": 0,
+  "trigger": "daily_cron_14:30",
+  "build_command": "npx astro build"
+}

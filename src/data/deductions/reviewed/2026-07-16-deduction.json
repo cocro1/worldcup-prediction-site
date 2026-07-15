@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-16",
+  "title": "7月16日世界杯推演：半决赛次场英格兰 vs 阿根廷",
+  "article_path": "content/deductions/reviewed/2026-07-16-deduction.md",
+  "match_count": 1,
+  "summary": "半决赛次场为英阿对决，两队进攻天赋突出但防守均有缺口，模型倾向大于2.5球的高进球局。",
+  "matches": [
+    {
+      "match_id": "2026-07-16-semifinal-england-argentina",
+      "deduction_scores": [
+        "2-1",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.731,
+      "notes": "英格兰体能与阵容深度占优，阿根廷依赖梅西个人决定性与大赛经验，右路防守是英格兰最大隐患。"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-13T09:52:20+08:00",
+  "reviewed_at": "2026-07-13T10:29:00+08:00"
+}

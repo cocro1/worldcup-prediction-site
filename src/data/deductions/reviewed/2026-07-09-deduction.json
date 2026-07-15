@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-09",
+  "title": "7月9日休息日推演",
+  "article_path": "content/deductions/reviewed/2026-07-09-deduction.md",
+  "matches": [],
+  "rest_day": true,
+  "status": "reviewed",
+  "generated_by": "deduction-ai",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-08T14:41:00+08:00",
+  "reviewed_at": "2026-07-13T10:44:00+08:00",
+  "notes": "北京时间2026年7月9日是世界杯首个休息日，无比赛安排。下一比赛日为7月10日，将进行四分之一决赛。",
+  "match_count": 0
+}

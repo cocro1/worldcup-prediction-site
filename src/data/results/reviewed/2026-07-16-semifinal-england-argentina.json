@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "match_id": "2026-07-07-round_of_16-ko-usa-belgium",
+  "match_id": "2026-07-16-semifinal-england-argentina",
   "status": "result_verified",
   "home_score_90": null,
   "away_score_90": null,
@@ -9,10 +9,10 @@
   "extra_time_score": null,
   "penalty_score": null,
   "source": {
-    "primary": "OddsAPI handicap endpoint",
+    "primary": "OddsAPI handicap: BetAnything",
     "checked_sources": [
       "OddsAPI handicap endpoint"
     ]
   },
-  "verified_at": "2026-07-05T18:15:00+08:00"
+  "verified_at": "2026-07-13T14:15:05+08:00"
 }
