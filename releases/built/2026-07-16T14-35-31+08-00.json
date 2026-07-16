@@ -1,0 +1,22 @@
+﻿{
+    "build":  "success",
+    "timestamp":  "2026-07-16T14:35:54%2B08:00",
+    "duration_seconds":  8.59,
+    "synced":  {
+                   "content":  {
+                                   "mystic_md":  5,
+                                   "deductions_md":  21,
+                                   "predictions_md":  102,
+                                   "topics_md":  14
+                               },
+                   "data":  {
+                                "topics_json":  14,
+                                "results_json":  102,
+                                "mystic_json":  5,
+                                "predictions_json":  102,
+                                "deductions_json":  21
+                            }
+               },
+    "pages":  182,
+    "project":  "worldcup-prediction-site"
+}
