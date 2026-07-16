@@ -1,0 +1,42 @@
+{
+  "build_time": "2026-07-16T20:44:10+08:00",
+  "total_pages": 186,
+  "success": true,
+  "files_synced": {
+    "content_predictions_md": 104,
+    "content_deductions_md": 23,
+    "content_mystic_md": 5,
+    "content_topics_md": 14,
+    "data_predictions_json": 104,
+    "data_deductions_json": 23,
+    "data_mystic_json": 5,
+    "data_topics_json": 14,
+    "data_results_json": 87,
+    "data_matches": true,
+    "data_teams": true
+  },
+  "bom_stripped": 0,
+  "pages_generated": {
+    "index": 1,
+    "date_pages": 34,
+    "predictions_list": 1,
+    "prediction_articles": 104,
+    "deductions_list": 1,
+    "deduction_articles": 23,
+    "mystic_list": 1,
+    "mystic_articles": 5,
+    "topics_list": 1,
+    "topic_articles": 14,
+    "value": 1
+  },
+  "new_content_this_build": [
+    "predictions: 2026-07-19-third_place-ko-france-england",
+    "predictions: 2026-07-20-final-ko-spain-argentina",
+    "deductions: 2026-07-19-deduction",
+    "deductions: 2026-07-20-deduction"
+  ],
+  "dist_dir": "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+  "failure_reason": null,
+  "triggered_by": "publisher-agent",
+  "build_command": "npx astro build"
+}

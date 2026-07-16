@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-20",
+  "title": "7月20日世界杯推演：决赛西班牙 vs 阿根廷",
+  "article_path": "content/deductions/reviewed/2026-07-20-deduction.md",
+  "match_count": 1,
+  "summary": "决赛西班牙对阵阿根廷，西班牙攻防均衡占优，阿根廷依赖梅西个人决定性，模型倾向西班牙常规时间不败。",
+  "matches": [
+    {
+      "match_id": "2026-07-20-final-ko-spain-argentina",
+      "deduction_scores": [
+        "2-0",
+        "1-1"
+      ],
+      "over_2_5_probability": 0.534,
+      "notes": "西班牙控球与边路冲击对阿根廷老将防线形成持续压力，梅西的个人能力是阿根廷最大变数。"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-16T18:52:08+08:00",
+  "reviewed_at": "2026-07-16T19:29:00+08:00"
+}

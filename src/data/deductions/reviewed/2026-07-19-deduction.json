@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-07-19",
+  "title": "7月19日世界杯推演：季军赛法国 vs 英格兰",
+  "article_path": "content/deductions/reviewed/2026-07-19-deduction.md",
+  "match_count": 1,
+  "summary": "季军赛法国与英格兰展开荣誉之战，模型显示中等进球预期，法国略占优势，平局概率不容忽视。",
+  "matches": [
+    {
+      "match_id": "2026-07-19-third_place-ko-france-england",
+      "deduction_scores": [
+        "1-1",
+        "2-1"
+      ],
+      "over_2_5_probability": 0.463,
+      "notes": "法国半决赛失利后防线重组，英格兰右路防守存在缺口，双方均有进球能力但防守纪律会限制总进球数。"
+    }
+  ],
+  "status": "reviewed",
+  "generated_by": "deduction-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-16T18:52:08+08:00",
+  "reviewed_at": "2026-07-16T19:29:00+08:00"
+}
