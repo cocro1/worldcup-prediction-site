@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-19-third_place-ko-france-england",
+  "title": "法国 vs 英格兰赛前预测：决赛经验的代差或决定季军归属",
+  "article_path": "content/predictions/reviewed/2026-07-19-third_place-ko-france-england.md",
+  "prediction_score": "2-1",
+  "backup_score": "1-1",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "法国拥有近三届世界杯两冠一亚的决赛级经验，且2022四分之一决赛曾2-1淘汰英格兰；英格兰大赛决胜战历史偏弱。",
+  "source_names": [
+    "2026 世界杯赛程（matches.seed.json）",
+    "前两届世界杯三四名赛公开历史数据",
+    "2022 世界杯英法直接交锋记录"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-16T17:35:00+08:00",
+  "reviewed_at": "2026-07-16T19:29:00+08:00"
+}

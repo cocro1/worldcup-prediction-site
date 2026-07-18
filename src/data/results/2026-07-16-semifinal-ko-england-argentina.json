@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-16-semifinal-ko-england-argentina",
+  "status": "result_verified",
+  "home_score_90": 1,
+  "away_score_90": 2,
+  "total_goals_90": 3,
+  "handicap": "平手",
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "ESPN API: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260715",
+    "checked_sources": [
+      "ESPN API (FULL_TIME, England 1-2 Argentina, goals at 55', 85', 90'+2')",
+      "OddsAPI scores endpoint (England 1-2 Argentina, Completed)"
+    ]
+  },
+  "verified_at": "2026-07-17T14:00:00+08:00"
+}

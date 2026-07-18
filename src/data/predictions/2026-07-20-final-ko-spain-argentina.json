@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "content_type": "prediction",
+  "match_id": "2026-07-20-final-ko-spain-argentina",
+  "title": "西班牙 vs 阿根廷赛前预测：卫冕冠军的决赛基因或成关键",
+  "article_path": "content/predictions/reviewed/2026-07-20-final-ko-spain-argentina.md",
+  "prediction_score": "1-2",
+  "backup_score": "1-1",
+  "confidence": "medium-high",
+  "confidence_zh": "中高置信",
+  "summary": "阿根廷作为卫冕冠军延续进入决赛的历史通道，并具备2022决赛点球夺冠的实战经验，略优于世界杯决赛经验稀缺的西班牙。",
+  "source_names": [
+    "2026 世界杯赛程（matches.seed.json）",
+    "前两届世界杯决赛与三四名赛公开历史数据",
+    "2024 欧洲杯与 2022 世界杯球队近期战绩"
+  ],
+  "source_urls": [],
+  "markdown_requirements": {
+    "has_data_sources_section": true,
+    "has_disclaimer_section": true
+  },
+  "status": "reviewed",
+  "generated_by": "prediction-writer-agent",
+  "reviewed_by": "qa-agent",
+  "generated_at": "2026-07-16T17:35:00+08:00",
+  "reviewed_at": "2026-07-16T19:29:00+08:00"
+}
