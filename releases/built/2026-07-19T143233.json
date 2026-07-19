@@ -1,0 +1,21 @@
+﻿{
+    "pages_built":  186,
+    "bom_fixes":  0,
+    "build_time":  "2026-07-19T14:32:33+08:00",
+    "note":  "每日发布 2026-07-19",
+    "success":  true,
+    "synced":  {
+                   "deductions_data":  23,
+                   "topics_data":  14,
+                   "predictions_content":  104,
+                   "matches":  1,
+                   "topics_content":  14,
+                   "mystic_content":  5,
+                   "predictions_data":  104,
+                   "teams":  1,
+                   "results_data":  106,
+                   "mystic_data":  5,
+                   "deductions_content":  29
+               },
+    "output_dir":  "dist/"
+}
