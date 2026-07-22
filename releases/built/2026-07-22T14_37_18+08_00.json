@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-07-22T14:37:18+08:00",
+  "build": {
+    "pages": 186,
+    "duration_seconds": 14.25,
+    "build_time": "14.25s",
+    "output": "static",
+    "directory": "dist/"
+  },
+  "sync": {
+    "files_copied": 396,
+    "bom_fixed": 0,
+    "categories": {
+      "data/predictions": 104,
+      "data/deductions": 23,
+      "data/results": 105,
+      "data/mystic": 5,
+      "data/topics": 14,
+      "content/predictions": 104,
+      "content/deductions": 23,
+      "content/mystic": 5,
+      "content/topics": 14
+    }
+  },
+  "status": "success"
+}
