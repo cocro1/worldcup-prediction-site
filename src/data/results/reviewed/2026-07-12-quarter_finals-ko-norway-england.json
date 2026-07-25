@@ -1,18 +1,18 @@
 {
   "schema_version": "1.0",
-  "match_id": "2026-06-18-group-k-portugal-congo-dr",
+  "match_id": "2026-07-12-quarter_finals-ko-norway-england",
   "status": "result_verified",
   "home_score_90": 1,
   "away_score_90": 1,
   "total_goals_90": 2,
   "handicap": null,
-  "extra_time_score": null,
+  "extra_time_score": "1-2",
   "penalty_score": null,
   "source": {
     "primary": "football-data.org API",
     "checked_sources": [
-      "football-data.org (match 537403)"
+      "football-data.org (match 537385)"
     ]
   },
-  "verified_at": "2026-07-25T06:06:31.448824+00:00"
+  "verified_at": "2026-07-25T06:06:31.511149+00:00"
 }
