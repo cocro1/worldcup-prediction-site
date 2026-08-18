@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-15-semifinal-ko-france-spain",
+  "status": "result_verified",
+  "home_score_90": 0,
+  "away_score_90": 2,
+  "total_goals_90": 2,
+  "handicap": null,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "football-data.org API",
+    "checked_sources": [
+      "football-data.org API (match 537387)",
+      "Existing reviewed record: 2026-07-15-semi_finals-ko-france-spain.json (scores agree)",
+      "Draft 2026-07-15-semifinal-france-spain (ESPN API + OddsAPI scores endpoint, recorded 2026-07-15)"
+    ]
+  },
+  "verified_at": "2026-08-15T06:19:53.523190+00:00"
+}

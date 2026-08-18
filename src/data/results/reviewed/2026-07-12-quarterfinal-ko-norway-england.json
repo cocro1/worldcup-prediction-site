@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-12-quarterfinal-ko-norway-england",
+  "status": "result_verified",
+  "home_score_90": 1,
+  "away_score_90": 1,
+  "total_goals_90": 2,
+  "handicap": null,
+  "extra_time_score": "1-2",
+  "penalty_score": null,
+  "source": {
+    "primary": "football-data.org API",
+    "checked_sources": [
+      "football-data.org API (match 537385)",
+      "Existing reviewed record: 2026-07-12-quarter_finals-ko-norway-england.json (scores agree)",
+      "Draft 2026-07-12-quarterfinal-norway-england (BBC Sport + AFP via Yahoo, recorded 2026-07-12)"
+    ]
+  },
+  "verified_at": "2026-08-15T06:19:53.523190+00:00"
+}
