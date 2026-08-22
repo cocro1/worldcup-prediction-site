@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "match_id": "2026-07-11-quarterfinal-ko-spain-belgium",
+  "status": "result_verified",
+  "home_score_90": 2,
+  "away_score_90": 1,
+  "total_goals_90": 3,
+  "handicap": null,
+  "extra_time_score": null,
+  "penalty_score": null,
+  "source": {
+    "primary": "football-data.org API",
+    "checked_sources": [
+      "football-data.org API (match 537384)",
+      "Existing reviewed record: 2026-07-11-quarter_finals-ko-spain-belgium.json (scores agree)",
+      "Draft 2026-07-11-quarterfinal-spain-belgium (OddsAPI scores endpoint + BBC Sport, recorded 2026-07-11)"
+    ]
+  },
+  "verified_at": "2026-08-15T06:19:53.523190+00:00"
+}
