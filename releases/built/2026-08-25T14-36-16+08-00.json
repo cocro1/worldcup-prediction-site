@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-08-25T06:36:18.533Z",
+  "build": "success",
+  "outputDir": "dist/",
+  "pages": 186,
+  "syncedData": {
+    "results": 118,
+    "topics": 14,
+    "mystic": 5,
+    "predictions": 104,
+    "deductions": 23,
+    "odds": 1,
+    "value": 15
+  },
+  "syncedContent": {
+    "topics": 14,
+    "mystic": 5,
+    "predictions": 104,
+    "deductions": 23
+  },
+  "bomStripped": 0,
+  "note": "共享盘 reviewed 内容与 2026-08-23 发布一致，无新增；构建成功，186 页。"
+}
