@@ -1,0 +1,26 @@
+{
+  "built_at": "2026-09-02T14-32-51+08-00",
+  "build_time_iso": "2026-09-02T06:32:51.277Z",
+  "timezone": "Asia/Shanghai",
+  "source_warehouse": "D:/我的坚果云/fwc2026",
+  "project": "worldcup-prediction-site",
+  "synced": {
+    "data_predictions_reviewed": 104,
+    "data_deductions_reviewed": 23,
+    "data_results_reviewed": 118,
+    "data_mystic_reviewed": 5,
+    "data_topics_reviewed": 14,
+    "content_predictions_reviewed": 104,
+    "content_deductions_reviewed": 23,
+    "content_mystic_reviewed": 5,
+    "content_topics_reviewed": 14,
+    "total_files": 410
+  },
+  "bom_removed": 0,
+  "output_dir": "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+  "pages_built": 186,
+  "html_files_in_dist": 186,
+  "build_command": "npx astro build",
+  "success": true,
+  "failure_reason": null
+}
