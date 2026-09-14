@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "content_type": "deduction",
+  "deduction_date": "2026-06-30",
+  "title": "6月30日32强推演",
+  "article_path": "content/deductions/reviewed/2026-06-30-deduction.md",
+  "matches": [
+    {
+      "match_id": 74,
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "stage": "Round of 32",
+      "deduction_scores": ["1-1", "2-1"],
+      "over_2_5_probability": 0.62,
+      "notes": "巴西小组赛场均进球2.7个，进攻火力强劲；日本防守稳固但面对顶级强队可能受限"
+    },
+    {
+      "match_id": 75,
+      "home_team": "Germany",
+      "away_team": "Paraguay",
+      "stage": "Round of 32",
+      "deduction_scores": ["2-1", "1-0"],
+      "over_2_5_probability": 0.55,
+      "notes": "德国整体实力占优，但巴拉圭防守严密擅长反击；预计德国控球率60%以上"
+    },
+    {
+      "match_id": 76,
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "stage": "Round of 32",
+      "deduction_scores": ["2-1", "1-1"],
+      "over_2_5_probability": 0.58,
+      "notes": "荷兰技术流占优，摩洛哥身体对抗能力强；预计荷兰控球率62%以上"
+    }
+  ],
+  "status": "draft",
+  "generated_by": "deduction-ai",
+  "generated_at": "2026-06-29T13:00:00+08:00"
+}

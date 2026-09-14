@@ -1,0 +1,54 @@
+{
+  "deduction_date": "2026-06-28",
+  "generated_at": "2026-06-27T18:38:00+08:00",
+  "matches": [
+    {
+      "match_id": 67,
+      "home_team": "Panama",
+      "away_team": "England",
+      "stage": "Group Stage",
+      "deduction_scores": ["1-2", "0-2"],
+      "over_2_5_probability": 0.42
+    },
+    {
+      "match_id": 68,
+      "home_team": "Croatia",
+      "away_team": "Ghana",
+      "stage": "Group Stage",
+      "deduction_scores": ["1-1", "2-1"],
+      "over_2_5_probability": 0.48
+    },
+    {
+      "match_id": 71,
+      "home_team": "Colombia",
+      "away_team": "Portugal",
+      "stage": "Group Stage",
+      "deduction_scores": ["1-1", "2-1"],
+      "over_2_5_probability": 0.55
+    },
+    {
+      "match_id": 72,
+      "home_team": "DR Congo",
+      "away_team": "Uzbekistan",
+      "stage": "Group Stage",
+      "deduction_scores": ["1-0", "2-1"],
+      "over_2_5_probability": 0.38
+    },
+    {
+      "match_id": 69,
+      "home_team": "Algeria",
+      "away_team": "Austria",
+      "stage": "Group Stage",
+      "deduction_scores": ["1-2", "0-1"],
+      "over_2_5_probability": 0.35
+    },
+    {
+      "match_id": 70,
+      "home_team": "Jordan",
+      "away_team": "Argentina",
+      "stage": "Group Stage",
+      "deduction_scores": ["0-3", "1-2"],
+      "over_2_5_probability": 0.68
+    }
+  ]
+}
