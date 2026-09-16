@@ -1,0 +1,30 @@
+﻿{
+    "timestamp":  "2026-09-16T14:32:08+08:00",
+    "status":  "success",
+    "source":  "D:\\我的坚果云\\fwc2026",
+    "site":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site",
+    "branch":  "main",
+    "astro_version":  "5.13.5",
+    "pages_built":  186,
+    "build_time_seconds":  12.5,
+    "output_dir":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+    "bom_stripped":  0,
+    "bom_scanned":  434,
+    "synced":  {
+                   "data/predictions/reviewed":  104,
+                   "data/deductions/reviewed":  23,
+                   "data/results/reviewed":  118,
+                   "data/mystic/reviewed":  5,
+                   "data/topics/reviewed":  14,
+                   "data/odds/reviewed":  1,
+                   "data/value/reviewed":  15,
+                   "content/predictions/reviewed":  104,
+                   "content/deductions/reviewed":  23,
+                   "content/mystic/reviewed":  5,
+                   "content/topics/reviewed":  14,
+                   "data/matches (seed)":  1,
+                   "data/teams (seed)":  1
+               },
+    "notes":  "Daily full sync of reviewed content/data, BOM check, Astro static build.",
+    "failure_reason":  null
+}
