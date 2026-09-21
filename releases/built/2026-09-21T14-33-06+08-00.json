@@ -1,0 +1,32 @@
+{
+    "timestamp":  "2026-09-21T14:33:06+08:00",
+    "status":  "success",
+    "source":  "D:\\我的坚果云\\fwc2026",
+    "site":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site",
+    "branch":  "main",
+    "astro_version":  "5.18.2",
+    "pages_built":  186,
+    "build_time_seconds":  12.97,
+    "output_dir":  "C:\\Users\\pc\\.openclaw\\workspace\\coder\\worldcup-prediction-site\\dist",
+    "bom_stripped":  0,
+    "bom_scanned":  418,
+    "synced":  {
+                   "data/predictions/reviewed":  104,
+                   "data/deductions/reviewed":  23,
+                   "data/results/reviewed":  118,
+                   "data/mystic/reviewed":  5,
+                   "data/topics/reviewed":  14,
+                   "content/predictions/reviewed":  104,
+                   "content/deductions/reviewed":  23,
+                   "content/mystic/reviewed":  5,
+                   "content/topics/reviewed":  14,
+                   "data/matches (seed)":  1,
+                   "data/teams (seed)":  1
+               },
+    "total_files_mirrored":  412,
+    "html_files_in_dist":  186,
+    "stale_mirror_files":  6,
+    "qa_check":  "264 reviewed JSON statuses valid (content=reviewed; results=full_time|result_verified)",
+    "notes":  "每日全量同步 reviewed 内容/数据（含 seed matches/teams），strip BOM（无 BOM），Astro 静态构建 186 页，push main 触发 GitHub Actions。注：src/content/deductions/reviewed 存在 6 个历史遗留 .json（与 data/deductions/reviewed 重复），非本次同步范围，未改动。",
+    "failure_reason":  null
+}
