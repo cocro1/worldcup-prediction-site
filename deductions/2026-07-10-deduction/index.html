@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="Astro v5.18.2"><title>7月10日四分之一决赛推演 - 2026 世界杯预测</title><link rel="stylesheet" href="/worldcup-prediction-site/_astro/_date_.DNIz5GPz.css"></head> <body> <main class="app-shell">  <article class="markdown-article"><h1>7月10日四分之一决赛推演</h1>
+<h2>今日总体判断</h2>
+<p>7月10日将进行2026世界杯首场四分之一决赛，由夺冠大热门法国迎战非洲劲旅摩洛哥。这是本届世界杯8强战的开篇之作，两支球队风格迥异：法国以强大火力著称，姆巴佩独揽7球领跑射手榜；摩洛哥则凭借坚韧防守连续两届闯入世界杯八强，成为首支达成这一成就的非洲球队。</p>
+<p>从整体态势看，法国作为夺冠头号热门，5战全胜进14球仅失2球，攻防两端都展现出统治级表现；摩洛哥虽然历史性闯入八强，但面对整体实力更胜一筹的法国，想要更进一步难度极大。</p>
+<h2>比赛一：法国 vs 摩洛哥</h2>
+<h3>球队强度分析</h3>
+<p><strong>法国队</strong>（5场数据）：</p>
+<ul>
+<li>进攻强度：2.8（14进球 / 5场）</li>
+<li>防守强度：0.4（2失球 / 5场）</li>
+<li>净强度：+2.4（碾压级）</li>
+</ul>
+<p><strong>摩洛哥队</strong>（5场数据）：</p>
+<ul>
+<li>进攻强度：2.0（10进球 / 5场）</li>
+<li>防守强度：0.8（4失球 / 5场）</li>
+<li>净强度：+1.2（优势级）</li>
+</ul>
+<p><strong>强度差</strong>：法国净强度领先 1.2 → 属于&quot;碾压局&quot;档位</p>
+<h3>关键因素</h3>
+<ol>
+<li><strong>火力对比</strong>：法国姆巴佩+登贝莱组合已轰入11球，攻击力冠绝32强；摩洛哥防守稳固但面对顶级锋线考验巨大</li>
+<li><strong>经验优势</strong>：法国连续两届闯入世界杯四强（2022亚军、2026八强），大赛经验丰富</li>
+<li><strong>淘汰赛修正</strong>：四分之一决赛节奏趋于谨慎，预期进球数会低于小组赛均值</li>
+</ol>
+<h3>推演结论</h3>
+<p>法国在实力、状态、经验各方面均占据压倒性优势，摩洛哥虽然防守组织严密，但面对法国多点开花的攻击群，恐怕难以招架。</p>
+<p><strong>推演比分</strong>：2-0、2-1</p>
+<p><strong>&gt;2.5球概率</strong>：0.52</p>
+<p><strong>依据</strong>：强度差1.2属于碾压局，但四分之一决赛节奏偏谨慎，法国预期进球2.0-2.5区间，摩洛哥预期进球0.4-0.6区间，总进球期望2.4-3.1，取中值推算&gt;2.5球概率约52%。</p>
+<h2>今日推演风险</h2>
+<h3>主要风险</h3>
+<ol>
+<li><strong>淘汰赛不确定性</strong>：四分之一决赛往往节奏更保守，实际进球数可能低于预期</li>
+<li><strong>伤病影响</strong>：法国中场楚阿梅尼伤缺可能影响中场控制力</li>
+<li><strong>摩洛哥韧性</strong>：上届世界杯四强底蕴不可小觑，点球大战或加时赛可能性存在</li>
+</ol>
+<h3>数据不确定性</h3>
+<ul>
+<li>小组赛场均2.99球的数据来自开放性比赛，淘汰赛强度提升后场均进球可能下降</li>
+<li>法国小组赛对手整体实力有限，淘汰赛数据样本较小</li>
+<li>摩洛哥防守数据包含点球大战，实际防守强度可能被高估</li>
+</ul>
+<h2>方法论说明</h2>
+<h3>模型：Strength-Adjusted Bayesian Poisson（强度调整贝叶斯泊松）</h3>
+<p><strong>核心参数</strong>：</p>
+<ul>
+<li>shrinkage = 1.5（给球队个体数据更多权重）</li>
+<li>全局场均进球：2.99（小组赛72场215球）</li>
+<li>淘汰赛修正：基于已完赛32强赛和16强赛数据动态调整</li>
+</ul>
+<p><strong>强度计算公式</strong>：</p>
+<pre><code>进攻强度 = 总进球 / 场次
+防守强度 = 总失球 / 场次
+净强度 = 进攻强度 - 防守强度
+</code></pre>
+<p><strong>预期进球计算</strong>：</p>
+<pre><code>lambda_home = (1.5 × 全局场均 + 3 × home_进攻) / (1.5 + 3) - away_防守校正
+lambda_away = (1.5 × 全局场均 + 3 × away_进攻) / (1.5 + 3) - home_防守校正
+</code></pre>
+<p><strong>四分之一决赛主场优势</strong>：中立场地，无主场优势调整</p>
+<hr>
+<p><strong>生成时间</strong>：2026-07-09 13:10:00+08:00<br><strong>数据截止</strong>：2026-07-09 12:00<br><strong>状态</strong>：draft</p>
+</article>  </main> <nav class="bottom-nav" aria-label="底部导航"> <a class="nav-item" href="/worldcup-prediction-site/"> <span class="nav-icon" aria-hidden="true">⌂</span> <span>首页</span> </a><a class="nav-item" href="/worldcup-prediction-site/predictions/"> <span class="nav-icon" aria-hidden="true">⚑</span> <span>预测</span> </a><a class="nav-item active" href="/worldcup-prediction-site/deductions/"> <span class="nav-icon" aria-hidden="true">☼</span> <span>推演</span> </a><a class="nav-item" href="/worldcup-prediction-site/value/"> <span class="nav-icon" aria-hidden="true">%</span> <span>价值</span> </a><a class="nav-item" href="/worldcup-prediction-site/mystic/"> <span class="nav-icon" aria-hidden="true">✦</span> <span>玄学</span> </a><a class="nav-item" href="/worldcup-prediction-site/topics/"> <span class="nav-icon" aria-hidden="true">▤</span> <span>专题</span> </a> </nav> </body></html>
