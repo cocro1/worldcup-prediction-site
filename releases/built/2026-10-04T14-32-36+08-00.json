@@ -29,5 +29,9 @@
   "qa_check": "264 reviewed JSON checked, 0 invalid",
   "invalid_files": [],
   "notes": "每日全量同步 reviewed 内容/数据（含 seed matches/teams），strip BOM，npx astro build，push main 触发 GitHub Actions。",
-  "failure_reason": null
+  "failure_reason": null,
+  "git": {
+    "commit_message": "每日发布 2026-10-04",
+    "result": "pushed"
+  }
 }
