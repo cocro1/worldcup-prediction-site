@@ -28,6 +28,12 @@
   "html_files_in_dist": 186,
   "qa_check": "264 reviewed JSON checked, 0 invalid",
   "invalid_files": [],
-  "notes": "每日全量同步 reviewed 内容/数据（含 seed matches/teams），strip BOM，npx astro build，push main 触发 GitHub Actions。",
-  "failure_reason": null
+  "notes": "每日全量同步 reviewed 内容/数据（含 seed matches/teams），strip BOM，npx astro build，push main 触发 GitHub Actions。 2026-10-16 发布：无新增 reviewed 内容，站点镜像无变化，仅新增本发布日志。",
+  "failure_reason": null,
+  "git": {
+    "commit_message": "每日发布 2026-10-16",
+    "commit": "ef482b6",
+    "result": "pushed",
+    "note": "首次 push 经本机代理 (127.0.0.1:7897) 因 schannel TLS 握手失败；改为直连（清除 HTTPS_PROXY/HTTP_PROXY/ALL_PROXY）后 push 成功。"
+  }
 }
