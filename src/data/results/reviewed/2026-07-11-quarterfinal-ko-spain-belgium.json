@@ -13,7 +13,8 @@
     "checked_sources": [
       "football-data.org API (match 537384)",
       "Existing reviewed record: 2026-07-11-quarter_finals-ko-spain-belgium.json (scores agree)",
-      "Draft 2026-07-11-quarterfinal-spain-belgium (OddsAPI scores endpoint + BBC Sport, recorded 2026-07-11)"
+      "Draft 2026-07-11-quarterfinal-spain-belgium (OddsAPI scores endpoint + BBC Sport, recorded 2026-07-11)",
+      "ESPN scoreboard/summary API (fifa.world), Full Time, 2026-07-10T19:00Z — independent re-check 2026-11-08"
     ]
   },
   "verified_at": "2026-08-15T06:19:53.523190+00:00"

@@ -13,7 +13,8 @@
     "checked_sources": [
       "football-data.org API (match 537387)",
       "Existing reviewed record: 2026-07-15-semi_finals-ko-france-spain.json (scores agree)",
-      "Draft 2026-07-15-semifinal-france-spain (ESPN API + OddsAPI scores endpoint, recorded 2026-07-15)"
+      "Draft 2026-07-15-semifinal-france-spain (ESPN API + OddsAPI scores endpoint, recorded 2026-07-15)",
+      "ESPN scoreboard/summary API (fifa.world), Full Time, 2026-07-10T19:00Z — independent re-check 2026-11-08"
     ]
   },
   "verified_at": "2026-08-15T06:19:53.523190+00:00"

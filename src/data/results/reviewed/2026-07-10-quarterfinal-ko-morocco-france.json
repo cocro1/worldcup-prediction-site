@@ -13,8 +13,9 @@
     "checked_sources": [
       "football-data.org API (match 537383)",
       "Existing reviewed record: 2026-07-10-quarter_finals-ko-france-morocco.json (scores agree)",
-      "Draft 2026-07-10-quarterfinal-morocco-france (OddsAPI scores endpoint + BBC Sport, recorded 2026-07-10)"
+      "Draft 2026-07-10-quarterfinal-morocco-france (OddsAPI scores endpoint + BBC Sport, recorded 2026-07-10)",
+      "ESPN match summary (event 760510, https://www.espn.com/soccer/match/_/gameId/760510) — France 2-0 Morocco, Full Time, 2026-07-09T20:00Z"
     ]
   },
-  "verified_at": "2026-08-15T06:19:53.523190+00:00"
+  "verified_at": "2026-11-08T06:15:00+00:00"
 }
